@@ -26,6 +26,12 @@
 - [百度网盘](https://pan.baidu.com/s/1-DGTg1h6MbQNVg6W-HpgDA?pwd=3cuc)（提取码：`3cuc`）
 - [迅雷云盘](https://pan.xunlei.com/s/VP6YgcMaH5AMuOAvbtZfA_zzA1?pwd=f4z7)（提取码：`f4z7`）
 
+## 合集网盘备份
+
+- [迅雷云盘](https://pan.xunlei.com/s/VP6dOJ9VkKNk2cDq3D4a5ps7A1?pwd=vpc7)（提取码：`vpc7`）
+- [夸克网盘](https://pan.quark.cn/s/48f975ff9f84)
+- [百度网盘](https://pan.baidu.com/s/1uNmHuqNs_fLrYL0clW7MEw?pwd=sd9v)（提取码：`sd9v`）
+
 ## 合集下载
 
 按原汇总帖顺序排列。PDF 适合打印，Word 可编辑，TXT 为 UTF-8 纯文本。

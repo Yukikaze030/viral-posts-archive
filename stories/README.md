@@ -4,6 +4,12 @@
 
 [备份贴吧等平台热帖](https://github.com/konghenfuxue-cpu/viral-posts-archive)
 
+## 网盘备份
+
+- [迅雷云盘](https://pan.xunlei.com/s/VP6dOJ9VkKNk2cDq3D4a5ps7A1?pwd=vpc7)（提取码：`vpc7`）
+- [夸克网盘](https://pan.quark.cn/s/48f975ff9f84)
+- [百度网盘](https://pan.baidu.com/s/1uNmHuqNs_fLrYL0clW7MEw?pwd=sd9v)（提取码：`sd9v`）
+
 | 序号 | 篇目与原帖 | PDF | Word | TXT |
 | ---: | --- | --- | --- | --- |
 | 1 | [【补档】《麦穗与羊》《死在十七岁的你》](https://tieba.baidu.com/p/11198603707) | [60 页](%E9%BA%A6%E7%A9%97%E4%B8%8E%E7%BE%8A.pdf) | [Word](%E9%BA%A6%E7%A9%97%E4%B8%8E%E7%BE%8A.docx) | [TXT](%E9%BA%A6%E7%A9%97%E4%B8%8E%E7%BE%8A.txt) |
