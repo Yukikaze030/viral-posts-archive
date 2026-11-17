@@ -4,12 +4,6 @@
 
 [备份贴吧等平台热帖](https://github.com/konghenfuxue-cpu/viral-posts-archive)
 
-## 网盘备份
-
-- [迅雷云盘](https://pan.xunlei.com/s/VP6dOJ9VkKNk2cDq3D4a5ps7A1?pwd=vpc7)（提取码：`vpc7`）
-- [夸克网盘](https://pan.quark.cn/s/48f975ff9f84)
-- [百度网盘](https://pan.baidu.com/s/1uNmHuqNs_fLrYL0clW7MEw?pwd=sd9v)（提取码：`sd9v`）
-
 | 序号 | 篇目与原帖 | PDF | Word | TXT |
 | ---: | --- | --- | --- | --- |
 | 1 | [【补档】《麦穗与羊》《死在十七岁的你》](https://tieba.baidu.com/p/11198603707) | [60 页](%E9%BA%A6%E7%A9%97%E4%B8%8E%E7%BE%8A.pdf) | [Word](%E9%BA%A6%E7%A9%97%E4%B8%8E%E7%BE%8A.docx) | [TXT](%E9%BA%A6%E7%A9%97%E4%B8%8E%E7%BE%8A.txt) |
@@ -52,3 +46,9 @@
 | 38 | [蚌埠住了，女同学凌晨一点给我发这个，我直接装死到现在](https://tieba.baidu.com/p/10957573781) | [47 页](%E8%9A%8C%E5%9F%A0%E4%BD%8F%E4%BA%86%EF%BC%8C%E5%A5%B3%E5%90%8C%E5%AD%A6%E5%87%8C%E6%99%A8%E4%B8%80%E7%82%B9%E7%BB%99%E6%88%91%E5%8F%91%E8%BF%99%E4%B8%AA%EF%BC%8C%E6%88%91%E7%9B%B4%E6%8E%A5%E8%A3%85%E6%AD%BB%E5%88%B0%E7%8E%B0%E5%9C%A8.pdf) | [Word](%E8%9A%8C%E5%9F%A0%E4%BD%8F%E4%BA%86%EF%BC%8C%E5%A5%B3%E5%90%8C%E5%AD%A6%E5%87%8C%E6%99%A8%E4%B8%80%E7%82%B9%E7%BB%99%E6%88%91%E5%8F%91%E8%BF%99%E4%B8%AA%EF%BC%8C%E6%88%91%E7%9B%B4%E6%8E%A5%E8%A3%85%E6%AD%BB%E5%88%B0%E7%8E%B0%E5%9C%A8.docx) | [TXT](%E8%9A%8C%E5%9F%A0%E4%BD%8F%E4%BA%86%EF%BC%8C%E5%A5%B3%E5%90%8C%E5%AD%A6%E5%87%8C%E6%99%A8%E4%B8%80%E7%82%B9%E7%BB%99%E6%88%91%E5%8F%91%E8%BF%99%E4%B8%AA%EF%BC%8C%E6%88%91%E7%9B%B4%E6%8E%A5%E8%A3%85%E6%AD%BB%E5%88%B0%E7%8E%B0%E5%9C%A8.txt) |
 | 39 | [我的爱人静秋](https://tieba.baidu.com/p/10696045238) | [8 页](%E6%88%91%E7%9A%84%E7%88%B1%E4%BA%BA%E9%9D%99%E7%A7%8B%C2%B7%E9%BB%91%E8%83%8C%E9%9B%AA%E9%87%8D%E6%96%B0%E6%8E%92%E7%89%88.pdf) | [Word](%E6%88%91%E7%9A%84%E7%88%B1%E4%BA%BA%E9%9D%99%E7%A7%8B%C2%B7%E9%BB%91%E8%83%8C%E9%9B%AA%E9%87%8D%E6%96%B0%E6%8E%92%E7%89%88.docx) | [TXT](%E6%88%91%E7%9A%84%E7%88%B1%E4%BA%BA%E9%9D%99%E7%A7%8B%C2%B7%E9%BB%91%E8%83%8C%E9%9B%AA%E9%87%8D%E6%96%B0%E6%8E%92%E7%89%88.txt) |
 | 40 | [刚刚......和高中的英语老师确立关系了](https://tieba.baidu.com/p/8617973759) | [7 页](%E5%88%9A%E5%88%9A......%E5%92%8C%E9%AB%98%E4%B8%AD%E7%9A%84%E8%8B%B1%E8%AF%AD%E8%80%81%E5%B8%88%E7%A1%AE%E7%AB%8B%E5%85%B3%E7%B3%BB%E4%BA%86.pdf) | [Word](%E5%88%9A%E5%88%9A......%E5%92%8C%E9%AB%98%E4%B8%AD%E7%9A%84%E8%8B%B1%E8%AF%AD%E8%80%81%E5%B8%88%E7%A1%AE%E7%AB%8B%E5%85%B3%E7%B3%BB%E4%BA%86.docx) | [TXT](%E5%88%9A%E5%88%9A......%E5%92%8C%E9%AB%98%E4%B8%AD%E7%9A%84%E8%8B%B1%E8%AF%AD%E8%80%81%E5%B8%88%E7%A1%AE%E7%AB%8B%E5%85%B3%E7%B3%BB%E4%BA%86.txt) |
+
+## 网盘备份
+
+- [迅雷云盘](https://pan.xunlei.com/s/VP6dOJ9VkKNk2cDq3D4a5ps7A1?pwd=vpc7)（提取码：`vpc7`）
+- [夸克网盘](https://pan.quark.cn/s/48f975ff9f84)
+- [百度网盘](https://pan.baidu.com/s/1uNmHuqNs_fLrYL0clW7MEw?pwd=sd9v)（提取码：`sd9v`）
