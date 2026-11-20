@@ -6,7 +6,7 @@
   host.style.cssText='position:fixed;right:16px;bottom:80px;z-index:2147483647';
   document.documentElement.append(host);
   const ui=host.attachShadow({mode:'open'});
-  ui.innerHTML=`<style>:host{font:14px sans-serif}section{width:280px;background:#fff;color:#222;padding:16px;border:1px solid #bbb;border-radius:12px;box-shadow:0 4px 24px #0004}button{padding:7px;margin:4px 2px;cursor:pointer}p{line-height:1.5;margin:8px 0}small{color:#666}summary{cursor:pointer;font-weight:bold}</style><section><details open><summary>贴吧长帖采集 · 测试版</summary><p id="status">正在恢复本地记录…</p><button id="start">开始／继续滚动</button><button id="stop">停止</button><button id="save">导出／重试图片</button><button id="reset">清空本帖缓存</button><p><small>建议从顶部开始。仅采集楼主主楼；不展开楼中楼。导出 HTML、MD、JSON。达到底部只代表本次扫描结束，不保证原帖完整。</small></p></details></section>`;
+  ui.innerHTML=`<style>:host{font:14px sans-serif}section{width:280px;background:#fff;color:#222;padding:16px;border:1px solid #bbb;border-radius:12px;box-shadow:0 4px 24px #0004}button{padding:7px;margin:4px 2px;cursor:pointer}p{line-height:1.5;margin:8px 0}small{color:#666}summary{cursor:pointer;font-weight:bold}</style><section><details open><summary>贴吧长帖采集 · 稳定版</summary><p id="status">正在恢复本地记录…</p><button id="start">开始／继续滚动</button><button id="stop">停止</button><button id="save">导出／重试图片</button><button id="reset">清空本帖缓存</button><p><small>建议从顶部开始。仅采集楼主主楼；不展开楼中楼。导出 HTML、MD、JSON。达到底部只代表本次扫描结束，不保证原帖完整。</small></p></details></section>`;
   const status=ui.getElementById('status');let running=false,busy=false,db;
   let state={tid,title:document.title.replace(/-百度贴吧.*$/,''),posts:{},images:{}};
   const sleep=ms=>new Promise(r=>setTimeout(r,ms));

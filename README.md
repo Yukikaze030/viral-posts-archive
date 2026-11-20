@@ -2,7 +2,7 @@
 
 [查看更新日志](stories/更新日志.md)
 
-**2026-11-21 更新：《刚刚......和高中的英语老师确立关系了》已补齐当前已知配图缺口，含图 105 页、无图 10 页；Word、TXT 同步替换。**
+**2026-11-21 更新：《刚刚......和高中的英语老师确立关系了》已补齐当前已知配图缺口，含图 105 页、无图 10 页；Word、TXT 同步替换；采集插件已发布稳定版 1.39.1。**
 
 这里保存整理后的阅读与打印版本。
 
@@ -83,6 +83,6 @@
 - [夸克网盘](https://pan.quark.cn/s/48f975ff9f84)
 - [百度网盘](https://pan.baidu.com/s/1uNmHuqNs_fLrYL0clW7MEw?pwd=sd9v)（提取码：`sd9v`）
 
-## 贴吧长帖采集插件（测试版）
+## 贴吧长帖采集插件（稳定版 1.39.1）
 
-[安装、下载与源码](tools/singlefile-tieba/README.md)：基于 SingleFile 的独立修改版，滚动累积楼主主楼和配图，导出离线 HTML、Markdown 和失败清单。保留上游署名，采用 AGPL-3.0-or-later；该许可不覆盖故事作品。
+[安装、下载与源码](tools/singlefile-tieba/README.md)：基于 SingleFile 的独立修改版，当前稳定版 1.39.1，滚动累积楼主主楼和配图，导出离线 HTML、Markdown 和失败清单。保留上游署名，采用 AGPL-3.0-or-later；该许可不覆盖故事作品。

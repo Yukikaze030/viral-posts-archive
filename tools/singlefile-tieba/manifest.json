@@ -118,7 +118,7 @@
   },
   "incognito": "spanning",
   "manifest_version": 3,
-  "name": "SingleFile · 贴吧长帖测试版",
+  "name": "SingleFile · 贴吧长帖采集",
   "optional_permissions": [
     "identity",
     "clipboardWrite",
@@ -144,7 +144,7 @@
   "side_panel": {
     "default_path": "src/ui/pages/panel.html"
   },
-  "version": "1.39.0.2",
+  "version": "1.39.1",
   "web_accessible_resources": [
     {
       "matches": [

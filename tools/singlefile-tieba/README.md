@@ -1,8 +1,8 @@
-# SingleFile 贴吧长帖测试版
+# SingleFile 贴吧长帖采集
 
-在浏览器中逐步滚动贴吧帖子，累积保存楼主主楼文字和配图，导出离线 HTML、Markdown 及下载失败清单。基于 SingleFile 1.39.0，修改版 1.39.0.2；非官方版本。
+在浏览器中逐步滚动贴吧帖子，累积保存楼主主楼文字和配图，导出离线 HTML、Markdown 及下载失败清单。基于 SingleFile 1.39.0，稳定版 **1.39.1**；非官方版本。
 
-**[下载插件 ZIP](../singlefile-tieba-1.39.0.2.zip)** · [完整仓库 ZIP](https://github.com/konghenfuxue-cpu/viral-posts-archive/archive/refs/heads/main.zip) · [详细安装与使用](安装与测试.md) · [反馈问题](https://github.com/konghenfuxue-cpu/viral-posts-archive/issues)
+**[下载插件 ZIP](../singlefile-tieba-1.39.1.zip)** · [完整仓库 ZIP](https://github.com/konghenfuxue-cpu/viral-posts-archive/archive/refs/heads/main.zip) · [详细安装与使用](安装与测试.md) · [反馈问题](https://github.com/konghenfuxue-cpu/viral-posts-archive/issues)
 
 ## 安装与使用
 
@@ -22,7 +22,7 @@
 
 ## 实测与检查
 
-2026-11-20，用户在 Edge 对《给大伙讲讲我和初恋的故事》测试：采集 255 条楼层记录、70 张配图，失败 0。已逐张解码检查导出 HTML 的 70 张图片。此结果只覆盖该样本，不代表所有帖子均完整。
+2026-11-20，用户在 Edge 对《给大伙讲讲我和初恋的故事》测试：采集 255 条楼层记录、70 张配图，失败 0。已逐张解码检查导出 HTML 的 70 张图片。2026-11-21，“英语老师”另采集 234 条楼层、107 张配图，失败 0；107 张图片同样逐张解码通过。1.39.1 在这两个真实样本的基础上转为稳定版，本次不改变采集逻辑与缓存格式。这些结果不代表所有帖子均完整。
 
 新增后台的本地测试：在本目录运行 `node test-background.cjs`。检查专用连接下载返回、拒绝非图片域名与非贴吧发起页面；不代替真实网络验收。
 
