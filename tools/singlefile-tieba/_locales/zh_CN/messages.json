@@ -1,0 +1,1560 @@
+{
+   "batchSaveUrlsAddUrlButton": {
+      "description": "label of the button 'Add URL'",
+      "message": "添加网址"
+   },
+   "batchSaveUrlsAddUrlsButton": {
+      "description": "label of the button 'Add URLs...'",
+      "message": "添加多个网址..."
+   },
+   "batchSaveUrlsNoURLs": {
+      "description": "Label displayed when there are no URLs",
+      "message": "无网址"
+   },
+   "batchSaveUrlsProfileAuto": {
+      "description": "First entry of the profile dropdown of the 'batch save URLs' page: the profile of each URL comes from the rules and from the profile selected in the options page",
+      "message": "按规则和当前选择确定配置"
+   },
+   "batchSaveUrlsRemoveAllButton": {
+      "description": "label of the button 'Remove all'",
+      "message": "删除所有"
+   },
+   "batchSaveUrlsSavePagesButton": {
+      "description": "label of the button 'Save pages'",
+      "message": "保存页面"
+   },
+   "batchSaveUrlsSkippedByRule": {
+      "description": "Status displayed next to a URL the batch save skipped because its rule maps it to the disabled profile",
+      "message": "已跳过：规则将此页面映射到已禁用的配置"
+   },
+   "batchSaveUrlsTitle": {
+      "description": "Title of the 'batch save URLs' page",
+      "message": "批量保存网址"
+   },
+   "batchSaveUrlsURLTitle": {
+      "description": "Title of the column in the table of the URLs",
+      "message": "网址"
+   },
+   "buttonAutoSaveActiveBadge": {
+      "description": "Badge label when auto-save is active",
+      "message": "[自动]"
+   },
+   "buttonAutoSaveActiveTooltip": {
+      "description": "Button title: 'Auto-save active'",
+      "message": "自动保存已启用"
+   },
+   "buttonBlockedBadge": {
+      "description": "Button badge when the page is blocked: '🚫'",
+      "message": "🚫"
+   },
+   "buttonBlockedTooltip": {
+      "description": "Button title: 'This page cannot be saved with SingleFile'",
+      "message": "SingleFile 无法保存此页面"
+   },
+   "buttonDefaultTooltip": {
+      "description": "Button title: 'Save page with SingleFile'",
+      "message": "使用 SingleFile 保存页面"
+   },
+   "buttonErrorBadge": {
+      "description": "Badge label for unexpected errors",
+      "message": "错误"
+   },
+   "buttonInitializingBadge": {
+      "description": "Badge label during initialization: '•••'",
+      "message": "•••"
+   },
+   "buttonInitializingTooltip": {
+      "description": "Button title during initialization: 'Initializing SingleFile (x/2)'",
+      "message": "正在初始化 SingleFile"
+   },
+   "buttonOKBadge": {
+      "description": "Badge label: 'OK'",
+      "message": "完成"
+   },
+   "buttonSaveProgressTooltip": {
+      "description": "Button title during save: 'Save progress: xx%'",
+      "message": "保存进度："
+   },
+   "buttonUploadProgressTooltip": {
+      "description": "Button title during save: 'Upload progress: xx%'",
+      "message": "上传进度: "
+   },
+   "commandCustomShortcut": {
+      "description": "Command label: 'Custom shortcut'",
+      "message": "自定义快捷键"
+   },
+   "commandCustomShortcut0": {
+      "description": "Command label: 'Custom shortcut #1'",
+      "message": "自定义快捷键 #1"
+   },
+   "commandCustomShortcut1": {
+      "description": "Command label: 'Custom shortcut #2'",
+      "message": "自定义快捷键 #2"
+   },
+   "commandCustomShortcut2": {
+      "description": "Command label: 'Custom shortcut #3'",
+      "message": "自定义快捷键 #3"
+   },
+   "commandCustomShortcut3": {
+      "description": "Command label: 'Custom shortcut #4'",
+      "message": "自定义快捷键 #4"
+   },
+   "commandCustomShortcut4": {
+      "description": "Command label: 'Custom shortcut #5'",
+      "message": "自定义快捷键 #5"
+   },
+   "commandCustomShortcut5": {
+      "description": "Command label: 'Custom shortcut #6'",
+      "message": "自定义快捷键 #6"
+   },
+   "commandCustomShortcut6": {
+      "description": "Command label: 'Custom shortcut #7'",
+      "message": "自定义快捷键 #7"
+   },
+   "commandCustomShortcut7": {
+      "description": "Command label: 'Custom shortcut #8'",
+      "message": "自定义快捷键 #8"
+   },
+   "commandCustomShortcut8": {
+      "description": "Command label: 'Custom shortcut #9'",
+      "message": "自定义快捷键 #9"
+   },
+   "commandCustomShortcut9": {
+      "description": "Command label: 'Custom shortcut #10'",
+      "message": "自定义快捷键 #10"
+   },
+   "commandSaveAllTabs": {
+      "description": "Command (Ctrl+Shift+U): 'Save all tabs'",
+      "message": "保存所有标签页"
+   },
+   "commandSaveSelectedTabs": {
+      "description": "Command (Ctrl+Shift+Y): 'Save the selected tabs or their selected contents'",
+      "message": "保存选中标签页或其中的选中内容"
+   },
+   "editorAddBlueNote": {
+      "description": "Title of the button 'Add a blue note' in the editor",
+      "message": "添加蓝色标注"
+   },
+   "editorAddGreenNote": {
+      "description": "Title of the button 'Add a green note' in the editor",
+      "message": "添加绿色标注"
+   },
+   "editorAddPinkNote": {
+      "description": "Title of the button 'Add a pink note' in the editor",
+      "message": "添加粉色标注"
+   },
+   "editorAddYellowNote": {
+      "description": "Title of the button 'Add a yellow note' in the editor",
+      "message": "添加黄色标注"
+   },
+   "editorArchiveToc": {
+      "description": "Title of the table of contents button displayed in the editor when viewing a multi-page archive",
+      "message": "目录"
+   },
+   "editorCutInnerPage": {
+      "description": "Title of the button 'Remove the element under the mouse' in the editor",
+      "message": "删除鼠标下的元素（红色轮廓）"
+   },
+   "editorCutOuterPage": {
+      "description": "Title of the button 'Keep the element under the mouse and remove everything else' in the editor",
+      "message": "保留鼠标下的元素并删除其余所有内容（绿色轮廓）"
+   },
+   "editorEditPage": {
+      "description": "Title of the button 'Enable/disable read-only' in the editor",
+      "message": "启用/禁用 编辑模式"
+   },
+   "editorFormatPage": {
+      "description": "Title of the button 'Format the page for better readability' in the editor",
+      "message": "格式化页面以提升可读性"
+   },
+   "editorHighlightBlue": {
+      "description": "Title of the button 'Highlight selected text in blue' in the editor",
+      "message": "将所选文本高亮为蓝色"
+   },
+   "editorHighlightGreen": {
+      "description": "Title of the button 'Highlight selected text in green' in the editor",
+      "message": "将所选文本高亮为绿色"
+   },
+   "editorHighlightPink": {
+      "description": "Title of the button 'Highlight selected text in pink' in the editor",
+      "message": "将所选文本高亮为粉色"
+   },
+   "editorHighlightYellow": {
+      "description": "Title of the button 'Highlight selected text in yellow' in the editor",
+      "message": "将所选文本高亮为黄色"
+   },
+   "editorImportMht": {
+      "description": "Title of the button 'Import MHTML file' in the editor",
+      "message": "导入 MHTML 文件"
+   },
+   "editorPrintPage": {
+      "description": "Title of the button 'Print the page' in the editor",
+      "message": "打印页面"
+   },
+   "editorRedoCutPage": {
+      "description": "Title of the button 'Remove last restored element' in the editor",
+      "message": "恢复上次移除元素的操作"
+   },
+   "editorRemoveHighlight": {
+      "description": "Title of the button 'Remove the selected highlighted text' in the editor",
+      "message": "移除所选高亮文本"
+   },
+   "editorSavePage": {
+      "description": "Title of the button 'Save the page' in the editor",
+      "message": "保存该页面"
+   },
+   "editorToggleHighlights": {
+      "description": "Title of the button 'Display/hide the highlighted text' in the editor",
+      "message": "显示/隐藏 高亮文本"
+   },
+   "editorToggleNotes": {
+      "description": "Title of the button 'Display/hide notes' in the editor",
+      "message": "显示/隐藏 标注"
+   },
+   "editorUndoAllCutPage": {
+      "description": "Title of the button 'Restore all removed elements' in the editor",
+      "message": "撤销所有移除元素的操作"
+   },
+   "editorUndoCutPage": {
+      "description": "Title of the button 'Restore last removed element' in the editor",
+      "message": "撤销上次移除元素的操作"
+   },
+   "extensionDescription": {
+      "description": "Description of the extension.",
+      "message": "将一个完整的页面保存到单个 HTML 文件中"
+   },
+   "logPanelDeferredContent": {
+      "description": "Label 'Deferred content' in the log panel",
+      "message": "延迟加载的内容"
+   },
+   "logPanelEmbeddedImage": {
+      "description": "Label 'Embedded image' in the log panel",
+      "message": "嵌入图片"
+   },
+   "logPanelFrameContents": {
+      "description": "Label 'Frame contents' in the log panel",
+      "message": "框架内容"
+   },
+   "logPanelStep": {
+      "description": "Label 'Step' (for 'Step x / 4') in the log panel",
+      "message": "步骤"
+   },
+   "logPanelWidth": {
+      "description": "Width of the log panel in pixels, it should be adjusted for the longest label beginning with 'log' (e.g. 'logPanelDeferredContent')",
+      "message": "122"
+   },
+   "maskCancelButton": {
+      "description": "Button 'Cancel (Esc)' in the mask displayed while a page is being saved",
+      "message": "取消 (Esc)"
+   },
+   "menuAutoSave": {
+      "description": "Menu entry: 'Auto-save'",
+      "message": "自动保存"
+   },
+   "menuAutoSaveAllTabs": {
+      "description": "Menu entry: 'Auto-save' > Auto-save all tabs'",
+      "message": "自动保存所有标签页"
+   },
+   "menuAutoSaveDisabled": {
+      "description": "Menu entry: 'Auto-save' > Disabled'",
+      "message": "已禁用"
+   },
+   "menuAutoSaveTab": {
+      "description": "Menu entry: 'Auto-save' > Auto-save this tab'",
+      "message": "自动保存此标签页"
+   },
+   "menuAutoSaveUnpinnedTabs": {
+      "description": "Menu entry: 'Auto-save' > Auto-save unpinned tabs'",
+      "message": "自动保存未固定标签页"
+   },
+   "menuBatchSaveUrls": {
+      "description": "Menu entry: 'Batch save URLs...'",
+      "message": "批量保存网址..."
+   },
+   "menuCreateDomainRule": {
+      "description": "Menu entry: 'Select the profile of the current domain'",
+      "message": "选择当前域名的配置文件"
+   },
+   "menuEditAndSavePage": {
+      "description": "Menu entry: 'Annotate and save the page...'",
+      "message": "标注并保存该页面..."
+   },
+   "menuEditAndSaveSelection": {
+      "description": "Menu entry: 'Annotate and save the selection...'",
+      "message": "Annotate and save the selection..."
+   },
+   "menuEditPage": {
+      "description": "Menu entry: 'Annotate the page...'",
+      "message": "标注页面..."
+   },
+   "menuSaveAllTabs": {
+      "description": "Menu entry: 'Save all tabs'",
+      "message": "保存所有标签页"
+   },
+   "menuSaveAllTabsInArchive": {
+      "description": "Menu entry: 'Save all tabs in one archive'",
+      "message": "将所有标签页保存到同一个存档"
+   },
+   "menuSaveFrame": {
+      "description": "Menu entry: 'Save frame'",
+      "message": "保存框架"
+   },
+   "menuSavePage": {
+      "description": "Menu entry: 'Save page with SingleFile'",
+      "message": "使用 SingleFile 保存页面"
+   },
+   "menuSaveSelectedLinks": {
+      "description": "Menu entry: 'Save selected links'",
+      "message": "保存所选链接"
+   },
+   "menuSaveSelectedTabs": {
+      "description": "Menu entry: 'Save selected tabs'",
+      "message": "保存选中标签页"
+   },
+   "menuSaveSelectedTabsInArchive": {
+      "description": "Menu entry: 'Save selected tabs in one archive'",
+      "message": "将选中标签页保存到同一个存档"
+   },
+   "menuSaveSelection": {
+      "description": "Menu entry: 'Save selection'",
+      "message": "保存选中部分"
+   },
+   "menuSaveTabs": {
+      "description": "Menu entry (SingleFile button only): 'Save tabs'",
+      "message": "保存标签页"
+   },
+   "menuSaveUnpinnedTabs": {
+      "description": "Menu entry: 'Save unpinned tabs'",
+      "message": "保存未固定标签页"
+   },
+   "menuSaveUnpinnedTabsInArchive": {
+      "description": "Menu entry: 'Save unpinned tabs in one archive'",
+      "message": "将未固定标签页保存到同一个存档"
+   },
+   "menuSaveWithProfile": {
+      "description": "Menu entry: 'Save with profile'",
+      "message": "使用指定的配置文件保存页面"
+   },
+   "menuSelectProfile": {
+      "description": "Menu entry: 'Select the default profile'",
+      "message": "选择默认配置文件"
+   },
+   "menuSeparator": {
+      "description": "Menu editor entry: 'Separator'",
+      "message": "分隔线"
+   },
+   "menuSubmenu": {
+      "description": "Menu editor entry: 'Submenu'",
+      "message": "子菜单"
+   },
+   "menuUpdateRule": {
+      "description": "Menu entry: 'Select the profile of the current rule'",
+      "message": "选择当前规则的配置文件"
+   },
+   "menuViewPendingSaves": {
+      "description": "Menu entry: 'View pending saves...'",
+      "message": "查看挂起的保存项..."
+   },
+   "menusActionLimitLine": {
+      "description": "Menu editor line marking the entries hidden by the browser in the button menu",
+      "message": "仅显示前 $1 个条目"
+   },
+   "menusActionLimitLineWrapped": {
+      "description": "Menu editor line marking the entries Firefox moves into an automatic submenu in the button menu",
+      "message": "Firefox 会将以下条目移入“SingleFile”子菜单"
+   },
+   "menusActionLimitNote": {
+      "description": "Menu editor note about the limit of top-level entries in the button menu",
+      "message": "浏览器在按钮菜单中最多显示 $1 个顶级条目。"
+   },
+   "menusActionLimitNoteWrapped": {
+      "description": "Menu editor note about Firefox moving the extra top-level entries of the button menu into an automatic submenu",
+      "message": "Firefox 会在按钮菜单中保留前 $1 个顶级条目，并将其余条目移入“SingleFile”子菜单。"
+   },
+   "menusAddButton": {
+      "description": "Menu editor button: 'Add'",
+      "message": "添加"
+   },
+   "menusAddLabel": {
+      "description": "Menu editor label of the entry selector",
+      "message": "添加"
+   },
+   "menusAltLabelHelp": {
+      "description": "Menu editor help about the alternative label of an entry",
+      "message": "未设置自定义标签时，此条目应用于页面时菜单中显示为“$1”。"
+   },
+   "menusContentsField": {
+      "description": "Menu editor field: 'Contents'",
+      "message": "内容"
+   },
+   "menusContentsHelp": {
+      "description": "Menu editor help of the 'Contents' field",
+      "message": "此条目是一个由 SingleFile 管理的单选组。您可以移动或重命名它，但不能编辑其选项。"
+   },
+   "menusContextFrame": {
+      "description": "Menu editor context: 'Frame'",
+      "message": "框架"
+   },
+   "menusContextHelp": {
+      "description": "Menu editor note for an entry whose contexts exclude the context selected above the list",
+      "message": "此条目不会在所选上下文（$1）中显示。"
+   },
+   "menusContextLink": {
+      "description": "Menu editor context: 'Link'",
+      "message": "链接"
+   },
+   "menusContextPage": {
+      "description": "Menu editor context: 'Page'",
+      "message": "页面"
+   },
+   "menusContextSelection": {
+      "description": "Menu editor context: 'Selection'",
+      "message": "选中部分"
+   },
+   "menusContextsField": {
+      "description": "Menu editor field: 'Appears when right-clicking'",
+      "message": "右键点击时显示于"
+   },
+   "menusDynamicBadge": {
+      "description": "Menu editor badge of the entries managed by SingleFile",
+      "message": "动态"
+   },
+   "menusEditHint": {
+      "description": "Menu editor hint about editing",
+      "message": "新条目会添加到所选条目之后，或所选子菜单之内。拖动可调整顺序，拖放到子菜单上可嵌套，双击标签可重命名，按 Delete 键可删除。"
+   },
+   "menusEmptySubmenuHelp": {
+      "description": "Menu editor note for a submenu whose entries are all skipped",
+      "message": "此子菜单没有可见条目，因此不会显示。"
+   },
+   "menusHintButton": {
+      "description": "Menu editor hint of the button menu",
+      "message": "右键点击工具栏中的 SingleFile 按钮时显示。"
+   },
+   "menusHintPage": {
+      "description": "Menu editor hint of the page context menu",
+      "message": "右键点击页面时显示。灰显的条目不会出现在所选上下文中。"
+   },
+   "menusHintTab": {
+      "description": "Menu editor hint of the tab menu",
+      "message": "右键点击标签页时显示。"
+   },
+   "menusInspectorEmpty": {
+      "description": "Menu editor text when no entry is selected",
+      "message": "在菜单中选择一个条目，以修改其标签、绑定配置文件或选择其显示时机。"
+   },
+   "menusInspectorSeparator": {
+      "description": "Menu editor text when a separator is selected",
+      "message": "分隔线。拖动可移动，按 Delete 键可删除。"
+   },
+   "menusJsonApplyButton": {
+      "description": "Menu editor button: 'Apply'",
+      "message": "应用"
+   },
+   "menusJsonIgnored": {
+      "description": "Menu editor status after applying JSON that contained entries which are not valid (unknown action, wrong shape)",
+      "message": "已应用，但忽略了 $1 个无效条目。"
+   },
+   "menusJsonInvalid": {
+      "description": "Menu editor status: 'Invalid JSON'",
+      "message": "无效的 JSON"
+   },
+   "menusJsonLabel": {
+      "description": "Menu editor section: 'Layout as JSON'",
+      "message": "JSON 格式的菜单"
+   },
+   "menusLabelField": {
+      "description": "Menu editor field: 'Label'",
+      "message": "标签"
+   },
+   "menusLabelHelp": {
+      "description": "Menu editor help of the 'Label' field",
+      "message": "留空则使用标准标签。在 Windows 和 Linux 上，字母前的 & 会将该字母设为键盘快捷键。"
+   },
+   "menusMoreSubmenu": {
+      "description": "Menu editor default label of the submenu created to wrap the hidden entries",
+      "message": "更多..."
+   },
+   "menusPageOnly": {
+      "description": "Menu editor status when an entry is not allowed in a menu",
+      "message": "“$1”仅存在于页面上下文菜单中。"
+   },
+   "menusPresentationField": {
+      "description": "Menu editor field: 'Presentation'",
+      "message": "显示方式"
+   },
+   "menusPresentationHelp": {
+      "description": "Menu editor help of the 'Presentation' field",
+      "message": "列表与选项中定义的配置文件一致。若只想显示部分配置文件，请改为添加绑定到这些配置文件的“保存页面”条目。"
+   },
+   "menusPresentationInline": {
+      "description": "Menu editor presentation option: inline",
+      "message": "每个配置文件一个条目，直接列出"
+   },
+   "menusPresentationSubmenu": {
+      "description": "Menu editor presentation option: submenu",
+      "message": "一个“使用指定的配置文件保存页面”子菜单"
+   },
+   "menusProfileField": {
+      "description": "Menu editor field: 'Profile'",
+      "message": "配置文件"
+   },
+   "menusProfileHelp": {
+      "description": "Menu editor help of the 'Profile' field",
+      "message": "将此条目绑定到某个配置文件后，无论当前使用哪个配置文件，都可以一键用它保存。"
+   },
+   "menusProfileMissingHelp": {
+      "description": "Menu editor note for an entry bound to a deleted profile",
+      "message": "配置文件“$1”已不存在，因此此条目将使用页面当前使用的配置文件。"
+   },
+   "menusProfileNone": {
+      "description": "Menu editor option when no profile is bound to the entry",
+      "message": "页面当前使用的配置文件"
+   },
+   "menusProfilesBadge": {
+      "description": "Menu editor badge of the entries that only appear when more than one profile exists",
+      "message": "需 2 个以上配置文件"
+   },
+   "menusProfilesHelp": {
+      "description": "Menu editor note for the entries that only appear when more than one profile exists",
+      "message": "此条目仅在您拥有多个配置文件时显示。"
+   },
+   "menusRemoveButton": {
+      "description": "Menu editor button: 'Remove from this menu'",
+      "message": "从此菜单中移除"
+   },
+   "menusRemoveTooltip": {
+      "description": "Menu editor tooltip of the remove button",
+      "message": "从此菜单中移除"
+   },
+   "menusResetButton": {
+      "description": "Menu editor button: 'Reset to default'",
+      "message": "恢复默认"
+   },
+   "menusResetConfirm": {
+      "description": "Menu editor confirmation before restoring the default menus",
+      "message": "恢复默认菜单？"
+   },
+   "menusSaveError": {
+      "description": "Menu editor status when saving the layout fails (for example the sync storage quota)",
+      "message": "无法保存菜单：$1"
+   },
+   "menusSubTitle": {
+      "description": "Menu editor sub-title",
+      "message": "选择每个 SingleFile 菜单中显示的条目及其顺序。这些设置由所有配置文件共用。"
+   },
+   "menusSubmenuField": {
+      "description": "Menu editor field: 'Submenu'",
+      "message": "子菜单"
+   },
+   "menusSubmenuHelp": {
+      "description": "Menu editor help of the 'Submenu' field",
+      "message": "$1 个条目。将条目拖放到此行即可添加。"
+   },
+   "menusSurfaceButton": {
+      "description": "Menu editor menu name: 'Button menu'",
+      "message": "按钮菜单"
+   },
+   "menusSurfaceLabel": {
+      "description": "Menu editor label of the menu selector",
+      "message": "菜单"
+   },
+   "menusSurfacePage": {
+      "description": "Menu editor menu name: 'Page context menu'",
+      "message": "页面上下文菜单"
+   },
+   "menusSurfaceTab": {
+      "description": "Menu editor menu name: 'Tab menu'",
+      "message": "标签页菜单"
+   },
+   "menusTitle": {
+      "description": "Menu editor title",
+      "message": "菜单编辑器"
+   },
+   "menusUnsupported": {
+      "description": "Menu editor message shown instead of the editor when the browser has no menus API (for example on Android)",
+      "message": "此浏览器不支持扩展菜单，因此这里没有可自定义的内容。"
+   },
+   "menusUnsupportedActionHelp": {
+      "description": "Menu editor note for an entry the current browser cannot show",
+      "message": "此浏览器不支持此条目，因此不会显示。"
+   },
+   "menusUnsupportedBadge": {
+      "description": "Menu editor badge of the entries the current browser cannot show",
+      "message": "不支持"
+   },
+   "menusUseForAllButton": {
+      "description": "Menu editor button: 'Use for all menus'",
+      "message": "应用到所有菜单"
+   },
+   "menusUseForAllStatus": {
+      "description": "Menu editor status after using a layout for all menus",
+      "message": "所有菜单现已使用这些条目。"
+   },
+   "menusUseForAllTooltip": {
+      "description": "Menu editor tooltip of the 'Use for all menus' button",
+      "message": "用此菜单替换其他菜单"
+   },
+   "menusWrapButton": {
+      "description": "Menu editor button: 'Wrap the rest in a submenu'",
+      "message": "将其余条目收入子菜单"
+   },
+   "optionAddMenuEntry": {
+      "description": "Options page label: 'add entry in the context menu of the webpage'",
+      "message": "在页面的上下文菜单中添加 SingleFile 条目"
+   },
+   "optionAddProof": {
+      "description": "Options page label: 'add proof of existence'",
+      "message": "添加证明文件存在的指纹"
+   },
+   "optionAllowedBookmarkFolders": {
+      "description": "Options page label: 'allowed folders'",
+      "message": "允许文件夹"
+   },
+   "optionAnimateInfobar": {
+      "description": "Options page label: 'animate the infobar'",
+      "message": "为信息栏添加动画效果"
+   },
+   "optionApplySystemTheme": {
+      "description": "Title of the button 'apply the system theme when formatting a page'",
+      "message": "格式化页面时应用系统主题"
+   },
+   "optionAutoClose": {
+      "description": "Options page label: 'auto-close the tab after the page is saved'",
+      "message": "页面保存后自动关闭该标签页"
+   },
+   "optionAutoOpenEditor": {
+      "description": "Options page label: 'open pages saved with SingleFile in the annotation editor'",
+      "message": "在标注编辑器中打开用 SingleFile 保存的页面"
+   },
+   "optionAutoSaveDelay": {
+      "description": "Options page label: 'auto-save waiting delay after page load (s)'",
+      "message": "页面加载完成后延迟该时间再进行自动保存（秒）"
+   },
+   "optionAutoSaveDiscard": {
+      "description": "Options page label: 'auto-save on tab discard'",
+      "message": "在页面丢弃时进行自动保存"
+   },
+   "optionAutoSaveExternalSave": {
+      "description": "Options page label: 'save the page with SingleFile Companion'",
+      "message": "使用 SingleFile Companion 保存页面"
+   },
+   "optionAutoSaveLoad": {
+      "description": "Options page label: 'auto-save after page load'",
+      "message": "在页面加载完成后进行自动保存"
+   },
+   "optionAutoSaveLoadOrUnload": {
+      "description": "auto-save after page load or on page unload",
+      "message": "在页面加载完成后或开始卸载时进行自动保存"
+   },
+   "optionAutoSaveRemove": {
+      "description": "Options page label: 'auto-save on tab removal'",
+      "message": "在页面移除时进行自动保存"
+   },
+   "optionAutoSaveRepeat": {
+      "description": "Options page label: 'auto-save periodically'",
+      "message": "定期自动保存"
+   },
+   "optionAutoSaveRepeatDelay": {
+      "description": "Options page label: 'period (s)'",
+      "message": "周期（秒）"
+   },
+   "optionAutoSaveUnload": {
+      "description": "Options page label: 'auto-save on page unload'",
+      "message": "在页面开始卸载时进行自动保存"
+   },
+   "optionBackgroundSave": {
+      "description": "Options page label: 'save pages in background'",
+      "message": "在后台保存页面"
+   },
+   "optionBlockMixedContent": {
+      "description": "Options page label: 'block mixed content'",
+      "message": "拦截混合内容"
+   },
+   "optionCompressHTML": {
+      "description": "Options page label: 'compress HTML content'",
+      "message": "压缩 HTML 内容"
+   },
+   "optionConfirmFilename": {
+      "description": "Options page label: 'open the \"Save as\" dialog to confirm the file name'",
+      "message": "打开“另存为”对话框以确认文件名"
+   },
+   "optionConfirmInfobar": {
+      "description": "Options page label: 'open a prompt dialog to edit the infobar content'",
+      "message": "打开提示对话框编辑信息栏内容"
+   },
+   "optionContentWidth": {
+      "description": "Options page label: 'content width when formatting a page (em)'",
+      "message": "格式化页面时的内容宽度（em）"
+   },
+   "optionCreateRootDirectory": {
+      "description": "Options page label: 'create a root directory'",
+      "message": "创建根目录"
+   },
+   "optionCustomShortcut": {
+      "description": "Options page label: 'keyboard shortcut command'",
+      "message": "自定义快捷键命令"
+   },
+   "optionCustomShortcutDefault": {
+      "description": "Options page label: 'default shortcut'",
+      "message": "默认快捷键"
+   },
+   "optionCustomStylesheet": {
+      "description": "Options page label: 'apply a custom stylesheet before saving the page'",
+      "message": "保存页面前应用自定义样式表"
+   },
+   "optionDefaultEditorMode": {
+      "description": "Options page label: 'default mode'",
+      "message": "默认模式"
+   },
+   "optionDefaultEditorModeCut": {
+      "description": "Options page label: 'default mode > remove elements'",
+      "message": "删除内部文档元素"
+   },
+   "optionDefaultEditorModeCutExternal": {
+      "description": "Options page label: 'default mode > remove external elements'",
+      "message": "删除外部文档元素"
+   },
+   "optionDefaultEditorModeEdit": {
+      "description": "Options page label: 'default mode > edit the page'",
+      "message": "编辑模式"
+   },
+   "optionDefaultEditorModeFormat": {
+      "description": "Options page label: 'default mode > format the page'",
+      "message": "格式化页面"
+   },
+   "optionDefaultEditorModeNormal": {
+      "description": "Options page label: 'default mode > normal'",
+      "message": "常规"
+   },
+   "optionDisableCompression": {
+      "description": "Options page label: 'disable compression'",
+      "message": "禁用压缩"
+   },
+   "optionDisplayInfobar": {
+      "description": "Options page label: 'display an infobar when viewing a saved page'",
+      "message": "查看已保存页面时显示信息栏"
+   },
+   "optionDisplayInfobarFileAccessChromium": {
+      "description": "Options page warning displayed in Chromium-based browsers when the extension cannot access file URLs: 'SingleFile cannot display the infobar or save pages opened from the filesystem because it is not allowed to access file URLs. To fix this, enable \"Allow access to file URLs\" on the SingleFile page in the extensions page of the browser.'",
+      "message": "由于 SingleFile 未获准访问文件网址，它无法显示信息栏，也无法保存从文件系统打开的页面。要解决此问题，请在浏览器扩展页面的 SingleFile 页面中启用“允许访问文件网址”。"
+   },
+   "optionDisplayInfobarFileAccessFirefox": {
+      "description": "Options page warning displayed in Firefox when the extension cannot access local files: 'SingleFile cannot display the infobar or save pages opened from the filesystem because it is not allowed to access local files. To fix this, enable \"Access local files on your computer\" in \"Permissions and data\" on the SingleFile page in about:addons.'",
+      "message": "由于 SingleFile 未获准访问本地文件，它无法显示信息栏，也无法保存从文件系统打开的页面。要解决此问题，请在 about:addons 的 SingleFile 页面中，于“权限与数据”下启用“访问您计算机上的本地文件”。"
+   },
+   "optionDisplayInfobarInEditor": {
+      "description": "Title of the button 'display the infobar'",
+      "message": "显示信息栏"
+   },
+   "optionDisplayShadow": {
+      "description": "Options page label: 'overlay a shadow on the page during processing'",
+      "message": "在处理过程中用阴影覆盖页面"
+   },
+   "optionDisplayStats": {
+      "description": "Options page label: 'display stats in the console after processing'",
+      "message": "处理完成后在控制台中显示统计数据"
+   },
+   "optionExternalCaptureAllowedIds": {
+      "description": "Options page label: 'allowed extensions, one per line'",
+      "message": "允许的扩展，每行一个"
+   },
+   "optionExternalCaptureDeniedIds": {
+      "description": "Options page label: 'blocked extensions, one per line'",
+      "message": "已屏蔽的扩展，每行一个"
+   },
+   "optionFileFormat": {
+      "description": "Options page label: 'format'",
+      "message": "格式"
+   },
+   "optionFileFormatSelectHTML": {
+      "description": "Options page label: 'HTML'",
+      "message": "HTML"
+   },
+   "optionFileFormatSelectSelfExtracting": {
+      "description": "Options page label: 'self-extracting ZIP'",
+      "message": "自解压缩 ZIP"
+   },
+   "optionFileFormatSelectSelfExtractingUniversal": {
+      "description": "Options page label: 'self-extracting ZIP (universal)'",
+      "message": "自解压缩 ZIP（通用）"
+   },
+   "optionFileFormatSelectZIP": {
+      "description": "Options page label: 'ZIP'",
+      "message": "ZIP"
+   },
+   "optionFilenameConflictAction": {
+      "description": "Options page label: 'filename conflict resolution'",
+      "message": "文件名冲突解决方案"
+   },
+   "optionFilenameConflictActionOverwrite": {
+      "description": "Value for 'filename conflict resolution' option: 'overwrite the existing file'",
+      "message": "覆盖现有文件"
+   },
+   "optionFilenameConflictActionPrompt": {
+      "description": "Value for 'name conflict resolution' option: 'prompt for a name'",
+      "message": "指定一个新名称"
+   },
+   "optionFilenameConflictActionSkip": {
+      "description": "Value for 'filename conflict resolution' option: 'skip duplicate files'",
+      "message": "跳过重复文件"
+   },
+   "optionFilenameConflictActionUniquify": {
+      "description": "Value for 'filename conflict resolution' option: 'create a unique name'",
+      "message": "创建一个唯一名称"
+   },
+   "optionFilenameMaxLength": {
+      "description": "Options page label: 'max length'",
+      "message": "最大长度"
+   },
+   "optionFilenameMaxLengthBytesUnit": {
+      "description": "Options page label: 'bytes'",
+      "message": "字节"
+   },
+   "optionFilenameMaxLengthCharsUnit": {
+      "description": "Options page label: 'characters'",
+      "message": "字符"
+   },
+   "optionFilenameReplacementCharacter": {
+      "description": "Options page label: 'replacement character'",
+      "message": "替换字符"
+   },
+   "optionFilenameReplacements": {
+      "description": "Options page label: 'characters replaced in file names'",
+      "message": "文件名中被替换的字符"
+   },
+   "optionFilenameTemplate": {
+      "description": "Options page label: 'template'",
+      "message": "模板"
+   },
+   "optionGitHubBranch": {
+      "description": "Options page label: 'branch name'",
+      "message": "分支名称"
+   },
+   "optionGitHubRepository": {
+      "description": "Options page label: 'repository name'",
+      "message": "仓库名称"
+   },
+   "optionGitHubToken": {
+      "description": "Options page label: 'access token'",
+      "message": "访问令牌"
+   },
+   "optionGitHubUser": {
+      "description": "Options page label: 'user name'",
+      "message": "用户名"
+   },
+   "optionGroupDuplicateImages": {
+      "description": "Options page label: 'group duplicate images together'",
+      "message": "将重复图片分组到一起"
+   },
+   "optionGroupDuplicateStylesheets": {
+      "description": "Options page label: 'group duplicate stylesheets together'",
+      "message": "将重复样式表分组到一起"
+   },
+   "optionIgnoredBookmarkFolders": {
+      "description": "Options page label: 'ignored folders'",
+      "message": "忽略文件夹"
+   },
+   "optionImageQuality": {
+      "description": "Options page label: 'quality of resized images'",
+      "message": "缩小后图片的质量"
+   },
+   "optionImageReductionFactor": {
+      "description": "Options page label: 'image reduction factor'",
+      "message": "图片缩小系数"
+   },
+   "optionIncludeInfobar": {
+      "description": "Options page label: 'include the infobar in the saved page'",
+      "message": "将信息栏嵌入到保存的页面中"
+   },
+   "optionInfobarTemplate": {
+      "description": "Options page label: 'template of the infobar content'",
+      "message": "信息栏内容模板"
+   },
+   "optionInsertCanonicalLink": {
+      "description": "Options page label: 'save the canonical link of the page'",
+      "message": "保存页面的规范链接"
+   },
+   "optionInsertEmbeddedCustomImage": {
+      "description": "Options page label: 'custom image'",
+      "message": "自定义图片"
+   },
+   "optionInsertEmbeddedImage": {
+      "description": "Options page label: 'embed image'",
+      "message": "嵌入图片"
+   },
+   "optionInsertEmbeddedScreenshotImage": {
+      "description": "Options page label: 'page screenshot'",
+      "message": "网页截图"
+   },
+   "optionInsertMetaCSP": {
+      "description": "Options page label: 'set content security policy'",
+      "message": "设置内容安全策略"
+   },
+   "optionInsertTextBody": {
+      "description": "Options page label: 'make text searchable'",
+      "message": "使文本可被搜索"
+   },
+   "optionLoadDeferredContent": {
+      "description": "Options page label: 'save content loaded while scrolling'",
+      "message": "保存滚动时加载的内容"
+   },
+   "optionLoadDeferredContentBeforeFrames": {
+      "description": "Options page label: 'load in frames first'",
+      "message": "先在框架中加载"
+   },
+   "optionLoadDeferredContentDispatchScrollEvent": {
+      "description": "Options page label: 'simulate scrolling'",
+      "message": "模拟滚动"
+   },
+   "optionLoadDeferredContentKeepEmulatedScreenSize": {
+      "description": "Options page label: 'keep the emulated screen size during the capture'",
+      "message": "保存期间保持模拟的屏幕尺寸"
+   },
+   "optionLoadDeferredContentKeepZoomLevel": {
+      "description": "Options page label: 'zoom out the page during the capture'",
+      "message": "保存期间缩小页面"
+   },
+   "optionLoadDeferredContentMaxIdleTime": {
+      "description": "Options page label: 'maximum idle time (ms)'",
+      "message": "最长空闲时间（毫秒）"
+   },
+   "optionMCPAuthToken": {
+      "description": "Options page label: 'authentication token'",
+      "message": "认证令牌"
+   },
+   "optionMCPServerUrl": {
+      "description": "Options page label: 'server URL'",
+      "message": "服务器地址"
+   },
+   "optionMaxResourceDelay": {
+      "description": "Options page label: 'maximum download time (s)'",
+      "message": "时间上限（秒）"
+   },
+   "optionMaxResourceSize": {
+      "description": "Options page label: 'maximum size (MB)'",
+      "message": "大小上限（兆字节）"
+   },
+   "optionMenusCustomized": {
+      "description": "Options page state: 'customized menus'",
+      "message": "自定义菜单"
+   },
+   "optionMenusDefault": {
+      "description": "Options page state: 'default menus'",
+      "message": "默认菜单"
+   },
+   "optionMenusEditor": {
+      "description": "Options page label: 'choose the entries displayed in the menus and their order (shared by all profiles)'",
+      "message": "选择菜单中显示的条目及其顺序（所有配置文件共用）"
+   },
+   "optionMenusEditorLink": {
+      "description": "Options page link: 'Open the menu editor...'",
+      "message": "打开菜单编辑器..."
+   },
+   "optionMoveStylesInHead": {
+      "description": "Options page label: 'move in the head element the styles found outside of it'",
+      "message": "移动 head 标签之外的样式到其内"
+   },
+   "optionOpenEditor": {
+      "description": "Options page label: 'annotate the page before saving'",
+      "message": "在保存前对该页面进行标注编辑"
+   },
+   "optionOpenInfobar": {
+      "description": "Options page label: 'keep infobar open'",
+      "message": "查看已保存页面时使信息栏为打开状态"
+   },
+   "optionOpenSavedPage": {
+      "description": "Options page label: 'open saved pages in a new tab'",
+      "message": "在新标签页中打开保存后的页面"
+   },
+   "optionPassReferrerOnError": {
+      "description": "Options page label: 'pass \"Referer\" header after a cross-origin request error'",
+      "message": "跨域请求失败时添加来源地址头信息（Referer）"
+   },
+   "optionPassword": {
+      "description": "Options page label: 'password'",
+      "message": "密码"
+   },
+   "optionPreventAppendedData": {
+      "description": "Options page label: 'do not append data after the ZIP data'",
+      "message": "不要在 ZIP 数据后添加数据"
+   },
+   "optionRemoveAlternativeFonts": {
+      "description": "Options page label: 'remove alternative fonts'",
+      "message": "移除备选字体"
+   },
+   "optionRemoveAlternativeImages": {
+      "description": "Options page label: 'remove images for alternative screen resolutions'",
+      "message": "移除用于备选分辨率的图片"
+   },
+   "optionRemoveAlternativeMedias": {
+      "description": "Options page label: 'remove stylesheets for alternative devices to screens'",
+      "message": "移除用于备选设备屏幕的样式表"
+   },
+   "optionRemoveFrames": {
+      "description": "Options page label: 'remove frames'",
+      "message": "移除框架"
+   },
+   "optionRemoveHiddenElements": {
+      "description": "Options page label: 'remove hidden elements'",
+      "message": "移除隐藏元素"
+   },
+   "optionRemoveInfobarSavedDate": {
+      "description": "Options page label: 'do not include the saved date'",
+      "message": "不包括保存日期"
+   },
+   "optionRemoveUnusedFonts": {
+      "description": "Options page label: 'remove unused fonts'",
+      "message": "移除未使用字体"
+   },
+   "optionRemoveUnusedGlyphs": {
+      "description": "Options page label: 'remove unused glyphs'",
+      "message": "移除未使用字形"
+   },
+   "optionRemoveUnusedStyles": {
+      "description": "Options page label: 'remove unused styles'",
+      "message": "移除未使用的样式"
+   },
+   "optionRemovedElementsSelector": {
+      "description": "Options page label: 'remove specific elements'",
+      "message": "移除特定元素"
+   },
+   "optionReplaceBookmarkURL": {
+      "description": "Options page label: 'link the new bookmark to the saved page'",
+      "message": "将新书签的链接指向已保存页面"
+   },
+   "optionReplaceEmojisInFilename": {
+      "description": "Options page label: 'replace emojis with text'",
+      "message": "用文字替换表情符号"
+   },
+   "optionResourceAudio": {
+      "description": "Options page label: 'audios'",
+      "message": "音频"
+   },
+   "optionResourceDocument": {
+      "description": "Options page label: 'documents'",
+      "message": "文档"
+   },
+   "optionResourceFont": {
+      "description": "Options page label: 'fonts'",
+      "message": "字体"
+   },
+   "optionResourceImage": {
+      "description": "Options page label: 'images'",
+      "message": "图片"
+   },
+   "optionResourceScript": {
+      "description": "Options page label: 'scripts'",
+      "message": "脚本"
+   },
+   "optionResourceStylesheet": {
+      "description": "Options page label: 'stylesheets'",
+      "message": "样式表"
+   },
+   "optionResourceVideo": {
+      "description": "Options page label: 'videos'",
+      "message": "视频"
+   },
+   "optionRestFormApiFileFieldName": {
+      "description": "Options page label: 'archive data field name'",
+      "message": "文件字段名称"
+   },
+   "optionRestFormApiToken": {
+      "description": "Options page label: 'authorization token'",
+      "message": "授权令牌"
+   },
+   "optionRestFormApiUrl": {
+      "description": "Options page label: 'URL'",
+      "message": "网址"
+   },
+   "optionRestFormApiUrlFieldName": {
+      "description": "Options page label: 'archive URL field name'",
+      "message": "网址字段名称"
+   },
+   "optionS3AccessKey": {
+      "description": "Options page label: 'access key'",
+      "message": "访问密钥"
+   },
+   "optionS3Bucket": {
+      "description": "Options page label: 'bucket name'",
+      "message": "存储桶名称"
+   },
+   "optionS3Domain": {
+      "description": "Options page label: 'domain'",
+      "message": "域名"
+   },
+   "optionS3Region": {
+      "description": "Options page label: 'region'",
+      "message": "区域"
+   },
+   "optionS3SecretKey": {
+      "description": "Options page label: 'secret key'",
+      "message": "密钥"
+   },
+   "optionSaveCreatedBookmarks": {
+      "description": "Options page label: 'save the page of a newly created bookmark'",
+      "message": "创建新书签时保存其对应页面"
+   },
+   "optionSaveFilenameTemplateData": {
+      "description": "Options page label: 'save the filename template data into the page'",
+      "message": "将文件名模板数据保存到页面中"
+   },
+   "optionSaveOriginalURLs": {
+      "description": "Options page label: 'save original URLs of embedded resources'",
+      "message": "保存嵌入资源的原始网址"
+   },
+   "optionSaveRawPage": {
+      "description": "Options page label: 'save raw page'",
+      "message": "保存原始页面"
+   },
+   "optionSaveToClipboard": {
+      "description": "Options page label: 'copy to clipboard'",
+      "message": "保存到剪切板"
+   },
+   "optionSaveToDropbox": {
+      "description": "Options page label: 'upload to Dropbox'",
+      "message": "保存到 Dropbox"
+   },
+   "optionSaveToFilesystem": {
+      "description": "Options page label: 'save to filesystem'",
+      "message": "保存到文件系统"
+   },
+   "optionSaveToGDrive": {
+      "description": "Options page label: 'upload to Google Drive'",
+      "message": "保存到 Google Drive"
+   },
+   "optionSaveToGitHub": {
+      "description": "Options page label: 'upload to GitHub'",
+      "message": "保存到 GitHub"
+   },
+   "optionSaveToRestFormApi": {
+      "description": "Options page label: 'upload to a REST Form API'",
+      "message": "保存到 REST 表单 API"
+   },
+   "optionSaveToS3": {
+      "description": "Options page label: 'upload to Amazon S3'",
+      "message": "保存到 Amazon S3"
+   },
+   "optionSaveWithCompanion": {
+      "description": "Options page label: 'save with SingleFile Companion'",
+      "message": "使用 SingleFile Companion 保存"
+   },
+   "optionSaveWithMCP": {
+      "description": "Options page label: 'upload to an MCP server'",
+      "message": "保存到 MCP 服务器"
+   },
+   "optionSaveWithWebDAV": {
+      "description": "Options page label: 'upload to a WebDAV server'",
+      "message": "保存到 WebDAV 服务器"
+   },
+   "optionSetMaxResourceDelay": {
+      "description": "Options page label: 'set maximum download time'",
+      "message": "限制资源文件下载超时时间"
+   },
+   "optionSetMaxResourceSize": {
+      "description": "Options page label: 'set maximum size'",
+      "message": "限制资源文件大小"
+   },
+   "optionSharePage": {
+      "description": "Options page label: 'share page'",
+      "message": "分享页面"
+   },
+   "optionSynchronize": {
+      "description": "Options label: 'synchronize options'",
+      "message": "同步选项"
+   },
+   "optionSynchronizeError": {
+      "description": "Options error: 'The options could not be copied to the synchronized storage, they are still stored locally.'",
+      "message": "选项无法复制到同步存储，仍保存在本地。"
+   },
+   "optionWarnUnsavedPage": {
+      "description": "Title of the button 'warn if leaving page with unsaved changes'",
+      "message": "离开标注编辑器时提醒保存已修改的内容"
+   },
+   "optionWebDAVPassword": {
+      "description": "Options page label: 'password'",
+      "message": "密码"
+   },
+   "optionWebDAVURL": {
+      "description": "Options page label: 'URL'",
+      "message": "地址"
+   },
+   "optionWebDAVUser": {
+      "description": "Options page label: 'user identifier'",
+      "message": "用户名"
+   },
+   "optionWoleetKey": {
+      "description": "Options page label: 'access token'",
+      "message": "访问令牌"
+   },
+   "optionsAcceptHeaders": {
+      "description": "Options page label: '\"Accept\" header'",
+      "message": "“Accept”请求头"
+   },
+   "optionsAddFilenameReplacementTooltip": {
+      "description": "Popup text 'Add the character' in the options page",
+      "message": "添加字符"
+   },
+   "optionsAddProofConfirm": {
+      "description": "Popup text displayed wen enabling the option 'add proof of existence'",
+      "message": "请确认您是否允许 SingleFile 将您要保存的每个页面的 SHA256 哈希值发送给 Woleet API。您可以在帮助页面或者通过点击该选项旁的问号找到此功能的更多信息。"
+   },
+   "optionsAddRuleTooltip": {
+      "description": "Popup text 'Add the rule' in the options page",
+      "message": "添加规则"
+   },
+   "optionsAutoSaveSubTitle": {
+      "description": "Options sub-title: 'Auto-save'",
+      "message": "自动保存"
+   },
+   "optionsAutoSettingsAutoSaveProfile": {
+      "description": "Column header in the Auto-settings rules table, naming the profile of settings used when a page matching the rule is saved automatically. It is a noun phrase, 'the profile used for auto-saving', never 'automatically save the profile'",
+      "message": "自动保存所用配置文件"
+   },
+   "optionsAutoSettingsProfile": {
+      "description": "Column header in the Auto-settings rules table, naming the profile of settings used when a page matching the rule is saved manually. It is a noun, the name of a profile, not an instruction to save",
+      "message": "配置文件"
+   },
+   "optionsAutoSettingsShowAllProfiles": {
+      "description": "Checkbox label under the Auto-settings rules table: list the rules of every profile instead of only those of the profile selected above",
+      "message": "显示所有配置文件"
+   },
+   "optionsAutoSettingsShowAutoSaveProfile": {
+      "description": "Checkbox label under the Auto-settings rules table: show or hide the 'Auto-save profile' column. The quoted name must match the translation of optionsAutoSettingsAutoSaveProfile",
+      "message": "显示“自动保存所用配置文件”列"
+   },
+   "optionsAutoSettingsSubTitle": {
+      "description": "Options sub-title: the table of rules that pick a profile automatically from the URL of the page being saved",
+      "message": "自动设置规则"
+   },
+   "optionsAutoSettingsUrl": {
+      "description": "Column header in the Auto-settings rules table: the complete or partial URL a rule matches against the page being saved",
+      "message": "网址"
+   },
+   "optionsAutoSettingsUrlPlaceholder": {
+      "description": "Placeholder of the URL field in the Auto-settings rules table",
+      "message": "输入完整的或部分网址（例如 example.com）"
+   },
+   "optionsBlockedResources": {
+      "description": "Options page label: 'blocked resources'",
+      "message": "拦截资源文件"
+   },
+   "optionsBookmarkSubTitle": {
+      "description": "Options sub-title: 'Bookmarks'",
+      "message": "书签"
+   },
+   "optionsCancelButton": {
+      "description": "Options confirm button: 'Cancel'",
+      "message": "取消"
+   },
+   "optionsCancelChangesTooltip": {
+      "description": "Popup text 'Cancel changes' in the options page",
+      "message": "取消更改"
+   },
+   "optionsDeferredContentSubTitle": {
+      "description": "Options sub-title: 'Deferred content'",
+      "message": "延迟加载的内容"
+   },
+   "optionsDeleteDisplayedRulesConfirm": {
+      "description": "Popup text 'Confirm the deletion of all displayed rules'",
+      "message": "确认删除所有已显示规则"
+   },
+   "optionsDeleteFilenameReplacementTooltip": {
+      "description": "Popup text 'Stop replacing this character' in the options page",
+      "message": "停止替换此字符"
+   },
+   "optionsDeleteRuleConfirm": {
+      "description": "Popup text 'Confirm the deletion of the selected rule' in the options page",
+      "message": "确认删除所选规则"
+   },
+   "optionsDeleteRuleTooltip": {
+      "description": "Popup text 'Delete the rule' in the options page",
+      "message": "删除规则"
+   },
+   "optionsDeleteRulesTooltip": {
+      "description": "Popup text 'Delete all displayed rules'",
+      "message": "删除所有已显示规则"
+   },
+   "optionsDestinationSubTitle": {
+      "description": "Options sub-title: 'Destination'",
+      "message": "保存位置"
+   },
+   "optionsEditorConfigSaved": {
+      "description": "Options editor message: 'Configuration saved'",
+      "message": "配置已保存"
+   },
+   "optionsEditorInvalidJSON": {
+      "description": "Options editor error message: 'Invalid JSON'",
+      "message": "无效的 JSON"
+   },
+   "optionsEditorLink": {
+      "description": "Accessible label of the icon opening the options editor",
+      "message": "打开选项编辑器"
+   },
+   "optionsEditorSaveButton": {
+      "description": "Options editor button: 'Save'",
+      "message": "保存"
+   },
+   "optionsEditorSubTitle": {
+      "description": "Options sub-title: 'Annotation editor'",
+      "message": "标注编辑器"
+   },
+   "optionsEditorTitle": {
+      "description": "Options title: 'Options editor'",
+      "message": "选项编辑器"
+   },
+   "optionsExportButton": {
+      "description": "Options button: 'Export'",
+      "message": "导出"
+   },
+   "optionsExternalCaptureApproveButton": {
+      "description": "Options button: 'Allow'",
+      "message": "允许"
+   },
+   "optionsExternalCaptureDenyButton": {
+      "description": "Options button: 'Deny'",
+      "message": "拒绝"
+   },
+   "optionsExternalCapturePendingRequest": {
+      "description": "Options page prompt to approve an external extension capture request.",
+      "message": "扩展 $EXTENSION_ID$ 想要使用 SingleFile 保存此浏览器中的页面并获取其 HTML 内容。如果允许，在您将其从下方列表中移除之前，它可以随时保存任意标签页而不再询问。",
+      "placeholders": {
+         "extension_id": {
+            "content": "$1",
+            "example": "archivebox@example.com"
+         }
+      }
+   },
+   "optionsExternalCapturePermissionsSubTitle": {
+      "description": "Options sub-title: 'External capture API'",
+      "message": "外部捕获 API"
+   },
+   "optionsFileFormatSubTitle": {
+      "description": "Options sub-title: 'File format'",
+      "message": "文件格式"
+   },
+   "optionsFileNameSubTitle": {
+      "description": "Options sub-title: 'File name'",
+      "message": "文件名"
+   },
+   "optionsFilenameReplacedCharacters": {
+      "description": "Options page column label in the replaced characters table: 'Character(s)'",
+      "message": "字符"
+   },
+   "optionsFilenameReplacedCharactersPlaceholder": {
+      "description": "Placeholder in the replaced characters table: 'Type a character (e.g. \":\")'",
+      "message": "输入字符（例如“:”）"
+   },
+   "optionsFilenameReplacementCharacters": {
+      "description": "Options page column label in the replaced characters table: 'Replaced with'",
+      "message": "替换为"
+   },
+   "optionsFilenameReplacementsPreviewFilename": {
+      "description": "Options page column label in the preview table: 'Test a file name'",
+      "message": "测试文件名"
+   },
+   "optionsFilenameReplacementsPreviewPlaceholder": {
+      "description": "Placeholder in the preview table: 'Type a file name'",
+      "message": "输入文件名"
+   },
+   "optionsFilenameReplacementsPreviewResult": {
+      "description": "Options page column label in the preview table: 'Result'",
+      "message": "结果"
+   },
+   "optionsFilenameReplacementsResetButton": {
+      "description": "Button label 'Restore default characters' in the options page",
+      "message": "恢复默认字符"
+   },
+   "optionsFontsSubTitle": {
+      "description": "Options sub-title: 'Fonts'",
+      "message": "字体"
+   },
+   "optionsHTMLContentSubTitle": {
+      "description": "Options sub-title: 'HTML content'",
+      "message": "HTML 内容"
+   },
+   "optionsHelpLink": {
+      "description": "Options help link",
+      "message": "帮助"
+   },
+   "optionsImagesSubTitle": {
+      "description": "Options sub-title: 'Images'",
+      "message": "图片"
+   },
+   "optionsImportButton": {
+      "description": "Options button: 'Import'",
+      "message": "导入"
+   },
+   "optionsImportError": {
+      "description": "Options error: 'The settings could not be imported, the current settings are unchanged.'",
+      "message": "选项导入失败，当前选项保持不变。"
+   },
+   "optionsInfobarSubTitle": {
+      "description": "Options sub-title: 'Infobar'",
+      "message": "信息栏"
+   },
+   "optionsMenusSubTitle": {
+      "description": "Options sub-title: 'Menus'",
+      "message": "菜单"
+   },
+   "optionsMiscSubTitle": {
+      "description": "Options sub-title: 'Misc.'",
+      "message": "杂项"
+   },
+   "optionsNetworkSubTitle": {
+      "description": "Options sub-title: 'Network'",
+      "message": "网络"
+   },
+   "optionsNewWindowLink": {
+      "description": "Accessible label of the icon opening the options in a new tab",
+      "message": "在新标签页中打开选项"
+   },
+   "optionsOKButton": {
+      "description": "Options confirm button: 'OK'",
+      "message": "确定"
+   },
+   "optionsResetAllButton": {
+      "description": "Options confirm button: 'Reset all options'",
+      "message": "重置所有选项"
+   },
+   "optionsResetButton": {
+      "description": "Options button: 'Reset'",
+      "message": "重置"
+   },
+   "optionsResetConfirm": {
+      "description": "Popup text 'Confirm the reset of all options or the current profile' in the options page",
+      "message": "确认重置所有选项或当前配置文件"
+   },
+   "optionsResetCurrentButton": {
+      "description": "Options confirm button: 'Reset current profile'",
+      "message": "重置当前配置文件"
+   },
+   "optionsResetTooltip": {
+      "description": "Options 'Reset' button tooltip",
+      "message": "重置所有选项为默认值"
+   },
+   "optionsStylesheetsSubTitle": {
+      "description": "Options sub-title: 'Stylesheets'",
+      "message": "样式表"
+   },
+   "optionsTitle": {
+      "description": "Options page title",
+      "message": "选项"
+   },
+   "optionsUpdateRuleTooltip": {
+      "description": "Popup text 'Update the rule' in the options page",
+      "message": "更新规则"
+   },
+   "optionsUserInterfaceSubTitle": {
+      "description": "Options sub-title: 'User interface'",
+      "message": "用户界面"
+   },
+   "optionsValidateChangesTooltip": {
+      "description": "Popup text 'Validate changes' in the options page",
+      "message": "验证更改"
+   },
+   "pendingsAddUrls": {
+      "description": "Label of the add URLs input",
+      "message": "请按行输入网址列表"
+   },
+   "pendingsAddUrlsButton": {
+      "description": "button 'Add URLs'",
+      "message": "添加网址"
+   },
+   "pendingsAddUrlsCancelButton": {
+      "description": "Add URLs popup cancel button: 'Cancel'",
+      "message": "取消"
+   },
+   "pendingsAddUrlsOKButton": {
+      "description": "Add URLs popup confirm button: 'OK'",
+      "message": "确定"
+   },
+   "pendingsCancelAllButton": {
+      "description": "Pending saves button 'Cancel all'",
+      "message": "取消全部"
+   },
+   "pendingsCancellingStatus": {
+      "description": "Value of 'status' for cancelled saves",
+      "message": "正在取消"
+   },
+   "pendingsNoPendings": {
+      "description": "Label displayed when there are no pending saves",
+      "message": "没有挂起中的保存项"
+   },
+   "pendingsPendingStatus": {
+      "description": "Value of 'status' for pending saves",
+      "message": "正在挂起"
+   },
+   "pendingsProcessingStatus": {
+      "description": "Value of 'status' for current saves",
+      "message": "正在处理"
+   },
+   "pendingsStatusTitle": {
+      "description": "Title of the second column in the table of the pending saves 'status'",
+      "message": "状态"
+   },
+   "pendingsTitle": {
+      "description": "Title of the pending save page 'Pending saves' in the editor",
+      "message": "挂起保存项"
+   },
+   "pendingsTitleTitle": {
+      "description": "Title of the first column in the table of the pending saves 'Title'",
+      "message": "标题"
+   },
+   "pendingsURLTitle": {
+      "description": "Title of the first column in the table of the pending saves 'URL'",
+      "message": "网址"
+   },
+   "profileAddButtonTooltip": {
+      "description": "Tooltip 'Add a new profile' in the options page",
+      "message": "新增配置文件"
+   },
+   "profileAddPrompt": {
+      "description": "Popup text 'Enter a name for this new profile' in the options page",
+      "message": "新增配置文件"
+   },
+   "profileDefaultSettings": {
+      "description": "Label 'Default settings' of the default settings in the options page",
+      "message": "默认设置"
+   },
+   "profileDeleteButtonTooltip": {
+      "description": "Tooltip 'Delete the profile' in the options page",
+      "message": "删除配置文件"
+   },
+   "profileDeleteConfirm": {
+      "description": "Popup text 'Confirm the deletion of the selected profile' in the options page",
+      "message": "确认删除所选配置文件？"
+   },
+   "profileDisabled": {
+      "description": "Label 'Disabled' of the disabled profile name in the options page",
+      "message": "已禁用"
+   },
+   "profileRenameButtonTooltip": {
+      "description": "Tooltip 'Rename the profile' in the options page",
+      "message": "重命名配置文件"
+   },
+   "profileRenamePrompt": {
+      "description": "Popup text 'Enter a new name for the selected profile' in the options page",
+      "message": "重命名配置文件"
+   },
+   "topPanelCopyDetailsButton": {
+      "description": "Button label 'Copy details' in the top panel next to an error message",
+      "message": "复制详细信息"
+   },
+   "topPanelEmbeddedImageButton": {
+      "description": "Top panel button 'Open image...' when embedding an image",
+      "message": "打开图片..."
+   },
+   "topPanelError": {
+      "description": "Label 'SingleFile error: ' in the top panel when displaying an error message",
+      "message": "SingleFile 错误："
+   },
+   "topPanelSharePageButton": {
+      "description": "Top panel button 'Share page...' when sharing a page",
+      "message": "分享页面..."
+   },
+   "topPanelShareSelectionButton": {
+      "description": "Top panel button 'Share selection...' when sharing selected content",
+      "message": "分享选中内容..."
+   }
+}
