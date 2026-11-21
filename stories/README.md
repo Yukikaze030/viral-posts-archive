@@ -2,13 +2,13 @@
 
 [查看更新日志](更新日志.md)
 
-**2026-11-21 更新：新增第 47 篇《在县城读高中时与一个女孩儿的故事》，补齐待核表情并更新采集插件至 1.39.3。**
+**2026-11-21 更新：新增第 48、49 篇，提供含图 PDF、无图打印 PDF、Word 和 TXT。**
 
 [在线阅读样稿：《暗恋两年的高中同学 决定拿下》](%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB/%E6%9A%97%E6%81%8B%E4%B8%A4%E5%B9%B4%E7%9A%84%E9%AB%98%E4%B8%AD%E5%90%8C%E5%AD%A6%20%E5%86%B3%E5%AE%9A%E6%8B%BF%E4%B8%8B.md)
 
 原始网页快照、原稿 PDF、ZIP 和视频等源文件体积较大，统一通过网盘分享。项目会在对应篇目的来源索引补上网盘链接。
 
-按汇总帖顺序整理的 47 项故事。含图 PDF 保留原图与原帖文字；无图 PDF 仅保留原帖文字。Word 可编辑，TXT 为 UTF-8。正文、配图和楼中楼的收录范围以原整理版为准；TXT 保留配图位置提示。
+按汇总帖顺序整理的 49 项故事。含图 PDF 保留原图与原帖文字；无图 PDF 仅保留原帖文字。Word 可编辑，TXT 为 UTF-8。正文、配图和楼中楼的收录范围以原整理版为准；TXT 保留配图位置提示。
 
 [备份贴吧等平台热帖](https://github.com/konghenfuxue-cpu/viral-posts-archive)
 
@@ -61,6 +61,8 @@
 | 45 | 长岛的雪（[转载来源](https://tieba.baidu.com/p/6524169251)） | [含图 24 页](%E9%95%BF%E5%B2%9B%E7%9A%84%E9%9B%AA.pdf) · [无图 24 页](%E6%97%A0%E5%9B%BE%E7%89%88/%E9%95%BF%E5%B2%9B%E7%9A%84%E9%9B%AA-%E6%97%A0%E5%9B%BE%E7%89%88.pdf) | [Word](%E9%95%BF%E5%B2%9B%E7%9A%84%E9%9B%AA.docx) | [TXT](%E9%95%BF%E5%B2%9B%E7%9A%84%E9%9B%AA.txt) |
 | 46 | [求救，我已经快想爆了。](https://tieba.baidu.com/p/529691897) | [含图 12 页](%E6%B1%82%E6%95%91%EF%BC%8C%E6%88%91%E5%B7%B2%E7%BB%8F%E5%BF%AB%E6%83%B3%E7%88%86%E4%BA%86%E3%80%82.pdf) · [无图 13 页](%E6%97%A0%E5%9B%BE%E7%89%88/%E6%B1%82%E6%95%91%EF%BC%8C%E6%88%91%E5%B7%B2%E7%BB%8F%E5%BF%AB%E6%83%B3%E7%88%86%E4%BA%86-%E6%97%A0%E5%9B%BE%E7%89%88.pdf) | [Word](%E6%B1%82%E6%95%91%EF%BC%8C%E6%88%91%E5%B7%B2%E7%BB%8F%E5%BF%AB%E6%83%B3%E7%88%86%E4%BA%86%E3%80%82.docx) | [TXT](%E6%B1%82%E6%95%91%EF%BC%8C%E6%88%91%E5%B7%B2%E7%BB%8F%E5%BF%AB%E6%83%B3%E7%88%86%E4%BA%86%E3%80%82.txt) |
 | 47 | 在县城读高中时与一个女孩儿的故事（[公众号补档](https://mp.weixin.qq.com/s/zoyrBWi5zbxJnTOnAFE1Wg) · [贴吧补档](https://tieba.baidu.com/p/9145636473)） | [含图 112 页](%E5%9C%A8%E5%8E%BF%E5%9F%8E%E8%AF%BB%E9%AB%98%E4%B8%AD%E6%97%B6%E4%B8%8E%E4%B8%80%E4%B8%AA%E5%A5%B3%E5%AD%A9%E5%84%BF%E7%9A%84%E6%95%85%E4%BA%8B.pdf) · [无图 19 页](%E6%97%A0%E5%9B%BE%E7%89%88/%E5%9C%A8%E5%8E%BF%E5%9F%8E%E8%AF%BB%E9%AB%98%E4%B8%AD%E6%97%B6%E4%B8%8E%E4%B8%80%E4%B8%AA%E5%A5%B3%E5%AD%A9%E5%84%BF%E7%9A%84%E6%95%85%E4%BA%8B-%E6%97%A0%E5%9B%BE%E7%89%88.pdf) | [Word](%E5%9C%A8%E5%8E%BF%E5%9F%8E%E8%AF%BB%E9%AB%98%E4%B8%AD%E6%97%B6%E4%B8%8E%E4%B8%80%E4%B8%AA%E5%A5%B3%E5%AD%A9%E5%84%BF%E7%9A%84%E6%95%85%E4%BA%8B.docx) | [TXT](%E5%9C%A8%E5%8E%BF%E5%9F%8E%E8%AF%BB%E9%AB%98%E4%B8%AD%E6%97%B6%E4%B8%8E%E4%B8%80%E4%B8%AA%E5%A5%B3%E5%AD%A9%E5%84%BF%E7%9A%84%E6%95%85%E4%BA%8B.txt) |
+| 48 | [开个贴，讲讲我的自餐女友](https://tieba.baidu.com/p/8352443472) | [含图 11 页](%E5%BC%80%E4%B8%AA%E8%B4%B4%EF%BC%8C%E8%AE%B2%E8%AE%B2%E6%88%91%E7%9A%84%E8%87%AA%E9%A4%90%E5%A5%B3%E5%8F%8B.pdf) · [无图 8 页](%E6%97%A0%E5%9B%BE%E7%89%88/%E5%BC%80%E4%B8%AA%E8%B4%B4%EF%BC%8C%E8%AE%B2%E8%AE%B2%E6%88%91%E7%9A%84%E8%87%AA%E9%A4%90%E5%A5%B3%E5%8F%8B-%E6%97%A0%E5%9B%BE%E7%89%88.pdf) | [Word](%E5%BC%80%E4%B8%AA%E8%B4%B4%EF%BC%8C%E8%AE%B2%E8%AE%B2%E6%88%91%E7%9A%84%E8%87%AA%E9%A4%90%E5%A5%B3%E5%8F%8B.docx) | [TXT](%E5%BC%80%E4%B8%AA%E8%B4%B4%EF%BC%8C%E8%AE%B2%E8%AE%B2%E6%88%91%E7%9A%84%E8%87%AA%E9%A4%90%E5%A5%B3%E5%8F%8B.txt) |
+| 49 | [关于鼠鼠和抛油结婚的故事](https://tieba.baidu.com/p/9024925164) | [含图 17 页](%E5%85%B3%E4%BA%8E%E9%BC%A0%E9%BC%A0%E5%92%8C%E6%8A%9B%E6%B2%B9%E7%BB%93%E5%A9%9A%E7%9A%84%E6%95%85%E4%BA%8B.pdf) · [无图 16 页](%E6%97%A0%E5%9B%BE%E7%89%88/%E5%85%B3%E4%BA%8E%E9%BC%A0%E9%BC%A0%E5%92%8C%E6%8A%9B%E6%B2%B9%E7%BB%93%E5%A9%9A%E7%9A%84%E6%95%85%E4%BA%8B-%E6%97%A0%E5%9B%BE%E7%89%88.pdf) | [Word](%E5%85%B3%E4%BA%8E%E9%BC%A0%E9%BC%A0%E5%92%8C%E6%8A%9B%E6%B2%B9%E7%BB%93%E5%A9%9A%E7%9A%84%E6%95%85%E4%BA%8B.docx) | [TXT](%E5%85%B3%E4%BA%8E%E9%BC%A0%E9%BC%A0%E5%92%8C%E6%8A%9B%E6%B2%B9%E7%BB%93%E5%A9%9A%E7%9A%84%E6%95%85%E4%BA%8B.txt) |
 
 ## 网盘备份
 
