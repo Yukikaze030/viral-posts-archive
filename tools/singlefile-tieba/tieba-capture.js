@@ -87,17 +87,31 @@
     });
   }
   const persist=()=>new Promise((resolve,reject)=>{const tx=db.transaction('threads','readwrite');tx.objectStore('threads').put(state,tid);tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error);});
+  function saveFloor(floor, pid, author, root, content) {
+    const parts=richParts(content);
+    const text=content?.innerText.trim()||'';
+    const pictures=[...root.querySelectorAll('.image-card-wrapper img, img[data-src]')].filter(i=>!i.matches(inlineImage)).map(i=>i.getAttribute('data-src')||i.currentSrc||i.src).filter(u=>/^https:\/\/(tiebapic|imgsrc|imgsa)\.baidu\.com\//.test(u));
+    if (floor===1 && !text && !pictures.length && !parts.some(part=>part.type==='emoji')) return;
+    // Older versions could store a reply mentioning “第 1 楼” in this slot.
+    const cached=state.posts[floor];
+    const old=floor===1 && cached?.pid ? undefined : cached;
+    state.posts[floor]={floor,pid:pid||old?.pid||'',author:author||old?.author||'',text:text||old?.text||'',parts:pickParts(parts,old?.parts),pictures:[...new Map([...(old?.pictures||[]),...pictures].map(u=>[imageKey(u),u])).values()]};
+  }
   function scan(){
+    const first=document.querySelector('.pb-page-wrapper .center-content > .image-text');
+    if (first) {
+      const author=first.querySelector('.head-line.user-info .head-name')?.textContent.trim();
+      const content=first.querySelector('.pb-content-wrap');
+      const title=first.querySelector('.pb-title')?.textContent.trim();
+      if (title) state.title=title;
+      if (author && content) saveFloor(1, '', author, content, content);
+    }
     for(const item of document.querySelectorAll('.pb-comment-item')){
       const head=item.querySelector('.user-info');if(!head?.textContent.includes('楼主'))continue;
-      const floor=Number(item.textContent.match(/第\s*(\d+)\s*楼/)?.[1]);if(!floor)continue;
+      const floorLabel=item.querySelector('.pc-pb-comments-desc .comment-desc-left');
+      const floor=Number(floorLabel?.textContent.match(/第\s*(\d+)\s*楼/)?.[1]);if(!(floor>1))continue;
       const root=item.querySelector('.comment-content');if(!root)continue;
-      const content=root.querySelector('.pb-rich-text');
-      const parts=richParts(content);
-      const text=content?.innerText.trim()||'';
-      const pictures=[...root.querySelectorAll('.image-card-wrapper img, img[data-src]')].filter(i=>!i.matches(inlineImage)).map(i=>i.getAttribute('data-src')||i.currentSrc||i.src).filter(u=>/^https:\/\/(tiebapic|imgsrc|imgsa)\.baidu\.com\//.test(u));
-      const old=state.posts[floor];
-      state.posts[floor]={floor,pid:item.dataset.id||old?.pid||'',author:head.querySelector('.head-name')?.textContent.trim()||old?.author||'',text:text||old?.text||'',parts:pickParts(parts,old?.parts),pictures:[...new Map([...(old?.pictures||[]),...pictures].map(u=>[imageKey(u),u])).values()]};
+      saveFloor(floor, item.dataset.id, head.querySelector('.head-name')?.textContent.trim(), root, root.querySelector('.pb-rich-text'));
     }
   }
   function show(extra=''){const posts=Object.values(state.posts);const urls=new Set(posts.flatMap(postUrls).map(imageKey));status.textContent=`已收集 ${posts.length} 楼、${urls.size} 个图片地址（含表情）；已下载 ${Object.keys(state.images).length} 张。${extra}`;}

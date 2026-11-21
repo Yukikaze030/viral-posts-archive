@@ -1,5 +1,9 @@
 # SingleFile 贴吧长帖采集
 
+## 1.39.4 补采首楼
+
+首楼从帖子顶部的独立区域读取，回复楼号从楼层标签读取。已用真实导出核对《A!大胆的往上A!》的首楼正文、配图和行内表情。升级后重新加载扩展并刷新帖子，等首楼显示再导出，已有缓存可继续使用。
+
 ## 1.39.3 补抓表情图源
 
 支持从图片属性、CSS 背景和伪元素读取表情源。旧的离线导出若没有任何图源，需要重新加载目标楼层后再导出。
@@ -8,9 +12,9 @@
 
 正文按顺序保存文字、Unicode 表情和贴吧行内表情图。HTML 离线内嵌可用表情图，Markdown 保留行内位置和链接，JSON schemaVersion 2 在每楼增加 parts。原缓存仍可读；要补旧缓存中没有的表情，需要让对应楼层重新出现在页面上再导出。1.39.3 已通过实际导出验证。
 
-在浏览器中逐步滚动贴吧帖子，累积保存楼主主楼文字和配图，导出离线 HTML、Markdown 及下载失败清单。基于 SingleFile 1.39.0，表情采集版 **1.39.3**；非官方版本。
+在浏览器中逐步滚动贴吧帖子，累积保存楼主主楼文字和配图，导出离线 HTML、Markdown 及下载失败清单。基于 SingleFile 1.39.0，当前版本 **1.39.4**；非官方版本。
 
-**[下载 1.39.3 ZIP](../singlefile-tieba-1.39.3.zip)** · [上一稳定版 ZIP](../singlefile-tieba-1.39.1.zip) · [完整仓库 ZIP](https://github.com/konghenfuxue-cpu/viral-posts-archive/archive/refs/heads/main.zip) · [详细安装与使用](安装与测试.md) · [反馈问题](https://github.com/konghenfuxue-cpu/viral-posts-archive/issues)
+**[下载 1.39.4 ZIP](../singlefile-tieba-1.39.4.zip)** · [上一版本 ZIP](../singlefile-tieba-1.39.3.zip) · [完整仓库 ZIP](https://github.com/konghenfuxue-cpu/viral-posts-archive/archive/refs/heads/main.zip) · [详细安装与使用](安装与测试.md) · [反馈问题](https://github.com/konghenfuxue-cpu/viral-posts-archive/issues)
 
 ## 安装与使用
 
