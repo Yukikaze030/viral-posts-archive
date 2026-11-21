@@ -8,7 +8,10 @@ chrome.runtime.onConnect.addListener(port => {
   (async () => {
     if (!sender.tab || new URL(sender.tab.url).hostname !== 'tieba.baidu.com') throw Error('仅允许贴吧页面');
     const u = new URL(m.url);
-    if (u.protocol !== 'https:' || !['tiebapic.baidu.com', 'imgsrc.baidu.com', 'imgsa.baidu.com'].includes(u.hostname)) throw Error('非贴吧图片地址');
+    const photo = ['tiebapic.baidu.com', 'imgsrc.baidu.com', 'imgsa.baidu.com'].includes(u.hostname);
+    const emoji = (/^tb\d*\.bdstatic\.com$/.test(u.hostname) || u.hostname === 'tieba.baidu.com')
+      && /(?:^|\/)(?:face|emoji|emoticon|smiley)(?:\/|_)/i.test(u.pathname);
+    if (u.protocol !== 'https:' || !(photo || emoji)) throw Error('非贴吧图片地址');
     const response = await fetch(u.href, {signal: AbortSignal.timeout(25000)});
     if (!response.ok) throw Error('HTTP ' + response.status);
     const blob = await response.blob();
