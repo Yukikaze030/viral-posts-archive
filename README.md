@@ -2,7 +2,7 @@
 
 [查看更新日志](stories/更新日志.md)
 
-**2026-11-21 更新：新增第 41 篇《鼠鼠和初恋的故事》，含图 56 页、无图 11 页，另有 Word 和 TXT。**
+**2026-11-21 更新：新增第 42 篇《这是一个悲伤的故事》，含图 63 页、无图 4 页，另有 Word 和 TXT。**
 
 [在线阅读样稿：《暗恋两年的高中同学 决定拿下》](stories/%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB/%E6%9A%97%E6%81%8B%E4%B8%A4%E5%B9%B4%E7%9A%84%E9%AB%98%E4%B8%AD%E5%90%8C%E5%AD%A6%20%E5%86%B3%E5%AE%9A%E6%8B%BF%E4%B8%8B.md)
 
@@ -10,11 +10,11 @@
 
 **把原稿传下去。**
 
-这里收录 41 篇贴吧长帖，每篇提供含图 PDF、无图打印 PDF、Word 和 TXT。目录保留原帖链接，补录和修订可在完整更新日志中查阅。
+这里收录 42 篇贴吧长帖，每篇提供含图 PDF、无图打印 PDF、Word 和 TXT。目录保留原帖链接，补录和修订可在完整更新日志中查阅。
 
 如果你手上有原帖、补档或缺页线索，欢迎在 [Issues](https://github.com/konghenfuxue-cpu/viral-posts-archive/issues) 留下帖子链接和楼层号。
 
-**[直接查看 41 篇下载表](#合集下载)** · [独立目录](stories/README.md) · [贴吧长帖采集插件](tools/singlefile-tieba/README.md)
+**[直接查看 42 篇下载表](#合集下载)** · [独立目录](stories/README.md) · [贴吧长帖采集插件](tools/singlefile-tieba/README.md)
 
 ## 麦穗与羊
 
@@ -85,6 +85,7 @@
 | 39 | [我的爱人静秋](https://tieba.baidu.com/p/10696045238) | [含图 8 页](stories/%E6%88%91%E7%9A%84%E7%88%B1%E4%BA%BA%E9%9D%99%E7%A7%8B%C2%B7%E9%BB%91%E8%83%8C%E9%9B%AA%E9%87%8D%E6%96%B0%E6%8E%92%E7%89%88.pdf) · [无图 8 页](stories/%E6%97%A0%E5%9B%BE%E7%89%88/%E6%88%91%E7%9A%84%E7%88%B1%E4%BA%BA%E9%9D%99%E7%A7%8B-%E6%97%A0%E5%9B%BE%E7%89%88.pdf) | [Word](stories/%E6%88%91%E7%9A%84%E7%88%B1%E4%BA%BA%E9%9D%99%E7%A7%8B%C2%B7%E9%BB%91%E8%83%8C%E9%9B%AA%E9%87%8D%E6%96%B0%E6%8E%92%E7%89%88.docx) | [TXT](stories/%E6%88%91%E7%9A%84%E7%88%B1%E4%BA%BA%E9%9D%99%E7%A7%8B%C2%B7%E9%BB%91%E8%83%8C%E9%9B%AA%E9%87%8D%E6%96%B0%E6%8E%92%E7%89%88.txt) |
 | 40 | [刚刚......和高中的英语老师确立关系了](https://tieba.baidu.com/p/8617973759) | [含图 105 页](stories/%E5%88%9A%E5%88%9A......%E5%92%8C%E9%AB%98%E4%B8%AD%E7%9A%84%E8%8B%B1%E8%AF%AD%E8%80%81%E5%B8%88%E7%A1%AE%E7%AB%8B%E5%85%B3%E7%B3%BB%E4%BA%86.pdf) · [无图 10 页](stories/%E6%97%A0%E5%9B%BE%E7%89%88/%E5%88%9A%E5%88%9A......%E5%92%8C%E9%AB%98%E4%B8%AD%E7%9A%84%E8%8B%B1%E8%AF%AD%E8%80%81%E5%B8%88%E7%A1%AE%E7%AB%8B%E5%85%B3%E7%B3%BB%E4%BA%86-%E6%97%A0%E5%9B%BE%E7%89%88.pdf) | [Word](stories/%E5%88%9A%E5%88%9A......%E5%92%8C%E9%AB%98%E4%B8%AD%E7%9A%84%E8%8B%B1%E8%AF%AD%E8%80%81%E5%B8%88%E7%A1%AE%E7%AB%8B%E5%85%B3%E7%B3%BB%E4%BA%86.docx) | [TXT](stories/%E5%88%9A%E5%88%9A......%E5%92%8C%E9%AB%98%E4%B8%AD%E7%9A%84%E8%8B%B1%E8%AF%AD%E8%80%81%E5%B8%88%E7%A1%AE%E7%AB%8B%E5%85%B3%E7%B3%BB%E4%BA%86.txt) |
 | 41 | [鼠鼠和初恋的故事](https://tieba.baidu.com/p/9993922008) | [含图 56 页](stories/%E9%BC%A0%E9%BC%A0%E5%92%8C%E5%88%9D%E6%81%8B%E7%9A%84%E6%95%85%E4%BA%8B.pdf) · [无图 11 页](stories/%E6%97%A0%E5%9B%BE%E7%89%88/%E9%BC%A0%E9%BC%A0%E5%92%8C%E5%88%9D%E6%81%8B%E7%9A%84%E6%95%85%E4%BA%8B-%E6%97%A0%E5%9B%BE%E7%89%88.pdf) | [Word](stories/%E9%BC%A0%E9%BC%A0%E5%92%8C%E5%88%9D%E6%81%8B%E7%9A%84%E6%95%85%E4%BA%8B.docx) | [TXT](stories/%E9%BC%A0%E9%BC%A0%E5%92%8C%E5%88%9D%E6%81%8B%E7%9A%84%E6%95%85%E4%BA%8B.txt) |
+| 42 | [这是一个悲伤的故事](https://tieba.baidu.com/p/9093579778) | [含图 63 页](stories/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%82%B2%E4%BC%A4%E7%9A%84%E6%95%85%E4%BA%8B.pdf) · [无图 4 页](stories/%E6%97%A0%E5%9B%BE%E7%89%88/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%82%B2%E4%BC%A4%E7%9A%84%E6%95%85%E4%BA%8B-%E6%97%A0%E5%9B%BE%E7%89%88.pdf) | [Word](stories/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%82%B2%E4%BC%A4%E7%9A%84%E6%95%85%E4%BA%8B.docx) | [TXT](stories/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%82%B2%E4%BC%A4%E7%9A%84%E6%95%85%E4%BA%8B.txt) |
 
 ## 合集网盘备份
 
