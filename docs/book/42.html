@@ -1,0 +1,463 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>第 42 篇 这是一个悲伤的故事 - 贴吧故事帖档案馆</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="favicon-8114d1fc.png">
+        <link rel="stylesheet" href="css/variables-8adf115d.css">
+        <link rel="stylesheet" href="css/general-e96d0476.css">
+        <link rel="stylesheet" href="css/chrome-d279d366.css">
+        <link rel="stylesheet" href="css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="inline-emoji-eff94e06.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "searchindex-5099b205.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc-55cdd813.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">贴吧故事帖档案馆</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="这是一个悲伤的故事"><a class="header" href="#这是一个悲伤的故事">这是一个悲伤的故事</a></h1>
+<p><a href="https://github.com/konghenfuxue-cpu/viral-posts-archive/blob/main/stories/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%82%B2%E4%BC%A4%E7%9A%84%E6%95%85%E4%BA%8B.pdf">含图 PDF</a> · <a href="https://tieba.baidu.com/p/9093579778">原帖</a></p>
+<p>配图和截图见含图 PDF。</p>
+<h3 id="楚丶门"><a class="header" href="#楚丶门">楚丶门</a></h3>
+<p>1楼 · 时间：2024-07-18 00:02 · IP：重庆</p>
+<p>曾经亲密得可以靠在我的肩上而现在连朋友都没得做的妹妹终于同意我的好友申请了，五年过去了，看🐭🐭A上去，重新开始</p>
+<h3 id="楚丶门-1"><a class="header" href="#楚丶门-1">楚丶门</a></h3>
+<p>2楼 · 时间：2024-07-18 00:02 · IP：重庆</p>
+<p>每次发帖子都没人看</p>
+<h3 id="楚丶门-2"><a class="header" href="#楚丶门-2">楚丶门</a></h3>
+<p>4楼 · 时间：2024-07-18 00:03 · IP：重庆</p>
+<p>妹妹不回我消息</p>
+<h3 id="楚丶门-3"><a class="header" href="#楚丶门-3">楚丶门</a></h3>
+<p>5楼 · 时间：2024-07-18 00:03 · IP：重庆</p>
+<p>快来人！今天是个不眠夜</p>
+<h3 id="楚丶门-4"><a class="header" href="#楚丶门-4">楚丶门</a></h3>
+<p>6楼 · 时间：2024-07-18 00:04 · IP：重庆</p>
+<p>难怪不回我，原来是删除了</p>
+<h3 id="楚丶门-5"><a class="header" href="#楚丶门-5">楚丶门</a></h3>
+<p>7楼 · 时间：2024-07-18 00:05 · IP：重庆</p>
+<p>扣1我重新加</p>
+<h3 id="楚丶门-6"><a class="header" href="#楚丶门-6">楚丶门</a></h3>
+<p>8楼 · 时间：2024-07-18 00:10 · IP：重庆</p>
+<p>回想起上次被妹妹删除，那还是在上次</p>
+<h3 id="楚丶门-7"><a class="header" href="#楚丶门-7">楚丶门</a></h3>
+<p>10楼 · 时间：2024-07-18 00:12 · IP：重庆</p>
+<h3 id="楚丶门-8"><a class="header" href="#楚丶门-8">楚丶门</a></h3>
+<p>11楼 · 时间：2024-07-18 00:19 · IP：重庆</p>
+<p>为了知道妹妹的新手机号，我可是能用的招全用了</p>
+<h3 id="楚丶门-9"><a class="header" href="#楚丶门-9">楚丶门</a></h3>
+<p>12楼 · 时间：2024-07-18 00:30 · IP：重庆</p>
+<p>接上一条，现场直播</p>
+<h3 id="楚丶门-10"><a class="header" href="#楚丶门-10">楚丶门</a></h3>
+<p>13楼 · 时间：2024-07-18 00:31 · IP：重庆</p>
+<h3 id="楚丶门-11"><a class="header" href="#楚丶门-11">楚丶门</a></h3>
+<p>14楼 · 时间：2024-07-18 00:32 · IP：重庆</p>
+<h3 id="楚丶门-12"><a class="header" href="#楚丶门-12">楚丶门</a></h3>
+<p>20楼 · 时间：2024-07-18 01:41 · IP：重庆</p>
+<h3 id="楚丶门-13"><a class="header" href="#楚丶门-13">楚丶门</a></h3>
+<p>21楼 · 时间：2024-07-18 01:41 · IP：重庆</p>
+<h3 id="楚丶门-14"><a class="header" href="#楚丶门-14">楚丶门</a></h3>
+<p>22楼 · 时间：2024-07-18 01:41 · IP：重庆</p>
+<p>往事历历在目，🐭🐭的心开始痛了</p>
+<h3 id="楚丶门-15"><a class="header" href="#楚丶门-15">楚丶门</a></h3>
+<p>32楼 · 时间：2024-07-18 07:53 · IP：重庆</p>
+<h3 id="楚丶门-16"><a class="header" href="#楚丶门-16">楚丶门</a></h3>
+<p>33楼 · 时间：2024-07-18 07:53 · IP：重庆</p>
+<p>点烟的手，微微颤抖，记忆突然开始攻击我</p>
+<h3 id="楚丶门-17"><a class="header" href="#楚丶门-17">楚丶门</a></h3>
+<p>35楼 · 时间：2024-07-18 07:54 · IP：重庆</p>
+<p>女孩子都是这样的吗？全靠猜</p>
+<h3 id="楚丶门-18"><a class="header" href="#楚丶门-18">楚丶门</a></h3>
+<p>36楼 · 时间：2024-07-18 07:54 · IP：重庆</p>
+<h3 id="楚丶门-19"><a class="header" href="#楚丶门-19">楚丶门</a></h3>
+<p>39楼 · 时间：2024-07-18 08:18 · IP：重庆</p>
+<p>这手机电越充越少</p>
+<h3 id="楚丶门-20"><a class="header" href="#楚丶门-20">楚丶门</a></h3>
+<p>40楼 · 时间：2024-07-18 08:21 · IP：重庆</p>
+<p>我从来没有想到过，那时候的故事是这样的</p>
+<h3 id="楚丶门-21"><a class="header" href="#楚丶门-21">楚丶门</a></h3>
+<p>67楼 · 时间：2024-07-18 10:30 · IP：重庆</p>
+<p>人生若只如初见，那该多好</p>
+<h3 id="楚丶门-22"><a class="header" href="#楚丶门-22">楚丶门</a></h3>
+<p>68楼 · 时间：2024-07-18 10:30 · IP：重庆</p>
+<p>🐭🐭叫她唐老师是因为她和我潜入全国语文群里面的时候她给自己的假名字就是唐老师 后来一直这么称呼了相当长一段时间才告诉我她的名字</p>
+<h3 id="楚丶门-23"><a class="header" href="#楚丶门-23">楚丶门</a></h3>
+<p>71楼 · 时间：2024-07-18 10:32 · IP：重庆</p>
+<p>接着昨天的，依然是现场直播</p>
+<h3 id="楚丶门-24"><a class="header" href="#楚丶门-24">楚丶门</a></h3>
+<p>72楼 · 时间：2024-07-18 10:32 · IP：重庆</p>
+<p>渣男不得好x</p>
+<h3 id="楚丶门-25"><a class="header" href="#楚丶门-25">楚丶门</a></h3>
+<p>161楼 · 时间：2024-07-18 12:25 · IP：重庆</p>
+<h3 id="楚丶门-26"><a class="header" href="#楚丶门-26">楚丶门</a></h3>
+<p>163楼 · 时间：2024-07-18 12:25 · IP：重庆</p>
+<h3 id="楚丶门-27"><a class="header" href="#楚丶门-27">楚丶门</a></h3>
+<p>165楼 · 时间：2024-07-18 12:27 · IP：重庆</p>
+<h3 id="楚丶门-28"><a class="header" href="#楚丶门-28">楚丶门</a></h3>
+<p>166楼 · 时间：2024-07-18 12:27 · IP：重庆</p>
+<p>刚回到家，继续更新</p>
+<h3 id="楚丶门-29"><a class="header" href="#楚丶门-29">楚丶门</a></h3>
+<p>168楼 · 时间：2024-07-18 12:28 · IP：重庆</p>
+<h3 id="楚丶门-30"><a class="header" href="#楚丶门-30">楚丶门</a></h3>
+<p>169楼 · 时间：2024-07-18 12:28 · IP：重庆</p>
+<h3 id="楚丶门-31"><a class="header" href="#楚丶门-31">楚丶门</a></h3>
+<p>171楼 · 时间：2024-07-18 12:29 · IP：重庆</p>
+<h3 id="楚丶门-32"><a class="header" href="#楚丶门-32">楚丶门</a></h3>
+<p>173楼 · 时间：2024-07-18 12:29 · IP：重庆</p>
+<p>我怎么会讨厌你呢</p>
+<h3 id="楚丶门-33"><a class="header" href="#楚丶门-33">楚丶门</a></h3>
+<p>174楼 · 时间：2024-07-18 12:30 · IP：重庆</p>
+<h3 id="楚丶门-34"><a class="header" href="#楚丶门-34">楚丶门</a></h3>
+<p>176楼 · 时间：2024-07-18 12:31 · IP：重庆</p>
+<h3 id="楚丶门-35"><a class="header" href="#楚丶门-35">楚丶门</a></h3>
+<p>177楼 · 时间：2024-07-18 12:31 · IP：重庆</p>
+<h3 id="楚丶门-36"><a class="header" href="#楚丶门-36">楚丶门</a></h3>
+<p>179楼 · 时间：2024-07-18 12:33 · IP：重庆</p>
+<h3 id="楚丶门-37"><a class="header" href="#楚丶门-37">楚丶门</a></h3>
+<p>180楼 · 时间：2024-07-18 12:33 · IP：重庆</p>
+<h3 id="楚丶门-38"><a class="header" href="#楚丶门-38">楚丶门</a></h3>
+<p>181楼 · 时间：2024-07-18 12:34 · IP：重庆</p>
+<p>说我是你的猪</p>
+<h3 id="楚丶门-39"><a class="header" href="#楚丶门-39">楚丶门</a></h3>
+<p>188楼 · 时间：2024-07-18 12:36 · IP：重庆</p>
+<h3 id="楚丶门-40"><a class="header" href="#楚丶门-40">楚丶门</a></h3>
+<p>192楼 · 时间：2024-07-18 12:38 · IP：重庆</p>
+<p>刚刚有人问背景图，发个套图吧，2020年，小猫哈德森，后来被收养了</p>
+<h3 id="楚丶门-41"><a class="header" href="#楚丶门-41">楚丶门</a></h3>
+<p>194楼 · 时间：2024-07-18 12:39 · IP：重庆</p>
+<h3 id="楚丶门-42"><a class="header" href="#楚丶门-42">楚丶门</a></h3>
+<p>196楼 · 时间：2024-07-18 12:40 · IP：重庆</p>
+<p>借我一个暮年， 借我碎片， 借我瞻前与顾后， 借我执拗如少年。 借我后天长成的先天， 借我变如不曾改变。 借我素淡的世故和明白的愚， 借我可预知的险。 借我悲怆的磊落， 借我温软的鲁莽和玩笑的庄严。 借我最初与最终的不敢，借我不言而喻的不见。 借我一场秋啊，可你说这已是冬天。</p>
+<h3 id="楚丶门-43"><a class="header" href="#楚丶门-43">楚丶门</a></h3>
+<p>341楼 · 时间：2024-07-18 18:27 · IP：重庆</p>
+<p>勉为其难地和我一起看看过去的事</p>
+<h3 id="楚丶门-44"><a class="header" href="#楚丶门-44">楚丶门</a></h3>
+<p>342楼 · 时间：2024-07-18 18:27 · IP：重庆</p>
+<h3 id="楚丶门-45"><a class="header" href="#楚丶门-45">楚丶门</a></h3>
+<p>343楼 · 时间：2024-07-18 18:29 · IP：重庆</p>
+<p>听一首搁浅简单的emo一下</p>
+<h3 id="楚丶门-46"><a class="header" href="#楚丶门-46">楚丶门</a></h3>
+<p>344楼 · 时间：2024-07-18 18:29 · IP：重庆</p>
+<p>重庆真是热的发昏</p>
+<h3 id="楚丶门-47"><a class="header" href="#楚丶门-47">楚丶门</a></h3>
+<p>345楼 · 时间：2024-07-18 18:29 · IP：重庆</p>
+<h3 id="楚丶门-48"><a class="header" href="#楚丶门-48">楚丶门</a></h3>
+<p>346楼 · 时间：2024-07-18 18:31 · IP：重庆</p>
+<p>lz实在太黑了</p>
+<h3 id="楚丶门-49"><a class="header" href="#楚丶门-49">楚丶门</a></h3>
+<p>347楼 · 时间：2024-07-18 18:31 · IP：重庆</p>
+<p>可以进个食再更吗</p>
+<h3 id="楚丶门-50"><a class="header" href="#楚丶门-50">楚丶门</a></h3>
+<p>382楼 · 时间：2024-07-18 21:34 · IP：重庆</p>
+<p>属于是</p>
+<h3 id="楚丶门-51"><a class="header" href="#楚丶门-51">楚丶门</a></h3>
+<p>383楼 · 时间：2024-07-18 21:35 · IP：重庆</p>
+<p>图片审核特别慢，给大伙看看夕阳吧</p>
+<h3 id="楚丶门-52"><a class="header" href="#楚丶门-52">楚丶门</a></h3>
+<p>384楼 · 时间：2024-07-18 21:36 · IP：重庆</p>
+<p>她真的好温柔</p>
+<h3 id="楚丶门-53"><a class="header" href="#楚丶门-53">楚丶门</a></h3>
+<p>386楼 · 时间：2024-07-18 21:37 · IP：重庆</p>
+<h3 id="楚丶门-54"><a class="header" href="#楚丶门-54">楚丶门</a></h3>
+<p>389楼 · 时间：2024-07-18 21:47 · IP：重庆</p>
+<p>我配吗</p>
+<h3 id="楚丶门-55"><a class="header" href="#楚丶门-55">楚丶门</a></h3>
+<p>390楼 · 时间：2024-07-18 21:47 · IP：重庆</p>
+<p>🐭🐭放弃幻想了，与其草率地A上去，给她看我现在颓废的样子，不如先改变自己，站在阳光之下</p>
+<h3 id="楚丶门-56"><a class="header" href="#楚丶门-56">楚丶门</a></h3>
+<p>482楼 · 时间：2024-07-20 08:27 · IP：重庆</p>
+<h3 id="楚丶门-57"><a class="header" href="#楚丶门-57">楚丶门</a></h3>
+<p>483楼 · 时间：2024-07-20 08:27 · IP：重庆</p>
+<p>围墙</p>
+<h3 id="楚丶门-58"><a class="header" href="#楚丶门-58">楚丶门</a></h3>
+<p>484楼 · 时间：2024-07-20 08:28 · IP：重庆</p>
+<h3 id="楚丶门-59"><a class="header" href="#楚丶门-59">楚丶门</a></h3>
+<p>485楼 · 时间：2024-07-20 08:30 · IP：重庆</p>
+<p>自言自语</p>
+<h3 id="楚丶门-60"><a class="header" href="#楚丶门-60">楚丶门</a></h3>
+<p>486楼 · 时间：2024-07-20 08:30 · IP：重庆</p>
+<p>人海也是海</p>
+<h3 id="楚丶门-61"><a class="header" href="#楚丶门-61">楚丶门</a></h3>
+<p>487楼 · 时间：2024-07-20 08:30 · IP：重庆</p>
+<h3 id="楚丶门-62"><a class="header" href="#楚丶门-62">楚丶门</a></h3>
+<p>488楼 · 时间：2024-07-20 08:32 · IP：重庆</p>
+<p>写文章的时候也是这样，对话是假的，但是内容是真的</p>
+<h3 id="楚丶门-63"><a class="header" href="#楚丶门-63">楚丶门</a></h3>
+<p>489楼 · 时间：2024-07-20 08:32 · IP：重庆</p>
+<h3 id="楚丶门-64"><a class="header" href="#楚丶门-64">楚丶门</a></h3>
+<p>490楼 · 时间：2024-07-20 08:32 · IP：重庆</p>
+<p>In case I don’t see you...</p>
+<h3 id="楚丶门-65"><a class="header" href="#楚丶门-65">楚丶门</a></h3>
+<p>492楼 · 时间：2024-07-20 10:51 · IP：重庆</p>
+<p>此贴就此完结，lz 到这里眼泪也止不住了，就让我当这最后一晚的懦夫吧</p>
+<h3 id="楚丶门-66"><a class="header" href="#楚丶门-66">楚丶门</a></h3>
+<p>624楼 · 时间：2024-11-13 23:09 · IP：重庆</p>
+<p>又是两年过去了</p>
+<h3 id="楚丶门-67"><a class="header" href="#楚丶门-67">楚丶门</a></h3>
+<p>643楼 · 时间：2024-12-16 20:29 · IP：重庆</p>
+<p>又是两年过去了。
+其实我想说的是，也没什么大不了的。两年之前，楼主想一个人去外地工作，慢慢忘记关于重庆的一切，在地图上挑来挑去，最后选到了杭州，于是就自己乘了二十多个小时绿皮火车过去了，公司就在阿里旁边，奈何试用期过之后，楼主发现自己满足不了公司“即插即用”的要求，头脑愚笨，卷也卷不过，后来选择主动离职。在那边开销真的很大，月薪不到4k怎么也不够花的，但我还是让自己在那里“躲”了一段时间。我曾经骑自行车两个小时，经过浙大，去看西湖。毕竟长这么大，见过海，见过江，就是没见过湖。我认为那就是我最孤独也最自在的时间。后来，后来就用力过猛了，花光了所有的钱，不得不回重庆的时候，发现自己没米了，买车票的钱甚至还是当时吧友众筹的。</p>
+<h3 id="楚丶门-68"><a class="header" href="#楚丶门-68">楚丶门</a></h3>
+<p>644楼 · 时间：2024-12-16 20:34 · IP：重庆</p>
+<p>楼主的原生家庭并不幸福，于是终于回到家之后，我的状态只有两种：要么一个人在房间里自闭，玩游戏，要么选择下一个出逃的目的地。这样的状态一直持续了14个月，这14个月里，我记不清每一天是怎么度过的，似乎计时单位不是秒，不是分钟，甚至不是每一天，而是每一个月。曾经想过，这一生要不就这样了吧，可是，二十多岁的年纪，怎么敢妄谈人生？</p>
+<h3 id="楚丶门-69"><a class="header" href="#楚丶门-69">楚丶门</a></h3>
+<p>645楼 · 时间：2024-12-16 20:44 · IP：重庆</p>
+<p>是不是现在足够的糟糕，才会让人如此挂念曾经的幸福？让人已经忘记了那时所有的烦恼，忘记了生活本来就是起起伏伏，本来就是问题叠着一个问题？我觉得自己无比怀念和她在一起的时光，于是心甘情愿地为那段时光加上所有梦幻般的滤镜。
+梅老师走了，她从北方去了南方，，再也不用感受东北刺骨的寒冷。
+是的，那时我还是会偶尔偷看她的主页，ip从吉林，变成重庆，又变成广东。</p>
+<h3 id="楚丶门-70"><a class="header" href="#楚丶门-70">楚丶门</a></h3>
+<p>646楼 · 时间：2024-12-16 20:55 · IP：重庆</p>
+<p>而现在楼主在重庆城郊工作，第八个月了。家在城北，而我一个人在城南。
+慢慢地我发现，当生活被工作填满的时候，我根本来不及孤独，来不及像以前那样充满了感伤。
+在我入职后不久，新来了一个刚毕业的大学生。和他对比，楼主终于知道了自己的大脑在经过长时间的闲置过后退化成了什么样子。用最简单的例子来说，楼主现在已经比任何时候都安于现状，可是 他告诉我“变通”，楼主现在可以在温暖的房间里敲着键盘说这一切，多亏他在冬天到来之前在这鸟不拉屎的地方找到了一间环境不错且价格低廉的出租屋，否则楼主可能还在背靠着山的农家三层小楼里瑟瑟发抖，并告诉自己“吃苦是福”。</p>
+<h3 id="楚丶门-71"><a class="header" href="#楚丶门-71">楚丶门</a></h3>
+<p>647楼 · 时间：2024-12-16 20:58 · IP：重庆</p>
+<p>我的故事很无聊，仅仅用了一次醉酒的机会，就在另外两个师弟面前把自己扒了个光</p>
+<h3 id="楚丶门-72"><a class="header" href="#楚丶门-72">楚丶门</a></h3>
+<p>648楼 · 时间：2024-12-16 20:59 · IP：重庆</p>
+<p>我真的想不起来任何和梅老师在一起的细节了</p>
+<h3 id="楚丶门-73"><a class="header" href="#楚丶门-73">楚丶门</a></h3>
+<p>649楼 · 时间：2024-12-16 21:01 · IP：重庆</p>
+<p>只有第一次见面时民谣歌手弹唱的歌曲现在还在听着。
+盛夏的重庆，我们心照不宣地碰杯。</p>
+<h3 id="楚丶门-74"><a class="header" href="#楚丶门-74">楚丶门</a></h3>
+<p>677楼 · 时间：2025-04-08 07:05 · IP：重庆</p>
+<p>有人吗</p>
+<h3 id="楚丶门-75"><a class="header" href="#楚丶门-75">楚丶门</a></h3>
+<p>689楼 · 时间：2025-05-28 12:31 · IP：重庆</p>
+<p>是的，幻想了无数次和所爱之人一起一路向西</p>
+<h3 id="楚丶门-76"><a class="header" href="#楚丶门-76">楚丶门</a></h3>
+<p>691楼 · 时间：2025-06-15 17:44 · IP：重庆</p>
+<p>有人吗</p>
+<h3 id="楚丶门-77"><a class="header" href="#楚丶门-77">楚丶门</a></h3>
+<p>692楼 · 时间：2025-06-16 00:40 · IP：重庆</p>
+<p>重庆市内需要坐摩的跑腿等请务必联系我，周末可去周边区县景点</p>
+<h3 id="楚丶门-78"><a class="header" href="#楚丶门-78">楚丶门</a></h3>
+<p>698楼 · 时间：2025-06-23 05:22 · IP：重庆</p>
+<p>由于一些历史原因，从小到大家庭一直不是很和谐，和父亲关系特别不好，他发消息给我说他心里很难受，我多希望他像以前那样对我强硬些</p>
+<h3 id="楚丶门-79"><a class="header" href="#楚丶门-79">楚丶门</a></h3>
+<p>726楼 · 时间：2025-12-26 04:14 · IP：重庆</p>
+<p>是否童年过得不幸福的人注定无法接受被爱</p>
+<h3 id="楚丶门-80"><a class="header" href="#楚丶门-80">楚丶门</a></h3>
+<p>736楼 · 时间：2026-09-25 10:37 · IP：重庆</p>
+<p>大伙儿中秋节快乐</p>
+<h3 id="楚丶门-81"><a class="header" href="#楚丶门-81">楚丶门</a></h3>
+<p>741楼 · 时间：2026-11-13 20:18 · IP：重庆</p>
+<p>最近好吗朋友们，楼主刚从工作了两年半的地方离开，正在找着新工作</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="41.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="43.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="41.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="43.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr-ef4e11c1.min.js"></script>
+        <script src="mark-09e88c2c.min.js"></script>
+        <script src="searcher-09f2665d.js"></script>
+
+        <script src="clipboard-1626706a.min.js"></script>
+        <script src="highlight-abc7f01d.js"></script>
+        <script src="book-609e4cb8.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

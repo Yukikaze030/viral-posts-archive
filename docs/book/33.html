@@ -1,0 +1,404 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>第 33 篇 讲讲跟病娇（？的故事吧 - 贴吧故事帖档案馆</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="favicon-8114d1fc.png">
+        <link rel="stylesheet" href="css/variables-8adf115d.css">
+        <link rel="stylesheet" href="css/general-e96d0476.css">
+        <link rel="stylesheet" href="css/chrome-d279d366.css">
+        <link rel="stylesheet" href="css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="inline-emoji-eff94e06.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "searchindex-5099b205.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc-55cdd813.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">贴吧故事帖档案馆</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="讲讲跟病娇的故事吧"><a class="header" href="#讲讲跟病娇的故事吧">讲讲跟病娇（？的故事吧</a></h1>
+<p><a href="https://github.com/konghenfuxue-cpu/viral-posts-archive/blob/main/stories/%E8%AE%B2%E8%AE%B2%E8%B7%9F%E7%97%85%E5%A8%87%EF%BC%88%EF%BC%9F%E7%9A%84%E6%95%85%E4%BA%8B%E5%90%A7.pdf">含图 PDF</a> · <a href="https://tieba.baidu.com/p/10366151986">原帖</a></p>
+<p>配图和截图见含图 PDF。</p>
+<p>故事很长，就慢慢讲，有囚禁（bushi）</p>
+<p>大学毕业之后，她对我的控制欲就愈发强烈，跟普通人的状况不太相同，我多少有点享受这种感觉。</p>
+<p>怎么说呢，她不是不让我出门，而是我出门如果不能秒回她消息就用自残来威胁我我觉得我这个人还是挺好的</p>
+<p>所以因为家里大部分事物都是她负责，比如卫生，饮食，也就导致我在家除了工作赚钱之外没什么能干的（这下四肢真要退化了）</p>
+<p>我带她去看心理医生也完全配合，只是在我俩分开的时候她跟我都会很郁闷</p>
+<p>我跟她的认识还得从高中讲起了，那时候分到了一个班，体育课上，两个不善社交的人就认识了，当时我也没想到两个精神病还真能混到一起</p>
+<p>因为我俩聊的来的缘故，老师也知道她有心理问题的情况下，就给我俩派到了一起，真成了同桌，她回忆这段时期的时候总是觉得自己命好，能碰上我</p>
+<p>我一直对情感的感觉比较细腻，可能是父母离异的原因吧，所以我能绕过她心里那道脆弱的防线，跟她也勉强能聊上天，她抑郁的原因我想应该是自卑</p>
+<p>因为我每对她展现出善意的时候，她总是像受到惊吓的小刺猬，无理由的展示出攻击性，因为感同身受的原因，我并不觉得这有什么问题</p>
+<p>印象深刻的是数学老师，一个中年男教师，总是带着最大声的扩音器，在班里循环播放噪音，她就跟小兔子一样，数学老师声音一大，她就哆嗦，当时的我觉得她真可怜</p>
+<p>到了高二，学习压力增大，她的抑郁却有了好转，并不能全揽在我的身上，但我说自己占八成原因应该没人反对，随着她抑郁的好转，逐渐可以跟人正常交流，三天两头的刀疤也少了很多</p>
+<p>但是随之而来的是对我的依赖，我走到哪她跟到哪，就像一只小尾巴，跟着我不停的徘徊，很可爱的</p>
+<p>但生活就像死水，每当你觉得归于平淡总会给你来一波大的，不知道是谁举报我俩谈恋爱，老师为了纪律就把我俩座位分开了</p>
+<p>注意，爱不等于占有欲，但爱包含占有欲，也许她对我的爱就是被扭曲的占有欲转化而来的吧</p>
+<p>分开之后，她变得越发冷淡，除了面对我的时候，勾巴的我真没觉得一年就能给她带来这么大的影响啊，她父母得对她啥样啊，现在问她她也不说</p>
+<p>抑郁转病娇，小说都不敢这么写，我真怀疑我祖上有没有魅魔的血统</p>
+<p>分开之后她就变得更不理人，这在高中是会被孤立的，特别是高二这种小团体已经成型的时候，于是她就被女生小团体给彻底孤立了</p>
+<p>回忆到这有点心疼了，她在学校能正常交流的人只有我跟老师，家里人估计更不能交流，还好我那时候还算是个人，能跟她聊聊天，吹吹牛，这高二的日子也就过去了</p>
+<p>高二的暑假，她跟我出来玩了两天，多少是让我有点心动，见色起意是这样的，也许我刚开始跟她做朋友的目的就不纯洁吧</p>
+<p>到了高三，学习压力越发紧张，我的焦虑也逐渐开始严重，反倒是她开始安慰我了，我们就像两只小猫，在压力的大雨中颤颤巍巍的穿梭</p>
+<p>如果现实是一款galgame，那她一定能看到我的好感度在上升，毕竟我的母亲喜欢家暴，熟络的女性关心我的只有她一个</p>
+<p>不得不说幻听是真的烦人，压力越大幻听越频繁，就像听到克苏鲁的语言，明明听不懂却能知道在说什么，包括但不限于我母亲对我的谩骂</p>
+<p>她很关心我，每次我幻听她都能注意到，这算是病娇初显吗</p>
+<p>高中毕业的时候，她把我拉到墙角，问我我能不能跟她上一所大学，我回答她能，她非要跟我拉勾，我手刚伸过去，她就一把把我拉了过去，咬上了我的嘴唇</p>
+<p>是真的咬，一直到我都尝到嘴唇流出的血才放开我，那时我的初吻，也是她的</p>
+<p>最后我选了跟她一样的大学，虽然能上更好的，但我觉得该为自己活一次了，她知道这个消息之后特地来找了我，是来查岗的</p>
+<p>虽然实际上除了她我也没几个女性好友，但还是都被删了。大学开学，军训因为（）停止，我俩只能缩在宿舍里打语音聊天</p>
+<p>虽然有一个爱你的病娇很爽，但是得注意，你得把所有精力和时间都用在她身上，这点大多数人都接受不了，但对我来说是奖励，本来我就不怎么愿意社交</p>
+<p>每天都要注意她的聊天信息，因为她心情低落的时候能依靠的只有我，我不想让她受伤，无论是身体还是心理</p>
+<p>她也让我的焦虑缓解了很多，我甚至在大学时期没那么反感社交了，但还是懒得去社交，跟女生认识她会难过，跟男生认识我会累</p>
+<p>大二，生活又给我一记重击，我母亲不再给我生活费了，也就代表着我如果要活着就得自己赚钱，好吧，我就在网上做一些兼职，这就有点冷落她了</p>
+<p>自己赚钱不光没有时间去处理跟她的关系，而且也会影响我的学业，专业不说，学校不说，反正就是被生活狠狠的做局了</p>
+<p>她也因为我的冷落感到害怕，开始自残让我注意到她，就在我焦头烂额的时候，我爹终于复活了，离婚之后他就没怎么管过我，知道我没生活费之后就不再给我妈转钱，直接把钱打给我</p>
+<p>唉，那个时候我都快崩溃了，真是让人喘不过气，有了生活费之后就开始安慰她，她趁机把我给吃了</p>
+<p>一想到这还是给我气笑了，真踏马难绷，我安慰你你给我灌醉了吃了，是人</p>
+<p>食髓入味的她就开始压榨我，直到大学毕业，我才活过来，你们不懂一边写论文一边还要任由某人在我身上蹭来蹭去的感受（虽然大部分用的gpt，感谢g圣）</p>
+<p>大学毕业，没有什么限制了，我就靠攒下来的钱租了个房子，跟她彻底开始同居，虽然还没确认女朋友的关系，但我这辈子估计也离不开她了</p>
+<p>现实的病娇（？）她应该算吧，顶多控制欲强一点，至于什么囚禁是不存在的（囚禁play倒是存在）</p>
+<p>蛋鸡贴吧？</p>
+<p>高中的事太久远了，我记不太清，大学的记得还算清晰，焦虑症害人不浅</p>
+<p>同居之后她就开始了彻底的把我养废计划，无论是家务，做饭她都一力承担，感觉她有点自卑倾向，觉得配不上我我倒是觉得我配不上她</p>
+<p>因为我并不喜欢社交，就在网上找了个工作，具体工作不说，反正能月入1w左右，也够我们两个活着，她也在网上找了个工作，好像是什么网课吧</p>
+<p>因为我社交基本为0，所以她也就并不怎么担心，因为她的社交也为0，所以我也很放心，也属于是锁死了</p>
+<p>不知道该写啥了，又有点耳鸣，你们想看什么呢</p>
+<p>我焦虑症的主要原因还是父母离异吧，加上我妈不会爱，现在已经快三年没跟她联系了</p>
+<p>她抑郁的原因问了也不说，一直跟我转移话题，家家有本难念的经，我想见她父母她也不让，她已经跟我见过我父亲了，聊的还不错</p>
+<p>我对女性的冷淡很大程度来源于我母亲，毕竟童年阴影是真的痛苦，我的小学初中跟沙包没啥区别，说起来真是好笑，我这样都没抑郁，而只是焦虑</p>
+<p>但是让我难受的是她总跟我道歉，觉得配不上我，有没有懂得告诉我一下怎么校正，我觉得要谈配得上也是我配不上她吧</p>
+<p>这是我俩认识的第8（9？）年，也算是写给自己看的吧，希望她别自杀，要死也跟我死在一起</p>
+<p>现在是在同居，她说谈恋爱太容易结束就没同意，实际上经历过父母这件事之后，我也这么觉得，没有明确的关系，但跟夫妻的区别约等于没有</p>
+<p>感觉跟我在一起之后，她的抑郁也好了点，多少算比之前有点活力了，之前夸张的一批，感觉不看住随时都要跳</p>
+<p>哦对，大学期间还有一件让她吃醋到爆炸的事情，就是一个学姐给我推销校园卡，那勾巴是个什么东西，有知道的吗</p>
+<p>反正就是跟我说有用，让我买，要加我的微信，我没同意，但是她检查我手机的时候看到她好友申请了</p>
+<p>只能说感谢我的经历给了我细腻的觉察力，赶紧安慰了她好几遍，又是跟她保证绝对不认识，我能理解她，因为她只有我了</p>
+<p>感觉好像气鼓鼓的炸药桶，一点火星就能把她引爆，但是靠近她很幸福，所以我无视风险直接安装</p>
+<p>之前心理医生给我俩的建议是别分开，感觉正合我意，下次还去那个医院</p>
+<p>大概就这些吧，暂时想不到别的了</p>
+<p>睡不太着了，过两天应该搞点安眠药了</p>
+<p>其实每天起床对我来说都是一种考验吧，起早了我担心没陪够她，起晚了我担心她感觉被忽视，所以基本每天我都提前一点起来然后等她醒跟她同时起床</p>
+<p>镇楼图是大学时期截的，本来是她跟我耍小性子（太可爱了）我截下来等有时间嘲笑她结果用在了这个贴</p>
+<p>中午了，吃个饭，看看贴。解释一下，我目前的工作类似网络中介，主要是倒卖一些东西拿抽成，具体的不跟你们讲，赛道人多了就不赚钱了</p>
+<p>不谈的原因是，我俩都认为名义上的东西没有意义，没有感情就算结婚也随时能离，我是因为家庭父母离异的原因这么认为，她我不知道，我也不想伤害她，不想问</p>
+<p>她实际上对我并没有什么负面情绪，因为我基本没有社交，在家里不是工作睡觉就是陪她，所以实际上我们很和睦，只是她比较粘人而已，比如睡觉的时候会把我缠的死死的，吃饭的时候做我身上，时不时的来亲我一口</p>
+<p>目前反正我是没有生孩子的打算，因为我不觉得我俩能当合格的父母，如果生出来让他再经历一遍心理问题我觉得我是出生，既然没法负责问题就不让问题产生，实际上我觉得我是害怕孩子出生的，不想让她身体受到伤害，也不想让她分散注意力</p>
+<p>以后的事情谁知道呢，我能做的就是把现在顾好，我也没精力想以后，说不定哪天我俩就一起死了，想那么多也没必要</p>
+<p>我觉得对情感的细腻并不是一件好事，因为往往都是因为环境不得不细腻，我前面也说过我母亲是家暴狂，一旦我态度不对就是一顿打，心情不好也是尽量找茬打，也就意味着我必须在家里不能让她不爽</p>
+<p>环境塑造了我的性格和敏锐度，如果我能换一个家庭出生我宁愿不要这份细腻，但是如果换一个家庭出生我就遇不到她了，所以我觉得这样其实也挺好的</p>
+<p>对情感越细腻，越是代表谨慎和小心，越代表所处环境的差，所以遇到情感细腻的人大多数都是家庭环境不好，正常人能远离就尽可能远离吧这是我对你们的忠告</p>
+<p>为什么有这么多说我不确定关系的如果一个东西看起来像手表，摸起来像手表，用起来像手表，这个东西叫不叫手表有意义吗？更何况我跟她都很抗拒所谓男女朋友</p>
+<p>打了半天字不知道该说啥，你们有什么想知道的吗</p>
+<p>今天日常没啥好说的，早上她还是那么依赖我，抱着我脖子闻了一会才起床，给我买的豆浆油条，经典搭配了属于是，看着她吃饭觉得好宁静，有股已经不在人世的感觉</p>
+<p>中午给我做的鸡蛋柿子，咸口做的很绝，香香的，高中看的那些小说里的贤妻良母大概也就是这样吧，忍不住揉了揉她的头</p>
+<p>下午跟她一起看了电影，还好有投屏，不然电视看真的好累</p>
+<p>头有点疼，唉</p>
+<p>你们猜猜我名字L.v.J是什么意思</p>
+<p>对的对的，老婆就应该是在温暖的阳光下靠在你身上不停蹭来蹭去的</p>
+<p>好吧，她问我了，我从来没骗过她，于是这个贴就被如实的告诉了她，她没意见</p>
+<p>这也太细心了我去，我更这贴才更多久就被发现了，她说是因为我玩手机时间跟以前不一样了</p>
+<p>凌晨醒了，脑子里以前的事反反复复，跟走马灯一样来回出现，感觉脑袋快炸了</p>
+<p>起床去抽一根担心把她弄醒，烟真是个好东西，最起码能给我点冷静的时间，话说我是什么时候开始抽烟来着，记不太清了</p>
+<p>记得是高中吧，话说我真不是什么好人啊，高中就开始抽烟，还记得刚开始抽那会，一口下去脑袋懵懵的，差点喘不过来气当时抽的就利群，现在还抽利群</p>
+<p>贴吧家里得请高人了</p>
+<p>好累，贴吧一直在删我贴，勾巴的啥也不让说是吧</p>
+<p>小时候觉得有钱了什么问题都会解决，现在才发现其实钱什么都解决不了，唉</p>
+<p>再吃药我真要吃傻了</p>
+<p>感冒了，头疼死了，给她心疼坏了，眼泪掉个不停</p>
+<p>唉，烧死我了，感觉好冷</p>
+<p>byd平时不知道听话，我一生病就老实了，给我气笑了，哭的小样子还挺可爱</p>
+<p>感觉好多了</p>
+<p>挺好玩，在她耳边哈气她就老实了，啥也不说就看着我</p>
+<p>好差不多了，但是感觉她更粘人了</p>
+<p>给她买的奶茶她弄撒了，可可怜怜的看着我，这笨蛋，还好我买了两杯，她弄撒一杯还能喝上</p>
+<p>她家庭是什么样的呢，我真的很好奇，一问她就避之不谈跟我撒娇来转移话题，唉，我真的很担心…</p>
+<p>我坚定的认为童年阴影会如跗骨之蛆一样伴随人的一生，毕竟我就是如此，但区别是我能跟她倾诉，她不能跟我倾诉…</p>
+<p>byd就半夜搞我，以前那些破事跟苍蝇一样在我脑子里徘徊，感觉想吐，真踏马难受啊</p>
+<p>感觉有点晕，没完没了了，byd跟哈基米一样应激了</p>
+<p>类似电影，不管睁眼闭眼脑海里一直在回放，勾巴的越想不想了越重复，而且细节我都分不清我是不是我幻想的了有种生理的呕吐感</p>
+<p>贴吧再删真给我贴删没了</p>
+<p>中午给我做的鸡蛋羹，还放了香油真好吃，跟她在一起感觉心情都变好了，感觉像是被养起来了</p>
+<p>今天九点多才起的，昨天晚上还是太难受了，一夜没睡好，睁眼起来就发现有只小兔子抱着我，感觉怎么亲都亲不够</p>
+<p>实际上她对我日常的观察到了一个变态的程度，甚至能知道我下一步要干什么，今天我中午刚伸个懒腰就把饭菜端上桌了，太阴了我去，秒预判</p>
+<p>累死我了，今天感觉她的情绪又不太对，总有一股死气，吓的我不行了，安慰了她一晚上，原因是她在抖音刷到了emo文案，我去了抖音怎么这么坏</p>
+<p>其实我很喜欢她的关心，即使在别人看来有些恐怖，但感觉没了她的需求我就找不到自己的位置了</p>
+<p>有时候我都觉得我自己蛮自私的，觉得她有抑郁是一件好事，不然她也不会爱上我这样平平无奇的人，唉</p>
+<p>我一条贴被删4次复原4次，又给我删了，贴吧真的是…</p>
+<p>别找我找工作了我求你们了，自己上网找找渠道不行啊</p>
+<p>醒了，感觉起床不如继续搂着她，感觉跟她依偎着整个人都不累了，呼吸打在我的肩上…</p>
+<p>byd杀软客户，给我气笑了</p>
+<p>我感觉我多少也沾点变态，特别喜欢看她哭的样子，别人哭我会很烦，她哭我觉得很可爱</p>
+<p>怎么说呢，我越来越讨厌现在的自己了，因为我发现我逐渐跟我母亲一样，遇到事情先准备指责，而不是解决，连行为方式都跟她相似，我现在还能靠着意志力强扳回来，但改正需要时间，我不知道我能不能在伤害到她之前改正自己</p>
+<p>眼睁睁看着自己变成自己最讨厌的人的样子，好吧，我有点接受不了</p>
+<p>我太累了，所以更贴就以后再说吧</p>
+<p>再见，各位</p>
+<p>有缘再会</p>
+<p>笑死我了，刚才假装身上衣服有味，骗她闻，然后亲她额头，给她害羞坏了</p>
+<p>新年快乐</p>
+<p>打了半天字不知道该说什么，我感觉我有病</p>
+<p>看着她为我哭我甚至会高兴，想看看我如果受伤她会是什么表情，这不应该…我觉得我不正常</p>
+<p>也许我拖累了她，但是我</p>
+<p>我爱她，这是我唯一能确定的</p>
+<p>我的脑子就像一个毛团，感觉现在的思维杂乱无章</p>
+<p>怎么说呢，我特别喜欢她素颜的样子，感觉只有我一个人能看到，她把自己真实的样子彻底给了我</p>
+<p>就是那种她刚洗完澡出来的时候是我觉得我最幸福的时候，感觉真的有人会把一切给我，用一切爱我，幸福带来的晕眩让我头昏脑胀</p>
+<p>一想到我俩这辈子都会死死的捆在一起我就觉得很开心，你们也许会懂这种感觉，就像小孩拿到了自己喜欢的玩具，激动到一颤一颤</p>
+<p>哦，话说回来，我现在的形象就像是阴暗长发男，头发好久没剪了感觉快跟她一样长了，勾巴高中不让留长我真的受够了</p>
+<p>今天是个好日子日收入1k+，一会给她点好吃的，再搞杯桂花乌龙</p>
+<p>马上她就过生日了，我看看准备点什么礼物，本来打算转1314的，之前半夜发作的时候狠狠的批判了一顿自己，你们觉得该送什么礼物好？</p>
+<p>突然想起我俩高中时期的合照了，我有计划了</p>
+<p>最近特别忙，有点疏忽陪她了，趁周末好好陪陪她</p>
+<p>哎呀心疼死我了，这个笨蛋做饭刀切到自己了，本来想给我做辣椒炒肉的，最后还是点的外卖</p>
+<p>我真后悔没早点点外卖别让她做饭，还好家里有创可贴，伤口不算大，但感觉是砍在我心上的</p>
+<p>应该在她做饭的时候陪她的，唉，还是对她不够用心，下次得改</p>
+<p>你贴无敌了，这贴我寻思也没啥问题就给我审核了</p>
+<p>她抱得我好紧，感觉要融进她的身体了</p>
+<p>很喜欢闻她，像两只动物一样赖在一起，整天不分开，我印象比较深刻的是一个雨天的下午，我俩混在一个被窝里，我抱着她，她抱着我，一起看闪电，听着雨点</p>
+<p>对我来说那是比我童年中少有的比去爷爷家还要放松的一天，对她来说大概也不错吧，毕竟她开心的时候总喜欢深呼吸，那个下午就没停过</p>
+<p>雨点敲打在玻璃上的声音很像有人对着你窃窃私语，但感受不到耳边的热气，谁知道呢，感觉半夜有点犯文青病</p>
+<p>说真的，我真的不知道能更什么，我一直向往的生活就是平平淡淡的，她跟我一样，我总觉得平淡的人生会给你一种安逸的幸福感，这种幸福是我跟她都稀缺的，所以我俩都在尽力让生活平淡一点</p>
+<p>我感觉她纯纯就是好涩，天天没事就在我身上摸一把调戏我是吧</p>
+<p>奈喜乐好喝捏，她跟我都挺爱吃西瓜的，今天快给我喝西瓜汁喝晕了，还没多甜，就是有点凉，她喝完非要我帮她捂肚子暖和暖和，实则小手不老实</p>
+<p>我推荐宅在家里买个那个撑墙壁的室内单杠还有那个瑜伽垫，引体向上仰卧起坐该做还得做，不健身是真搞不过她</p>
+<p>什么女魅魔，也不好好干活整天就想着往我身上靠（实则我也很喜欢）唉，还好做久了有固定客户，不然这两天真没收入了</p>
+<p>说起客户还得说一句，人与人之间真的是靠信任维持的，跟他做久了货款几十万说打过来他货还没看到就打过来了</p>
+<p>这两天我基本就是呆床上没下来过，吃饭都是她把桌子搬过来吃</p>
+<p>怎么天天咬我喉结 给我干的满脖子红印</p>
+<p>女生是天生会掐腰吗，开心掐腰生气掐腰那个的时候还掐着不放</p>
+<p>陪她旅个游吧，好久没出门了，走两步感觉腿要断了</p>
+<p>终于回来了</p>
+<p>河北真没啥好玩的，我急哭了</p>
+<p>旅游真没啥好讲的</p>
+<p>旅游怎么说呢，好热啊，一出门就给我弄满头大汗，但是海鲜倒是挺好吃的</p>
+<p>520跟521到底是哪个神人提出的？我要成干了</p>
+<p>***不行了，再榨我真要死了</p>
+<p>前两天胃疼，医生说是消化不好，给她急坏了</p>
+<p>看着她急，我也急，</p>
+<p>唉，希望能跟她多活两年，我还没跟她待够呢。最近倒是不怎么耳鸣了，就是腰有点疼</p>
+<p>好热，感觉要4了</p>
+<p>失眠了…但是不想打扰她睡觉，来贴吧看看</p>
+<p>不想工作，不想吃饭，想什么都不做，唯一想的事就是抱着她，能不能来个神仙给我个黄金动力肾</p>
+<p>突然想起来之前为了给她唱情歌自学买的吉他，练了几个月她舍不得我手起茧就没再练，啊啊啊啊，我就是这么一个没有自律性的人</p>
+<p>她已经快十分钟没跟我说话了，我好难受，只能刷刷贴吧了</p>
+<p>哇 竟然正好时隔一个月打开贴吧吗</p>
+<p>今天是个好日子 日收入两千多 打算给她买点衣服？ 不好说 快到她生日了 没想好买啥</p>
+<p>呃呃呃，好累啊今天</p>
+<p>国庆节快乐啊各位，身体健康</p>
+<p>一直也没啥好更的啊，我又不是网文作者，总不能水文吧</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="32.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="34.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="32.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="34.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr-ef4e11c1.min.js"></script>
+        <script src="mark-09e88c2c.min.js"></script>
+        <script src="searcher-09f2665d.js"></script>
+
+        <script src="clipboard-1626706a.min.js"></script>
+        <script src="highlight-abc7f01d.js"></script>
+        <script src="book-609e4cb8.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

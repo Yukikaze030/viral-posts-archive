@@ -1,0 +1,6 @@
+main img[alt="表情"], main img[alt="原表情"] {
+    display: inline-block;
+    width: auto;
+    height: 1.15em;
+    vertical-align: -0.18em;
+}

@@ -1,0 +1,332 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>第 12 篇 痛恨自己的无能 - 贴吧故事帖档案馆</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="favicon-8114d1fc.png">
+        <link rel="stylesheet" href="css/variables-8adf115d.css">
+        <link rel="stylesheet" href="css/general-e96d0476.css">
+        <link rel="stylesheet" href="css/chrome-d279d366.css">
+        <link rel="stylesheet" href="css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="inline-emoji-eff94e06.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "searchindex-5099b205.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc-55cdd813.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">贴吧故事帖档案馆</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="痛恨自己的无能"><a class="header" href="#痛恨自己的无能">痛恨自己的无能</a></h1>
+<p><a href="https://github.com/konghenfuxue-cpu/viral-posts-archive/blob/main/stories/%E7%97%9B%E6%81%A8%E8%87%AA%E5%B7%B1%E7%9A%84%E6%97%A0%E8%83%BD.pdf">含图 PDF</a> · <a href="https://tieba.baidu.com/p/11191385837">原帖</a></p>
+<p>配图和截图见含图 PDF。</p>
+<p>今天我给大家说一下自己的遗憾吧，或者说是我的无能。</p>
+<p>我家和她家走得近，所以我们从出生时就认识，就像大家说的青梅竹马的一样。</p>
+<p>我从小学毕业时就好像喜欢上她了，因为我们在的地方是一个小镇，所以我们读的初中也是同一所，不知道是不是上天的缘分，我们恰好也在同一个班。</p>
+<p>开学时的考试，班主任说考得好的可以自己选座位，我为了跟她坐一起，让不爱学习的自己在前一晚学到半夜，虽然大多数只是小学的知识，但我还是怕自己考不好。</p>
+<p>成绩出来前，座位都是随机的，她在我前面，她和旁边的男生说话时，我会难过，因为她长得很漂亮，人也好，我怕她被别人抢走，所以下课时我就立马把她拉出去玩，每次下课我都会很开心，因为可以和她说说话，在教室外看看校园风景。</p>
+<p>几天后，成绩出来了，我排在中等，她第一，我以为我不能和她一起坐了，我觉得她不会选我，因为每次都是我找她玩，她从来都没主动找过我</p>
+<p>下课老师让选座位时，她一下坐在了我的旁边，当时我特别开心，因为这三年又可以和她在一起了，她坐在我旁边时凑到了我耳边小声问我“你刚刚脸色不好，是以为我不想和你一起坐吗”</p>
+<p>我脸一下就红了，不知道该说什么，就拉着她的手去小卖部，拿了她最爱吃的可乐味QQ糖和烤肠，她问我怎么没给自己买，我当时没钱了只好跟她说自己现在不想吃</p>
+<p>她说好吧，她让我先上去，她说她要上厕所，于是我自己先回教室了，她回来时坐到我旁边，从口袋里拿出了一瓶绿茶和一根烤肠，跟我说“快吃吧，自己都没钱还请我吃，下次不许这样了”，我脸当时一下就红了，这样的日子一直持续到初二暑假</p>
+<p>刚放假，我奶奶就重病了，爸爸妈妈都去照顾奶奶了，就让我去她家，她家就在我家楼下一层，她的爸爸妈妈也对我很好，我也不好意思白住，就和她一起打扫她家的卫生。</p>
+<p>打扫到她房间时，她的房间很干净，虽然不大，但是给人一种住着很舒服的感觉，我看见她床头上有两个看着像一两岁的小孩合照，我问她“这两个小孩是谁呀”，她说“那两个小孩现在在收拾卫生”，我当时卡了，过了好久才反应过来</p>
+<p>于是我问她“我妈都没有这个照片，你怎么有”，她说“你管我，别问了，快点帮我擦一下窗户，我够不着”她不说我便没有问了</p>
+<p>打扫完卫生已经是傍晚了，我和她决定出去玩一会儿顺便在外面吃饭，跟她爸妈打完招呼后就出门了。我们走了一会儿，她说她不想走了，脚好累，要让我背。</p>
+<p>但是她穿着裙子的，我不好意思，她说“我都不在意，你怎么还不好意思”，我拧不过她，她小我快两个头，她一下跳在我背上，我发现她好轻，身上软软的</p>
+<p>我背着她走了一会儿也走不动了，她也看出我有点累了，就自己跳下来了，然后拉着我的手去到了河边坐着。</p>
+<p>我们在河边聊天，她问我想上哪个高中，我说想上有你在的高中。</p>
+<p>“为什么？”</p>
+<p>“因为我喜欢你！”说出这句话的时候我不敢看她，耳朵也红了。</p>
+<p>她许久未说话，我撇过眼去看她，发现她表情僵住了，人愣在那里，我以为她不喜欢我，刚才我的话把她吓到了，我急忙对她说“我开玩笑的，你别当真。”</p>
+<p>我话刚说出口，她就笑着说“说出的话怎么能反悔呢，要是你真的能和我考上同一所高中我就和你在一起。”</p>
+<p>“那我要是没考上呢。”</p>
+<p>“那你以后就专门送我上下学，到家给我做饭，嘿嘿。”</p>
+<p>天快黑了，我们在外吃完饭就回家了，回家的路上我愁眉苦脸，在想自己怎么才能和她考上同一所高中，而她在那蹦蹦跳跳的好像很高兴。</p>
+<p>回家后，我洗完澡就去她家玩了，我们坐在床上玩游戏，我当时只会玩火影，她要玩mc，她让我陪她玩，于是我们便在游戏里面一起建造属于我们的小家。</p>
+<p>我们玩到了半夜，我回到自己的房间倒头就睡着了，第二天醒来就去她家写作业了，我以为这个暑假就这样开开心心地过去。</p>
+<p>开学前一天父母很着急地把我接去医院见我奶奶，到时才得知奶奶快不行了，我特别伤心，明明前几天我来时还是好好的，现在却要不行了，我坐在了奶奶旁边陪她最后聊聊天，她把手放在我头上摸了摸便走了，我当时不知道为什么连哭都哭不出来。</p>
+<p>给奶奶办完葬礼后，我回到了学校，她知道我奶奶走后也特别伤心，为了让我快点走出来，放学后她都会拉着我的手去河边陪我聊天。</p>
+<p>在她的影响下没过多久我便走出来了，之后就是跟平常的初中生活一样，我成绩算中等，她全校前十，我为了跟她考上同一所高中，把游戏删了，再也没玩过，还天天让她给我补课。</p>
+<p>最后一次模拟考试时我考进了全校前五十，她全校第二，她读的肯定是市里最好的高中，我现在离她还差一点。</p>
+<p>后来中考考完后，我觉得自己肯定能和她上同一所，因为那些题我感觉都做过，而且也全都做了出来，但还是会很慌张。</p>
+<p>等成绩的那几天她拉着我到处玩，白天我们就去小吃街吃好吃的，去河边坐着，晚上就一起在玩游戏，她也看出了我在害怕没考好，那几天也一直在安慰我。</p>
+<p>成绩出来了，她果然考上了最好的高中，我看见我成绩时手一直在抖，因为就差6分就能跟她一个高中了，我躲在被窝里哭，她过来问我为什么哭，说我不也考上了重高吗，哭啥。</p>
+<p>我拉着她的说哭着说“我没能跟你考上同一所高中，我不能和你在一起了”</p>
+<p>“谁说的，我只是当时为了激励你，而且，就算你普高也没考上，我也会和你在一起的。”她帮我擦了擦眼泪笑着对我说</p>
+<p>她说完后抱住了我，我哭着问她“那我们现在可以在一起了吗”</p>
+<p>“嗯嗯，我们不会分开的，你别难过了”</p>
+<p>后来双方的家长也知道了我们的事，也都支持，我爸还拿了5000块钱让我带她出去玩，她一直想看海，我和她去到了平潭，那里人很多，但是我并不觉得多，我眼中只有站在海风中的她</p>
+<p>假期一晃就过去了，到了开学的时候我们就分开了，我们办的走读，所以放学就能见到了，每次放学我都会带她去吃好吃的，虽然天天都能见到，但是回家后我们仍然打着视频看着对方入睡。</p>
+<p>她长得越来越好看，她学校有好多人追她，她说过她有男朋友，但是追她的人不信，直到看见我跟她放学手牵手一起走，喝对方喝过的奶茶才相信她有男朋友。</p>
+<p>我17岁生日时，她给我送了一个汽车模型，我到现在都没打开，那天我们的父母都没在家，她一个人在家给我过生日，我关上灯，许完愿，刚吹灭蜡烛，就感觉到嘴上有一个软软的触感</p>
+<p>“这是第二个礼物，我的初吻。”她说完后就跑开了，我愣在原地，像是在温存刚才的感觉，反应过来后，切蛋糕的手都在抖。</p>
+<p>吃完蛋糕后，我们坐在了沙发上看电影，看得好像是“你的名字”，刚开始男女主交换灵魂那一段，她还捂着我眼睛不让我看，看完后我们依偎在一起睡着了。</p>
+<p>我睡醒后睁眼发现她早就醒了，发现她一直在看我眼角还带点泪，我问她你哭了吗，她只是说有点没睡醒眼角有泪很正常。</p>
+<p>我们睡醒后就去了经常去的河边，她靠在我肩上，跟我说着她以后想干什么，想考什么大学，她说完后就来问我，我每次回答的都是“和你在一起就够了”</p>
+<p>她听完后靠得更紧了，对我说“你会一直喜欢我，对吗？”</p>
+<p>“我会一直喜欢你，直到我死去。”</p>
+<p>“要是有一天我不在了呢。”</p>
+<p>“你说什么呢，别说这种话，而且就算你不在了我也不会喜欢别人，绝对不会。”</p>
+<p>她没有接话，笑着缩进了我的怀里，没过多久她睡着了，我看着她的脸，感觉自己现在的生活就算没有大富大贵也很美好了。</p>
+<p>第二天，我准备找她去新开的西餐厅吃饭，我给她发消息没有回我，我以为她还在睡，便去洗了个澡，洗完后她还是没有回我，我就下楼去找她，但是她家一个人没有，我当时心里就一点害怕了。</p>
+<p>我给叔叔阿姨打去了电话，过了好久才接，电话里头阿姨告诉我她在医院并让我过去看看，我听出了阿姨的语气像是刚经历了啥难过事的，所以心里越来越慌，医院并不远，离我们家只有几公里，但是对于我来说好像有几十公里。</p>
+<p>我赶到医院后只看见她躺在病床，脸上没有一点血色，我哭着跑了过去了，握着她的手，很烫，我的心此刻却冷了，阿姨告诉我是白血病，是在我生日的前一天查出来的，她为了让我开心地过完一次生日，硬撑着陪了我一天。</p>
+<p>“别哭了我不是还在吗，你怎么老爱哭呀”她跟以前一样，每次我哭时她都会笑着安慰我，这次也一样。</p>
+<p>“你别吓我好不好，你会好起来的对不对，这个病不是要骨髓吗，万一我合适呢，我把我的给你好不好。”我哭得更厉害了只想让她好起来。</p>
+<p>阿姨在一旁听见我说的话也哭了，她让我别难过了，说一切都会变好的，让我先回去上学，下星期再来看吧。在学校的那几天我饭都吃不下，晚上总会流泪，后来我不想这样了便让我父母给我办了休学去陪她。</p>
+<p>一个星期后，医生让她回家休养几个星期准备下一阶段的化疗，这几个星期我一直在她身边，给她讲故事，一起听她爱听的歌，她喜欢周杰伦的晴天，所以在那段时间我学会了用吉他给她弹来听，虽然弹得不太好，但是她很开心。</p>
+<p>每天晚上我都会拉着她看一遍《你的名字》我想告诉她“我不会忘记你，我会一直喜欢你”，她还是跟我们第一次看时一样，男女主刚开始交换灵魂的片段不让我看。</p>
+<p>在去医院前一天晚上，她带着我去到了我们经常去的河边坐着，那晚的风很大，吹得我快看不清她了。</p>
+<p>我们握着手依偎在一起，过了一会儿她开口了。</p>
+<p>“你会…”</p>
+<p>“我会，我一直都会喜欢你的”</p>
+<p>“你怎么知道我要问你这个”</p>
+<p>“因为每次来这里你都会问我一遍”</p>
+<p>她笑了，我也笑了，笑着笑着下雨了。</p>
+<p>回家后她躺在我怀里让我给她讲故事，讲的啥有点记不清了好像是“有一只小兔子和小松鼠总是形影不离， 一天小兔子跟着主人搬家，两人便分开了。小松鼠便日夜守在大树下，天天抱着松子等它回来，一等就是许久它自己都不知道等了多久。 又是一年春，小兔子回到这片草地，飞快奔向树洞，看见了小松鼠，它们紧紧抱在一起，再也不愿分开。”</p>
+<p>故事讲完她睡着了，我没有睡我看着她的脸看了一晚上，眼角时不时落下一滴泪，等我反应过来时天已经亮了，她醒了，睡醒时的样子好可爱。</p>
+<p>治疗了一段时间后，医生说她的分型预后差，化疗反应很重，几次下来肝肾功能已经受损，找到初配相合的供者，评估后却发现她感染控制不住，身体扛不住移植，靶向药也试过，基因靶点并不契合，效果很有限。大致意思就是特别难治。</p>
+<p>一段时间后她跟我们说“我好痛苦，我不想治了，那天医生说的话我大致也听懂了，现在这种情况特别难治，还浪费很多钱，而且我好疼。”</p>
+<p>我听见她的话沉默了，我想让她快点好起来但是不想看到她每天这么痛苦，叔叔阿姨和她聊了一晚上，尊重了她的意见，我在一旁看着她，想说的话又卡在喉咙说不出口。</p>
+<p>后来她稳定一点后便出院了，我不知道她还能陪我多久，于是我每天便陪在她身边，晚上一起看电影，我弹着吉他讲着故事哄她入睡。</p>
+<p>接下来的几个月，大部分时间我们都呆在一起，她会时不时地对我笑，难受的时候会沉默、会发脾气，也会偷偷掉眼泪，有时候状态稍好，就拉着我去河边坐着聊以前的小事，还有确定在一起的那天…她尽量不让我看见最狼狈的样子，但我都看见了。</p>
+<p>没多久她的病便加重了，我们回到了医院，过了很久她醒过来了，那天病房很安静，她靠在我肩上，声音很轻带点哭腔：“其实我舍不得，你好不容易才和我在一起，最后却是我抛弃了你。”我攥着她的手，指尖已经偏凉，心里明明知道结局是什么，嘴上还是反复说着会好起来。</p>
+<p>几天后的一个早上她对我说“你再给我讲一遍那个故事吧”</p>
+<p>“好，小兔子和小松鼠总是形影不…”</p>
+<p>故事刚讲到开头，她便睡着了没有电影里那种盛大的告别，就是一个普通的清晨，医生过来示意的时候，我才真正反应过来，叔叔阿姨在一旁流泪，我跟那时我奶奶去世时一样，没有流一滴泪</p>
+<p>那个夏天许下的承诺还在，只是她不在了，我也不会忘记和她的承诺</p>
+<p>你回来找我好不好，我一直在海边等你</p>
+<p>大家可以认为我是编的当看个乐子就好</p>
+<p>好几年了，我到现在还没拆，留个念想吧</p>
+<p>想了很久还是拆开了，里面是一张她写的卡片</p>
+<p>又下雨了，我想你了</p>
+<p>你骗我，你说过你一直都在的</p>
+<p>今天是想你的第1410天</p>
+<p>有些时候非常想她时就会对着她的聊天框自言自语，说的太多了，就先发这些吧</p>
+<p>骂我也好，说我编的也好，如果你们觉得这样做能让你们开心就行，我只是记录一下，这几年想她想的饭都吃不好自己身体也出问题了，应该没多久可以去找她了，她还在等我带她去看海</p>
+<p>海还是那片海，你也是当初的你，一切都没变，只有我变了</p>
+<p>那些私信骂我的，说我跟风的，我几个月前在她生日那天就写好了，只是最近看见好多人都在分享自己的故事，我也想分享一下，一直藏在心里也不是一件好事，也正好纪念一下</p>
+<p>这些当时是凌晨睡不着太想她了，一边哭一边写的，所以好多地方没写到，我文笔不好，当时就是因为语文的作文没写好才没和她上到同一所高中，所以我写得有点潦草，但是内容也跟那天写的差不多</p>
+<p>有人给我私信说想看信中的内容，说图片有点看不清，我也懒得一个一个回了，就发出来吧</p>
+<p>生日快乐呀！当你看到这张卡片时一定要完成我在这上面说的话，听见没有！第一，你以后想我了就拿出来拼一块，记住，每天只能拼一块。第二，你以后让我生气了就拆一块。一共有 2000 多块，等你什么时候拼好，你就拿它来娶我。还有，我会一直爱你的，不会抛弃你，这辈子都不会！</p>
+<p>对了今天是我在海边等你的第1412天</p>
+<p>之前还写了我陪她治疗的时候，因为那几个月的事情我一字没落，所以字数太多了就没发</p>
+<p>我看好多人发了还是有点流量的，流量都给你们了，别骂我了，大家当个我编的伤感小说看就行了，过不了多久大家也会忘记的</p>
+<p>为啥删不掉啊</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="11.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="13.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="11.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="13.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr-ef4e11c1.min.js"></script>
+        <script src="mark-09e88c2c.min.js"></script>
+        <script src="searcher-09f2665d.js"></script>
+
+        <script src="clipboard-1626706a.min.js"></script>
+        <script src="highlight-abc7f01d.js"></script>
+        <script src="book-609e4cb8.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>
