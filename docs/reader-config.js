@@ -1,0 +1,1 @@
+window.$docsify = {"basePath": "https://raw.githubusercontent.com/konghenfuxue-cpu/viral-posts-archive/main/stories/%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB/", "homepage": "暗恋两年的高中同学 决定拿下.md", "hideSidebar": true, "executeScript": false};
