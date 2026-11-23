@@ -1,0 +1,1001 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>第 71 篇 又到了下雪的季节了 - 贴吧故事帖档案馆</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="favicon-8114d1fc.png">
+        <link rel="stylesheet" href="css/variables-8adf115d.css">
+        <link rel="stylesheet" href="css/general-e96d0476.css">
+        <link rel="stylesheet" href="css/chrome-d279d366.css">
+        <link rel="stylesheet" href="css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="inline-emoji-eff94e06.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "searchindex-0eb2a4f5.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc-e8f1a98b.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">贴吧故事帖档案馆</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="又到了下雪的季节了"><a class="header" href="#又到了下雪的季节了">又到了下雪的季节了</a></h1>
+<p>作者：袭冬</p>
+<p><a href="download.html#贴吧故事合集">含图 PDF（网盘下载）</a> · <a href="https://tieba.baidu.com/p/9328582655">原帖</a></p>
+<p>配图和截图见含图 PDF。</p>
+<p><small>1楼</small></p>
+<p>希望趁我还记得这些事情，能够把它们记录下来</p>
+<hr>
+<p><small>2楼</small></p>
+<p>今天打扫家里，又翻到了以前的东西，仔细想想却发现好多事情都记不清了，但又觉得忘记了很可惜，就想趁我还记得的时候记下来</p>
+<hr>
+<p><small>5楼</small></p>
+<p>我当时还挺懵的，因为我和写信的女生虽然以前关系很好，但也有好些年没联系了</p>
+<hr>
+<p><a href="https://tieba.baidu.com/p/9328582655?pid=151375699150">第 5 楼下 · 楼主补充 · 袭冬</a></p>
+<p>中间删了一楼 原文是：18年的时候，也是快到年底，我有个很久没联系的高中女同学，突然给我发消息。说有东西要交给我。我当时很奇怪，我们也不算很熟。然后见面过后她给了我这本书，书里还夹了些信件，说是那个人拜托她转交给我</p>
+<hr>
+<p><small>6楼</small></p>
+<p>回家拆开过后才发现，这些全都是她这些年写了但没给我的情书…其实有时想来挺感慨的，也一下子觉得时间过的真快</p>
+<hr>
+<p><a href="https://tieba.baidu.com/p/9328582655?pid=151375704320">第 6 楼下 · 楼主补充 · 袭冬</a></p>
+<p>当年好多事情都已经记不清了，也得亏有她写的信，还能刺激刺激我的回忆</p>
+<hr>
+<p><a href="https://tieba.baidu.com/p/9328582655?pid=151375704320">第 6 楼下 · 楼主补充 · 袭冬</a></p>
+<p>回复 贴吧用户_QPMZE2J:别唱了哥，本来怪伤感的你给我整笑了
+<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-001.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-001.png" alt="原表情"></span></label></p>
+<hr>
+<p><small>7楼</small></p>
+<p>这个写信的女生，我就称她为雪吧，雪是我的初中同学，准确的说她初二才转来我们班上</p>
+<hr>
+<p><small>8楼</small></p>
+<p>我那时候生活在成都下属的一个小县城里面，初二的时候，应该是05年，雪转过来的时候，老师也没有过多介绍，只说了她是北方人，然后因为我旁边有空座位，又正好坐前排，就顺手把她安排在我旁边当同桌了</p>
+<hr>
+<p><small>10楼</small></p>
+<p>老实说，雪长得挺漂亮的，五官什么的我感觉有点像倪妮，而且有股那种北方的大大咧咧的豪爽感，是当时我周围那些女生里少见的</p>
+<hr>
+<p><small>11楼</small></p>
+<p>雪很自来熟，基本上很快就和班里的同学熟络起来了，相比之下我还要内向的多，经常有些小组交流之内的，反而是她一个新来的在那说个不停</p>
+<hr>
+<p><small>12楼</small></p>
+<p>有的时候她还会故意凑到我面前来问我的想法，我一般是不想开口的，但谁让她长得也还可以，我当然也不会生出反感<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-002.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-002.png" alt="原表情"></span></label>
+一般我就戳一下跳一下</p>
+<hr>
+<p><small>14楼</small></p>
+<p>但我没有对她生出太多那方面的好感，因为那个时候我已经有喜欢的女生了，就是当时小组内坐我前排的女生，我就简称她为雨吧</p>
+<hr>
+<p><small>15楼</small></p>
+<p>我们当时座位安排比较奇特，我和雪坐在下面这张桌子，雨就坐我跟前</p>
+<hr>
+<p><small>16楼</small></p>
+<p>但我当时还是个腼腆小男生，而且雨的成绩非常好，加上她整个人一天到晚话都不说只爱学习，搞得我除了偶尔找她问问题蹭蹭印象以外，其他基本上也没啥交集</p>
+<hr>
+<p><small>18楼</small></p>
+<p>雨这个人也没啥朋友，至少整个初一一年都没有，但是就在雪转来班上过后不久，她们俩就莫名其妙变成好闺蜜了，经常放学或者体育课什么的就手牵手一起走</p>
+<hr>
+<p><small>19楼</small></p>
+<p>我那时挺好奇的，按理说雨这么个冰山美人不是那么容易打动的。于是我记得我那时还专门私底下找雪讨问经验，但雪就回了我个白眼，没搭理我</p>
+<hr>
+<p><small>20楼</small></p>
+<p>因为雪非常话痨，但是一般上课的时候雨不会搭理她，她就只能天天找我摆龙门阵，可能一来二去对我产生了些情感</p>
+<hr>
+<p><small>21楼</small></p>
+<p>那时候还有件事我印象深刻，应该就是她转过来的那个国庆，归校过后有个下午，雪被班主任喊到办公室，我因为是科代表，当时刚好要去那边交作业，就看见雪和一个男的（估计是她爸）在那闹的很不愉快，后来她稍晚些回座位过后就开始趴在座位上哭</p>
+<hr>
+<p><small>22楼</small></p>
+<p>因为认识这么多年真的很少见她这样，所以留下了很深的印象，因为当时快上课了，很多人目光就往这看，整的我有点尴尬，就抽了几张纸递给她，顺便拍了拍她的背以作安抚，然后她又擤了老半天鼻涕才算好</p>
+<hr>
+<p><small>23楼</small></p>
+<p>初中的时候，我想想，很多事情都记不清了，就记得我们学校是私立初中，挨着一个工厂，然后校门外面就一条工厂排水渠，经常散发恶臭，然后老师基本上都管的很严，但正因此学校普遍成绩也不错</p>
+<hr>
+<p><small>24楼</small></p>
+<p>宿舍是八人间，两边四张上下床加中间一张大桌子，一到夏天男厕所混着臭水沟就邦臭，而且男生寝室大伙也都挺懒的，除了阿姨检查卫生之前都不会怎么打扫</p>
+<hr>
+<p><small>25楼</small></p>
+<p>当时宿舍里八个男生，三个三个一个小团队，就剩下我和另一个胖子。我是因为不擅长也不喜欢社交，在宿舍里经常就自己读小说，吃饭也喜欢一个人吃，胖子是块头大胆子小，加上成绩一直不上不下，我记得他基本上每天都在认认真真看书刷题，但成绩一直没啥起伏</p>
+<hr>
+<p><small>26楼</small></p>
+<p>那个时候除了少数几个排后面耍朋友的，大部分人还是看重成绩的，毕竟都是家里花了钱弄来读书的。雨的成绩常年第一，但倒也没有碾压的优势，我的成绩基本上就班上十名左右，雪的成绩再次，二十来名吧</p>
+<hr>
+<p><small>27楼</small></p>
+<p>然后我和雪都偏科，我数学基本上稳第一，雪是语文很好，经常因为雨学习的时候不怎么理人，雪遇到不会的题就会一直找我解答</p>
+<hr>
+<p><small>28楼</small></p>
+<p>然后我记得有次寒假放假之前，雪突然问我有没有QQ，当时是零五还是零六我忘了，反正当时创建了但还没怎么用过，然后雪撕了张小纸条赛给我，上面写了她的QQ，让我回去加她然后寒假一起出去玩</p>
+<hr>
+<p><small>29楼</small></p>
+<p>成都的冬天很少下雪，就算有也只是一些小打小闹而已。然后那次放寒假没多久，我记得当时我还在打跑跑卡丁车，雪就给我发QQ，说天气预报说明天有雪让我出来玩一起看雪</p>
+<hr>
+<p><small>30楼</small></p>
+<p>我那时候还莫名其妙的想她一个北方人这么点雪应该啥也算不上，本来不想去想窝在家里打游戏的，结果她又补一句说雨也会去，一下就把我钓住了</p>
+<hr>
+<p><small>32楼</small></p>
+<p>当时因为我们三人一个小组，经常一起活动聊天之类的（主要是她和我俩分别聊，我和雨很少），所以我们仨勉强因为她算是个小团体，当然我也不可能反感，毕竟难得能有和雨接近的机会，那时候我还以为雪在当僚机给我创造机会呢<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-003.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-003.png" alt="原表情"></span></label></p>
+<hr>
+<p><small>33楼</small></p>
+<p>第二天果然飘了点小雪，我套了件羽绒服拿了把伞就出门了，当时是说去人民公园，离我家不远，至于她们俩怎么去的我就不知道了，反正我到那的时候她们已经到了整的我还怪不好意思的</p>
+<hr>
+<p><small>34楼</small></p>
+<p>人民公园在山上，要爬一小段路，当时雪越来越大，因为她们俩牵着手走在前面，我就把我的伞给她们俩打着，我走后面</p>
+<hr>
+<p><small>35楼</small></p>
+<p>人民公园现在很漂亮了，但当年基本上没怎么开发，就有个池子在那里，然后因为天空一直在下雪，池子上也飘了一小层白雪，很好看，对于没怎么见过雪的我和雨来说也很稀奇</p>
+<hr>
+<p><small>36楼</small></p>
+<p>我们三当时找了个地方避雪，然后我记得她们俩在一旁聊天，我在那无所事事就看风景，结果越下越大，于是雪就提议下山撤退，然后本来我想把伞递给她们俩，结果雪一把手把自己棉服后面的帽子扯上，啥话也不说伞也没拿就走了</p>
+<hr>
+<p><small>37楼</small></p>
+<p>时隔这么多年我还记得一清二楚，因为当时雪摆明了就是要我和雨同打一把伞，我当时紧张的不行，但心里还是在想，雪酱，阿里嘎多<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-004.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-004.png" alt="原表情"></span></label></p>
+<hr>
+<p><small>39楼</small></p>
+<p>后面虽然很尴尬，但也给我爽了一把，和女神一起撑一把伞，而且因为我长得比较高，所以伞一直往她那边倾，自我感觉可良好了，像个西方守护公主的骑士一样<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-005.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-005.png" alt="原表情"></span></label></p>
+<hr>
+<p><small>40楼</small></p>
+<p>不过也正因为这件事，我一直觉得雪是不喜欢我的，只是作为朋友，不然不可能摆明了把我往雨那边推，加上一些感激的心情，因此往后也对她很多地方没有设戒心</p>
+<hr>
+<p><small>41楼</small></p>
+<p>然后我记得就是那个寒假开学过后，雪好几天都没来上课，老师也没人提她，班上挺多同学议论纷纷的搞得我以为她又转走了。过了好几天她才回来，当时我感觉她整个人精神状态都很差，一点往日那种神采奕奕的感觉都没有了</p>
+<hr>
+<p><small>42楼</small></p>
+<p>但她什么也没跟我说，只跟雨一个劲的说悄悄话，我当时就觉得，人的确还是有很多面的，哪怕她这种大大咧咧的女生，也会有很脆弱的一面</p>
+<hr>
+<p><small>43楼</small></p>
+<p>但是很快她就恢复了。在初中剩下不多的时间里，她和我还有雨的关系越来越好，和雨倒是没什么，但因为和我走得很近，就难免班上会有其他同学说闲话，有的时候我们俩一起被抽问抽起来其他人就会起哄</p>
+<hr>
+<p><small>44楼</small></p>
+<p>但因为身正不怕影子斜，加上雪本来也挺漂亮的，我就默认了<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-006.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-006.png" alt="原表情"></span></label>
+也懒得说什么</p>
+<hr>
+<p><small>45楼</small></p>
+<p>反正如今说来还挺怀念初中的，那个时候臭水沟旁边的小吃街，还有教学楼旁边那棵银杏树，一到秋天就遍地金黄，基本上算是学生时代最快乐的一段了</p>
+<hr>
+<p><small>46楼</small></p>
+<p>哦毕业之前还有个小插曲，之前说的胖子，因为寝室里就我俩没有小团体，所以我们俩有时会凑一起，主要是他会问我题，胖子基本上没啥朋友，我可能勉强称得上吧</p>
+<hr>
+<p><small>47楼</small></p>
+<p>因为胖子平常性格唯唯诺诺的，所以经常被人欺负。当时班上有几个那种街娃儿，就经常没事找事，放现在我觉得已经可以称得上是霸凌了</p>
+<hr>
+<p><small>48楼</small></p>
+<p>本来胖子一直忍的，但是临近中考前不知道是天气和氛围有点燥热，还是他成绩一直不上不下搞的他很烦躁，总之就四月份有天下课，我还在和雪聊天呢，就听到bong的一声，回过头去就看见胖子拿着当时我们坐的那种长条板凳，给一个经常骂他的男的头上开了瓢<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-007.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-007.png" alt="原表情"></span></label></p>
+<hr>
+<p><small>49楼</small></p>
+<p>虽然大家都看在眼里也都支持他，但毕竟不是小事，班主任很快就把那个被打的男的抱走了，然后也把胖子叫走了，胖子从办公室回来过后，就开始收拾东西了</p>
+<hr>
+<p><small>50楼</small></p>
+<p>我当时没想到这是和胖子的最后一面，不然那时我不会无动于衷就看着他走，他从我旁边过的时候扫了我和雪一眼，我只是捏了捏他的手，都没有告别</p>
+<hr>
+<p><a href="https://tieba.baidu.com/p/9328582655?pid=151375989425">第 50 楼下 · 楼主补充 · 袭冬</a></p>
+<p>回复 Shareyou9:不知道，反正那天过后他就回家了，后面好像还是参加了中考，但我们那时候也没加联系方式，后面就一直没消息了</p>
+<hr>
+<p><small>51楼</small></p>
+<p>现在想来还是挺难过的</p>
+<hr>
+<p><small>52楼</small></p>
+<p>但当时中考迫近，大家都没有太多心情关注别人。当时县里有三个高中，我和雨的成绩上最好的那个是没问题的，雪估计就有点悬了，所以临近考试的时候雪常常缠着我给她讲题</p>
+<hr>
+<p><small>53楼</small></p>
+<p>中考考的啥早记不清了，但我记得考完后返校宣布成绩那天，班主任还在整理成绩还没来的时候，班上同学就开始互相在校服上签名了。雪人缘很好我都还没签几个她都快签满了，但她专门留了个袖口的位置给我，让我给她签了名字</p>
+<hr>
+<p><small>54楼</small></p>
+<p>然后我一看雨，我发现雨一个人在旁边看书，身上干干净净，估计没人来找她签，她好像也没给别人签<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-008.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-008.png" alt="原表情"></span></label>
+然后雪就拉着我们俩，非要我们互相签个名，雨那时好像挺不好意思的，但还是在我身上找了个位置签了名字</p>
+<hr>
+<p><small>55楼</small></p>
+<p>然后雪让雨背过身去，让我在雨背上签字，我当时那个紧张的<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-009.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-009.png" alt="原表情"></span></label>
+因为当时穿个夏季校服，雨趴在前桌，背上的小背心痕迹都凸显出来了，我一边假装在她身上找位置写名字，一边悄悄用手侧蹭蹭她的背<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-010.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-010.png" alt="原表情"></span></label></p>
+<hr>
+<p><small>56楼</small></p>
+<p>当年那件校服现在我还留着，但因为那天穿出了汗而且回来过后也不敢洗，早就发黄发臭了。签完名字过后就是坐着等成绩了，雨毫无意外还是第一，也就第一个收拾完东西出去了，在外面等雪一起走</p>
+<hr>
+<p><small>57楼</small></p>
+<p>当时雪可紧张了，我看她大气都不敢出，一直盯着班主任。但是最后结果很好，也很巧，班主任念完我的名字过后，我上去拿成绩都还没下来，又念了她的名字，我顺手一起拿下来了</p>
+<hr>
+<p><small>58楼</small></p>
+<p>这给她高兴的，飞速收拾好东西出去找雨了，走之前还给我说了句高中再见，笑眯眯的就走了。当年我考的应该不算差，所以的确是她超常发挥了</p>
+<hr>
+<p><small>59楼</small></p>
+<p>上高中，也就是07年，我还记得那个暑假给我玩爽了，当时电脑上天天玩三国群英传四和仙剑三，因为这个还戴了眼镜，被家里人骂了一顿</p>
+<hr>
+<p><small>60楼</small></p>
+<p>当时高中是新修没多久的校区，而且毕竟是县里最好的高中，反正各方面条件比初中那破地方好多了，我第一天去学校都直接迷路了，面积又大，教学楼都好几栋</p>
+<hr>
+<p><small>61楼</small></p>
+<p>好不容易才找到自己的班级，去找班主任签到，刚进班级，我就又看见雪了，我当时就觉得，还真是有缘，高中又同班，而且我那天去的很晚，好像是最后几个，我估计雪就一直在那里和班主任聊天顺便等我</p>
+<hr>
+<p><small>62楼</small></p>
+<p>我记得就是那时我感觉雪是有点喜欢我了。那天签了名过后我就和她一起走，我还顺便问了她雨什么情况，雪本来蹦蹦跳跳的，结果一下安静下来，然后就说雨的成绩在一楼火箭班（我们俩在三楼普通班），我想了想也是</p>
+<hr>
+<p><small>63楼</small></p>
+<p>也是那时候，我感觉有些伤感，过去和雨不过是前后桌而已，现在就已经差了几层楼了，等高考过后，说不定就是大半个zhongguo了，一股无力感就来了</p>
+<hr>
+<p><small>64楼</small></p>
+<p>那时候高一的教学楼只有四层，像个四合院一样把我们包起来，每层楼东西两侧各三个班级，总共24个班，中间的院子种了两排绿植，南北楼层连接处是老师办公室和厕所，我和雪当时在十三班，就在三楼楼梯口旁边</p>
+<hr>
+<p><small>65楼</small></p>
+<p>我不知道是有谁故意为之，还是纯巧合，反正分完座位过后，我和雪又是同桌，我虽然觉得有点奇怪，但毕竟新环境里面，和熟悉的人坐一起也挺好</p>
+<hr>
+<p><small>66楼</small></p>
+<p>高中宿舍条件也比初中好的多，当时我多花了点钱，住的四人间，上床下桌独立卫生间和全天热水供应，比初中那个老破小不知道好到哪去了</p>
+<hr>
+<p><small>67楼</small></p>
+<p>高一刚开学课业压力就不轻，因为要为一学期后的分文理做准备，相当于九门课都要学，加上周围人成绩都不差，所以压力还有点大</p>
+<hr>
+<p><small>68楼</small></p>
+<p>当然雪的压力更大，我当时基本上是打定主意选理科的，所以历史什么的看都懒得看也不怎么学，雪是反过来的，但毕竟数学这种科目无论怎样都要学，雪还是经常找我问题</p>
+<hr>
+<p><small>69楼</small></p>
+<p>我当时想着，估计雪选了文科我们俩就分开了，当然我不讨厌她。但当时一个新环境里面，雪还是一样经常黏着我，就难免引起周围很多人误会</p>
+<hr>
+<p><small>70楼</small></p>
+<p>雪经常课间大声喊我名字，饭点约我一起吃午饭，晚自习结束过后还要我送她回女生寝室，周围很多人估计都以为我们俩是情侣。不过看在雪还算漂亮的份上我没说什么，反正也没什么实际影响<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-011.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-011.png" alt="原表情"></span></label></p>
+<hr>
+<p><a href="https://tieba.baidu.com/p/9328582655?pid=151376167862">第 70 楼下 · 楼主补充 · 袭冬</a></p>
+<p>回复 ra11nbow:雪最开始来的时候讲那种东北腔很浓的普通话，因为听起来很好笑反而让她很快和同学们关系好了起来。后来可能她觉得与环境格格不入就自己有在刻意学习四川话，到高中毕业去成都玩的时候已经基本上听不出是外地人了</p>
+<hr>
+<p><small>71楼</small></p>
+<p>除此之外，还有一些小心思，特别是当初公园里的事情总让我多想，因为我和雨基本上断了联系，但雪和她没有，雪偶尔会下课跑下楼去找雨聊天，每当这时我就期盼她能带回一些关于雨的消息</p>
+<hr>
+<p><small>73楼</small></p>
+<p>快分班之前，有次雪假借雨的名义问我，实际我知道就是她自己想问。大概就是问我分班准备读文还是理，我直说读理，觉得文太无聊过后，雪就不说话了</p>
+<hr>
+<p><small>74楼</small></p>
+<p>那时候雪还给我开玩笑，说文科班美女应该挺多的到时候给我介绍介绍，但我已经能看的出来她是强装倔强了</p>
+<hr>
+<p><small>75楼</small></p>
+<p>不过那时候给雪把话说的这样确定，没想到后来自己打自己的脸<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-012.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-012.png" alt="原表情"></span></label>
+因为刚上高一还有点懒散，搞得我成绩一落千丈，中考成绩我是班上第三，结果学期快结束的时候我都四十多去了</p>
+<hr>
+<p><small>76楼</small></p>
+<p>当时因为要分班，就听到周边很多人说什么，文科可以补起来，理科前面没学好补都补不起来，加上因为我数学很好，我想着学文科也是一大优势，就悄悄瞒着家里和其他人选了文科</p>
+<hr>
+<p><small>77楼</small></p>
+<p>但是纸总是包不住火的，我们班五十多人总共就五个人选了文科，我好巧不巧和雪又是分到同一个文科班，整的我哭笑不得🥲</p>
+<hr>
+<p><small>78楼</small></p>
+<p>我还记得雪当时看到墙上贴的分班名单，脸都要笑烂了，回来问我为啥选文科，我就把上面的理由说了一遍，虽然不知道雪相信没有，反正她还在拿我是不是为了去泡妹来打趣我，总之她肯定是开心的不行的</p>
+<hr>
+<p><small>79楼</small></p>
+<p>其实时到今日我都在想当年选文科有没有选错，但毕竟人生是单行道，没有后悔的余地，后来上大学读了法律，也还算过得去</p>
+<hr>
+<p><small>80楼</small></p>
+<p>我和雪分到了四楼的22班，正好在原来班级的斜对角，倒是让我发现一个好处，原来想念雨的时候，我只能看着雪下楼的背影，期望她能带回一点雨的消息，但现在我可以直接站在走廊，就能看见一半雨的班级，这样每次她临窗的时候，我就能看见她</p>
+<hr>
+<p><small>81楼</small></p>
+<p>所以基本上整个高中的课间，我不是趴着补觉就是趴在那个护栏上往下看，虽然大部分人不知道我在看什么，但后来很多同学说我跟个固定的风景线一样天天在那里</p>
+<hr>
+<p><small>82楼</small></p>
+<p>转班之后虽然我和雪是同班，但终于不是同桌了，同桌换成了一个很小巧的女生，留着细细的刘海，鼻子很挺拔，这个女生我就称她为小七</p>
+<hr>
+<p><small>83楼</small></p>
+<p>小七也就是开头我说的那个，把雪的信转交给我的女生</p>
+<hr>
+<p><small>84楼</small></p>
+<p>可能是因为习惯了雪的叽叽喳喳，总之我和小七的关系从一开始就不错，而且一直是我找小七搭话，所以就整的雪好像有点吃醋</p>
+<hr>
+<p><small>86楼</small></p>
+<p>总之雪多少有点小情绪，不过除此之外当时班上氛围很不错，因为女生居多，男生就都很团结，班主任也是个快退休的嬢嬢，不怎么管我们，文科学业压力也不大</p>
+<hr>
+<p><small>87楼</small></p>
+<p>因为当时我的个性也外向了很多，和班上的兄弟们也一起玩，异性缘也不错，就难免会冷落一些雪，不过总的来说我和她关系没有变淡多少</p>
+<hr>
+<p><small>89楼</small></p>
+<p>当时我寝室有个室友，因为名字谐音，我们都叫他洋流，洋流有天晚上找我，话里话外的意思就是他对小七有意思，希望我能帮忙牵牵线</p>
+<hr>
+<p><small>90楼</small></p>
+<p>这种事情最喜闻乐见了，更别说这小子还说给我买吃的当好处，我当时就答应下来，然后因为小七的英语不错，我让他没事可以来我们这边问题，数学或者英语都可以，一来二去就熟了</p>
+<hr>
+<p><small>91楼</small></p>
+<p>然后就发生了一件事，高一下期快结束的时候，也就是08年的5月，相信都知道我要说什么<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-013.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-013.png" alt="原表情"></span></label>
+我们是2点20开始上下午第一节课，当时我瞌睡还没睡醒，那时候我第一反应没感觉地在摇晃，最开始那一瞬间察觉到异常是玻璃一直在窗户框里砰砰地撞</p>
+<hr>
+<p><small>92楼</small></p>
+<p>但大伙都是四川人，从小到大多多少少意识还是有的，我都还没反应过来小七都已经爬桌子下去了，不得不佩服<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-014.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-014.png" alt="原表情"></span></label></p>
+<hr>
+<p><small>93楼</small></p>
+<p>但雪不是，我当时也已经爬桌子下了，回头一看雪还愣在原地瞅我，我赶紧挥手示意，她才反应过来</p>
+<hr>
+<p><small>94楼</small></p>
+<p>第一波震感停了过后，雪冲的就过来拉我的手，把我拉出桌下想带我下楼，因为太急搞的我头还被撞了一下</p>
+<hr>
+<p><small>95楼</small></p>
+<p>一路冲下去过后楼下广场都乱成一团了，根本找不到我们班级在哪，雪拉着我到处乱跑，老半天才找到一个有班级同学聚在一起的位置停下来</p>
+<hr>
+<p><small>96楼</small></p>
+<p>刚停下来没多久雪就触电一样甩开了我的手，我还想她终于反应过来了，结果我一转头就看见雨在那看着我们<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-015.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-015.png" alt="原表情"></span></label></p>
+<hr>
+<p><small>97楼</small></p>
+<p>雨一副似笑非笑的表情，让人很难知道她当时在想什么。雪脸都红完了，不知道是因为一路跑下来还是因为牵我手被雨发现，总之她做了个很夸张的动作，一把抱住了雨，说着一些劫后余生的话</p>
+<hr>
+<p><small>98楼</small></p>
+<p>我这时候也不敢看雨的眼睛，直接转过头去，然后我就看见洋流这B拉着小七的手三步并两步地下楼来<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-016.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-016.png" alt="原表情"></span></label></p>
+<hr>
+<p><small>99楼</small></p>
+<p>因为我们那不算严重，没有建筑受损也没有踩踏事故之类的，总的来说是有惊无险，但当时通讯中断，老师们拼命打电话给学生家长也基本上都打不通</p>
+<hr>
+<p><small>100楼</small></p>
+<p>然后就让我们先回家给家里面人报平安，我们三一起走的，但我家很近，很快就和她们俩告别了。回家见到父母才感到安心不少，加上我家住一楼，很快就从家里拿了一些必要用品出来，小区里也搭了些帐篷</p>
+<hr>
+<p><small>101楼</small></p>
+<p>基本上傍晚时通讯才恢复不少，因为害怕余震，当时小区里人就在外面聚一起听收音机，那个时候才知道这次事情有多可怕</p>
+<hr>
+<p><small>102楼</small></p>
+<p>但院子里还是有不少不懂这些的小孩，觉得住帐篷很稀奇，在那跑跑跳跳的，也算缓解了不少焦虑，邻里也熟络了不少</p>
+<hr>
+<p><small>103楼</small></p>
+<p>按照后来雪的信里所说，应该是地震后第三天，雪那天晚上来我们小区找我，说无聊想和我出去走走，我父母基本上不怎么管我，加上他们之前也听说过雪，就直接答应了。我也问了雨的情况，雪就说没问题，只是家里管的严不让她出来</p>
+<hr>
+<p><small>104楼</small></p>
+<p>那天街上很萧瑟，马路上车乱停，也没几个商店开着，偶尔有几个路边摊生意还挺好。雪和我就一路走一路聊，谈天说地什么都聊，差不多十来分钟吧，走到了河边滨江路，平常这地方很热闹，但现在意料之中的冷清的很</p>
+<hr>
+<p><small>105楼</small></p>
+<p>雪说饿了，路边正好还有烧烤摊开着，她说她请客，还开玩笑说要是又地震了直接跑路钱都省了，我们俩就去坐着点了几串烧烤吃</p>
+<hr>
+<p><small>106楼</small></p>
+<p>那时店老板的大音响还放着舒缓的歌，雪去把串拿过来我们俩就开吃，但我刚吃完饭没多久没啥胃口，基本上就在看她吃，而且出门没怎么穿厚衣服，河边风一吹就有点冷</p>
+<hr>
+<p><a href="https://tieba.baidu.com/p/9328582655?pid=151376490307">第 106 楼下 · 楼主补充 · 袭冬</a></p>
+<p>很久以后才知道店老板那天放的是伍佰的《夏夜晚风》</p>
+<hr>
+<p><small>107楼</small></p>
+<p>看她吃的差不多了，本来想走了，雪突然说想喝点酒，给我都整不会了，潜意识是觉得不好的，但雪一直坚持，加上也没人管，我也就没说什么</p>
+<hr>
+<p><small>108楼</small></p>
+<p>本来烧烤都还没吃完，酒上来过后雪就一直在那喝，喝了一会儿过后，雪就开始问我以后准备读哪的大学，我说还不知道，雪就又开始自言自语了</p>
+<hr>
+<p><small>109楼</small></p>
+<p>她说她喜欢四川，不想回辽宁了，然后开始抱怨，说羡慕我和雨的成绩，觉得能和我们读同一个高中已经很幸运了</p>
+<hr>
+<p><small>110楼</small></p>
+<p>说着说着不知道为什么雪就开始有点流泪了，雪紧接着就开始说到她的家庭</p>
+<hr>
+<p><small>111楼</small></p>
+<p>雪的父亲以前是国企工人，那个年代的东北都知道，后来下岗过后具体是什么情况雪没有细说，只知道她父亲后来犯了事进去了</p>
+<hr>
+<p><small>112楼</small></p>
+<p>那时候雪还很小，还没上小学，但她那个地方也很小，雪因为这个一直受欺负和歧视，加上家里就两娘母日子也很难过，反正雪小时候过的很不顺</p>
+<hr>
+<p><small>113楼</small></p>
+<p>后来是因为四川这边有亲戚，雪才跟着她妈妈一起过来，其实在雪转学过来之前，她爸就已经出来了，但因为雪自己不愿意接受她这个父亲，所以她爸也就没有来找她们</p>
+<hr>
+<p><small>114楼</small></p>
+<p>但可能是因为知道她们都离开那里到四川来了，所以她爸还是跟了过来，她爸妈感情还是如初，但她一直不愿意接受，随便她妈怎么劝她也没用</p>
+<hr>
+<p><small>115楼</small></p>
+<p>雪气不过，我记得当年雪说，她爸妈是青梅竹马要在一起就在一起，但对她来说她爸只是个陌生人，还是个害她一直被欺负的陌生人，她不会原谅他</p>
+<hr>
+<p><small>116楼</small></p>
+<p>总之雪越说越激动，加上喝了酒，整的周围不少人看我们，我只能安抚了她的情绪，然后起身去把钱付了</p>
+<hr>
+<p><small>117楼</small></p>
+<p>回来过后，雪硬要坚持付钱，起身去问了老板多少钱过后，回来又把钱塞给我，然后继续坐在那喝闷酒，我见这样也不行就在路边等着打的</p>
+<hr>
+<p><small>118楼</small></p>
+<p>那天车很难打，上去过后我再三给司机保证她不会吐过后司机才愿意载我们走。上车过后雪就开始望着窗外发呆，我就趁机把钱塞到她卫衣帽兜里，毕竟让她付钱还是有点别扭</p>
+<hr>
+<p><small>119楼</small></p>
+<p>雪的小区离我走路也就五六分钟，我把她送下车过后，雪不要我扶她，摇摇晃晃到了单元楼门口，我也就没再往上走，本来都准备转身走了，雪那时愣了一下，又向我跑过来</p>
+<hr>
+<p><small>120楼</small></p>
+<p>然后她在我脸上亲了一下，都还带着酒气，然后马上又转身咚咚咚地跑上楼去了，我看着那些楼层的灯挨着挨着被她的脚步声震亮</p>
+<hr>
+<p><small>121楼</small></p>
+<p>现在想起来都还觉得挺不真实的，更不要说当时了。因为我也喝了点酒，那时候我就觉得头有点晕，地面好晃</p>
+<hr>
+<p><small>122楼</small></p>
+<p>因为我们这基本上没怎么受灾，没多久就重新开学了，开学后本来我还担心怎么面对雪。结果她像什么事都没发生一样。一切照旧</p>
+<hr>
+<p><small>123楼</small></p>
+<p>洋流和小七因为那件事，也亲近很多了，有的时候我夹在中间搞的像个电灯泡一样怪不适应的</p>
+<hr>
+<p><small>124楼</small></p>
+<p>那年升高二，刚开学班里的同学基本上都还在讨论奥运会刘翔什么的，然后洋流先找到我，给我买一堆吃的，我基本上就明白他和小七的事情成了</p>
+<hr>
+<p><small>125楼</small></p>
+<p>那时候雪已经是班长了，因为班主任不怎么管事，很多时候诸如调位置之类的事情就交给雪在管。洋流找我也还有个原因就是希望我和雪说，下次月考过后把他和小七挨在一起</p>
+<hr>
+<p><small>126楼</small></p>
+<p>我去找雪，雪露出了“早应如此”的表情，二话不说就同意了，但同时也愁眉苦脸地说有话想跟我说</p>
+<hr>
+<p><small>127楼</small></p>
+<p>那时雪大概意思是班上有个不怎么受人待见的男的对她表白，希望我假装她的男友劝退那男的</p>
+<hr>
+<p><small>128楼</small></p>
+<p>那个男的，我就叫他阿丘吧，算是学生时代给我留下印象很深的人，因为用现在的话来说真的很抽象这个人。上课多窗帘后面吃泡面，因为贪了交学费的钱然后被赶回家不敢回家面对父母，就去附近的山上住了一个多星期，下雨了就把路边捡的箱装泡面壳子盖身上<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-017.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-017.png" alt="原表情"></span></label></p>
+<hr>
+<p><small>129楼</small></p>
+<p>总而言之在班上算是个人厌狗嫌的家伙，男生还好就拿他打趣，女生基本上避之不及。但雪一是班长，二是老好人了，经常没事就劝他两句，再加上雪本身也好看，他喜欢上雪也不奇怪了</p>
+<hr>
+<p><small>130楼</small></p>
+<p>哦雪那时还给我看了阿丘抄周杰伦歌词给她表白<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-018.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-018.png" alt="原表情"></span></label>
+具体哪首我忘了，反正当时我还开玩笑说写的挺好，雪说方文山写的能不好吗<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-019.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-019.png" alt="原表情"></span></label></p>
+<hr>
+<p><small>131楼</small></p>
+<p>虽然知道雪有占我便宜的嫌疑，但我还是勉强答应了这件事。后面具体情况我都记不住了，就记得一天放学过后，人都要走光了，雪让阿丘等着，阿丘还以为有好事呢，然后雪就拿我说事，我尴尬的话都没说就站在那😅</p>
+<hr>
+<p><small>132楼</small></p>
+<p>然后趁阿丘还没反应过来，雪拉着我就走，刚下楼梯没几步雪就笑出声来了，我那时很反感，因为同为男生，我其实挺同情阿丘的，结果看到雪这种像在玩一般不屑的行为，我还说了她两句，她看我有点生气才没继续</p>
+<hr>
+<p><small>133楼</small></p>
+<p>哦想起来了那时雪是挑明了答应撮合我和雨为条件，才让我答应帮她这个忙的，结果后面没多久我看她就把这件事忘了<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-020.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-020.png" alt="原表情"></span></label></p>
+<hr>
+<p><small>134楼</small></p>
+<p>之后月考过后，雪就按照承诺把洋流和小七调到一起了，班上人都心知肚明，起哄的人还不少，然后雪有问过我关于新同桌的想法，我当然知道她在想什么，但因为班上人数刚好是单数，就有一个人会一个人一桌，我就让她给我留个单人桌</p>
+<hr>
+<p><small>135楼</small></p>
+<p>雪勉强答应过后 结果后面还是把她自己调到我后面，虽然没有同桌但是变成了前后桌<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-021.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-021.png" alt="原表情"></span></label></p>
+<hr>
+<p><small>136楼</small></p>
+<p>后来有一天，是09年初，期末之后放寒假之前，那天是我的生日，也正是讲完卷子放寒假的那天</p>
+<hr>
+<p><small>137楼</small></p>
+<p>讲完卷子过后就放学了，结果雪神神秘秘地说要带我去个地方给我个惊喜，我当时知道她要给我庆生，但还是假装不知道配合她表演</p>
+<hr>
+<p><small>138楼</small></p>
+<p>结果雪把雨也拉上了，整的我很别扭，因为那天没洗头，整个人形象很不好<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-022.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-022.png" alt="原表情"></span></label>
+但还是硬着头皮去了</p>
+<hr>
+<p><small>139楼</small></p>
+<p>教学楼左边是平日里做课间操的体育馆，在那之外有环绕一圈的小树林，每每晚自习下课都能看见一些小情侣们在那里卿卿我我。再往深处走，有一段顶上铺满绿植花卉的走廊，各种颜色的细柳花条丝丝从间隙中垂下，缠绕着竹栏发出清雅的香，这个地方平时由高一的学生们负责打扫。那个时候已经黄昏了，高三还没下课，而其余的学生已经放假离去。我跟着手牵手的俩人慢慢晃悠到这边来</p>
+<hr>
+<p><small>140楼</small></p>
+<p>雪和雨给我准备的礼物是一小块那种蛋糕店里卖的草莓蛋糕，顶上有一块草莓和一块巧克力做的蜡烛，因为没有打火机，雪就建议说让我把这个巧克力吃了就算点了蜡烛了</p>
+<hr>
+<p><small>141楼</small></p>
+<p>然后她们俩一起拍着手祝我生日快乐，这么多年过去想起来还是觉得，那是一个很难忘的生日，那天往后这么多年的生日都再没有那种过生的感觉了</p>
+<hr>
+<p><small>142楼</small></p>
+<p>高中的日子也过的很快，那时学校食堂在靠近操场的位置，背后是倾倒厨余垃圾的地方。因为离学校侧门不远，不时引得一些流浪猫从外面悄悄溜进来，翻食学生们吃掉的剩饭剩菜。而在这其中，有一只雪非常中意的猫</p>
+<hr>
+<p><small>143楼</small></p>
+<p>我印象中那只猫毛色黑白黄俱全，胸前一抹灰白，眼睛处生着两个大大的墨团。因为一直混迹在垃圾堆之间，全身像一幅被搅乱的调色盘般浑浊不清，我并不喜欢这只猫，不想去抚摸它那凝成条的毛发，从这丑不拉几的外表和酷似熊猫的黑眼圈，我给它起了个名叫“丑熊”</p>
+<hr>
+<p><small>144楼</small></p>
+<p>雪很不满意我这个名字，但耐不住我经常喊，最后她还是勉强同意了，愿意称它为小熊</p>
+<hr>
+<p><small>145楼</small></p>
+<p>雪对那只猫可好了，她家境不算富裕，经常自己都不舍得买一些零食，但会在小卖部给猫买火腿肠之类的喂它，那猫也经常依赖她，雪常常说等毕业了她就要把它抱回家养</p>
+<hr>
+<p><small>146楼</small></p>
+<p>但那小熊没有给雪这样的机会，有一次雪像平常一样揣着吃的去找它，结果就没找到，从那天起她再也没找到那只猫</p>
+<hr>
+<p><small>147楼</small></p>
+<p>这件事给雪的打击很大，尤其是那时已经高三了，本来学业压力就够大了，还遇到这档子事，雪有点一蹶不振了，那时我不得不介入，给了雪不少安慰，她才算好过一些</p>
+<hr>
+<p><small>148楼</small></p>
+<p>高中最后一个学期，刚开学那天早上洋流就来一屁股坐我旁边，我还纳闷他搞什么，没多久我就看见小七气冲冲地坐回位置，我就大概明白小情侣吵架了，我和雪就开始劝他，但他也一直没说话</p>
+<hr>
+<p><small>149楼</small></p>
+<p>反正后来就是他们俩分手了，我和雪劝和也没成功，还麻烦雪不得不临时给他们俩找新同桌，我和雪都挺不爽的，倒不是怕麻烦，而是有种磕cp失败的感觉<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-023.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-023.png" alt="原表情"></span></label></p>
+<hr>
+<p><small>151楼</small></p>
+<p>后来临近高考了，雪的数学一直不咋样，不得已开始找我补课。那时我们晚上通校生三节晚自习，住校生四节，但最后一节没老师在，雪就常常这时坐我旁边来，问我数学题</p>
+<hr>
+<p><small>152楼</small></p>
+<p>我那时学业压力也不小，但因为觉得这么多年一直有点亏欠她，加上觉得温故知新，就干脆制定了一个从高考题型着手的，很系统的复习计划，从四月中开始每天晚上给雪补课</p>
+<hr>
+<p><small>153楼</small></p>
+<p>但是我说实话，很多时候真的不是我不想给别人讲数学题，但数学这个东西真的看天赋的，有的人一些思维联想不到，就会很影响效率，我那时给雪子讲课的时候，虽然谈不上对牛弹琴，但比我预想的进度大大降低，总之对她和对我来说都很折磨<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-024.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-024.png" alt="原表情"></span></label></p>
+<hr>
+<p><small>154楼</small></p>
+<p>到高考前都快到六月份了，总算勉强结束了，虽然我感觉这一趟下来她也没啥长进我也没啥长进，但至少任务完成后我感觉对得起她一点了</p>
+<hr>
+<p><small>155楼</small></p>
+<p>高考最后几天，因为我不想再遵循学校里的作息，想回家好好休整两天，做好备考准备。就打算给班主任请假，那个时候基本上也都会批准，但雪很不情愿我回去，我看的出来她想我陪着她过最后这几天，但我也不能什么事情都顺着她来，我态度就比较强硬</p>
+<hr>
+<p><small>156楼</small></p>
+<p>然后就因为这个，我们俩算是第一次比较大的闹的不愉快，不过那时候哪有心情管这些，忙着最后冲刺，我也就全身心扑到高考上</p>
+<hr>
+<p><small>157楼</small></p>
+<p>那年高考，怎么说呢，数学我发挥很好，但我看得出那年高考数学很难，是那种很灵活很新颖的题型，当时我就有点替雪捏了把汗，猜到她多半考的不咋样</p>
+<hr>
+<p><small>158楼</small></p>
+<p>果然，高考完过后雪有好几天没在网上给我说话，要是往常她早就闹个不停了，我猜到应该不是因为我们闹别扭，应该就是她没有考好</p>
+<hr>
+<p><small>159楼</small></p>
+<p>我也顺便问了雨的情况，雨言简意赅地就说了句应该还可以，也没多说什么。我也就没管了，在家里玩游戏等着出成绩了</p>
+<hr>
+<p><small>160楼</small></p>
+<p>成绩凌晨出来直接查到了，对我来说没有期望的那么好，主要文综拉了，但因为数学考的好，所以总体也不差，我也勉强满意了</p>
+<hr>
+<p><small>161楼</small></p>
+<p>我不是很敢问雪，怕戳到她，但她主动给我发了消息，问我考的怎么样，我怕说错话，就先问了她的情况</p>
+<hr>
+<p><small>162楼</small></p>
+<p>她说可能不太可能摸到一本线，其实我们作为省重点中学，雪常年班上十几名的成绩，按说一本往上不是问题，她这样说就是考砸了</p>
+<hr>
+<p><small>163楼</small></p>
+<p>我的成绩是摸到了211的，但我为了安抚她，也就说我大概刚刚超过一本左右，说今年题难，大家应该分都不高，她估计看得出我是在安慰她，就没再回我了</p>
+<hr>
+<p><small>164楼</small></p>
+<p>本来那天想问雨的，但因为有点晚了最后还是没问</p>
+<hr>
+<p><small>165楼</small></p>
+<p>第二天就是回班级拍毕业照和参加毕业典礼，雪作为班长班上人都要等她来穿有22字样的班服带队，但雪那天很晚才来，与平常明显不一样</p>
+<hr>
+<p><small>166楼</small></p>
+<p>我和洋流排队的时候就在后面，我问他和小七怎么样，他就说没怎么样，说实话到那时候我还是不相信他们俩就这样分了，虽然我也不知道到底发生了什么，但我觉得毕竟地震共患难的一对，不会这么容易散</p>
+<hr>
+<p><small>167楼</small></p>
+<p>但反正一直到毕业他们俩也没和好。后面参加完毕业典礼就是拍毕业照，我们班位置比较靠后，雨在她们班第一个拍完过后就来找雪</p>
+<hr>
+<p><small>168楼</small></p>
+<p>当时毕业典礼上很多家长，我家长因为有事没来，但雪和雨的家长我都看到了，雪的妈妈和雨的父母都来了</p>
+<hr>
+<p><small>169楼</small></p>
+<p>当时很多人都在拍照，包括我和我室友还有别的班的朋友都在一起拍合照。这个时候雪的妈妈过来找我，说希望我和雪她们一起拍张合照</p>
+<hr>
+<p><small>170楼</small></p>
+<p>我整个人当时都懵了，因为我和雪妈妈完全没见过面我不知道她怎么认出我的，而且当时还和雪在闹别扭我看雪也有点惊讶和不情不愿的样子</p>
+<hr>
+<p><small>171楼</small></p>
+<p>但反正雪妈妈拿她的相机，给我们三这个小团体，留下了一张弥足珍贵的合影，不得不说还是要很感谢她</p>
+<hr>
+<p><small>172楼</small></p>
+<p>虽然我对照片上的自己怎么都不满意，但这张是除了初中毕业照以外，我唯一一张雨的实体照片，而且雪那天也很好看，总的来说是很有意义的一张照片</p>
+<hr>
+<p><small>173楼</small></p>
+<p>没多久就轮到我们班拍毕业照，拍的时候雨就在旁边等着雪，拍完过后大家就散场了，我那时其实心里挺不好过的，因为想着从今天后可能就再见不到雨了（我猜到雪后面还会找我）</p>
+<hr>
+<p><a href="https://tieba.baidu.com/p/9328582655?pid=151376875603">第 173 楼下 · 楼主补充 · 袭冬</a></p>
+<p>回复 还欠她很多个约定:不喜欢是这样的
+<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-025.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-025.png" alt="原表情"></span></label></p>
+<hr>
+<p><small>174楼</small></p>
+<p>我那天拍完毕业照过后没直接走，雪和雨她们俩在那两家人一直聊天，我就在出校门路上的小卖部里面买东西吃，顺便想再等等雨，多多少少再见她一面</p>
+<hr>
+<p><small>175楼</small></p>
+<p>可能我对雨的描写不多，但那时候我一直是很喜欢雨的，就完全是青春时期的白月光那种感觉，我那时就在小卖部里一边买火腿肠吃一边等她们从门前经过</p>
+<hr>
+<p><a href="https://tieba.baidu.com/p/9328582655?pid=151376889143">第 175 楼下 · 楼主补充 · 袭冬</a></p>
+<p>回复 官宣体:客观来讲肯定是雪，雪很大气的那种漂亮，特别上大学过后经常能听到她给我讲那些追她的男的的事情。雨也挺不错的，一直留个马尾，属于那种小家碧玉类型，可能情人眼里出西施，我反正一直更偏爱雨一些</p>
+<hr>
+<p><small>176楼</small></p>
+<p>因为我们的小卖部是需要下楼梯的，低于路平面的，所以不进来的话基本上不会瞧见里面，但里面可以一直望着外面</p>
+<hr>
+<p><small>177楼</small></p>
+<p>终于最后我看见她们两家人一路有说有笑从外面离开，我的预想也没有错，那的确是我见雨的最后一面</p>
+<hr>
+<p><small>178楼</small></p>
+<p>我继续讲雪吧，高考过后没多久，那天拍了毕业照过后雪和我算是和解了，我们俩依然在qq上不时聊着天</p>
+<hr>
+<p><small>179楼</small></p>
+<p>七月初的时候，雪给我说她要过生日了，邀请我去坐车一起到成都给她庆生，我本来也没啥事，没多想就答应了</p>
+<hr>
+<p><small>180楼</small></p>
+<p>结果到了汽车站，等了老半天雪才过来，这次雪没穿校服，打扮的挺时尚，我才第一次用别样的眼光去看她，其实雪外形条件真挺不错的，身高也有一米七左右，很高挑，那天终于把盘起来的头发放下去了，显得人也大方漂亮很多</p>
+<hr>
+<p><small>181楼</small></p>
+<p>但是我没想到的是，雪就邀请了我一个人来参加她的生日派对<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-026.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-026.png" alt="原表情"></span></label>
+我当时觉得雪想约会就直说，当然我没说出来。而且来都来了我也没多说什么</p>
+<hr>
+<p><small>182楼</small></p>
+<p>雪好像知道我在想什么，她第一句话就是说雨和她爸妈去川西旅游了来不了</p>
+<hr>
+<p><small>183楼</small></p>
+<p>我想着她生日我当然不能扫兴，就和她一起坐车去成都。我感觉那可能是雪第一次去成都，一路上头都依靠在那个窗户上看外面的景色，没多久就睡着了，然后因为玻璃很抖又会被砰的一下撞醒</p>
+<hr>
+<p><small>184楼</small></p>
+<p>看起来还挺可爱的<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-027.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-027.png" alt="原表情"></span></label></p>
+<hr>
+<p><small>185楼</small></p>
+<p>摇啊摇摇啊摇，很快就摇到了五桂桥。那时候成都还没什么地铁，出行全靠公交车，雪一直念个不停说今天要把哪里哪里逛完跟报菜名一样</p>
+<hr>
+<p><small>186楼</small></p>
+<p>我那时候基本上都去过了，也就当给她当导游了。下车过后雪决定先去春熙路，我看了半天班车，确定了路线</p>
+<hr>
+<p><small>187楼</small></p>
+<p>我记得很清楚，那时候应该是坐的58路，因为给雪说了过后，雪一直兴致勃勃地到处望，58路刚出现在视野里她就拼命摇着我说“58路到了！58路到了！”</p>
+<hr>
+<p><small>188楼</small></p>
+<p>那还是我第一次坐空调车，普通的只要一块空调车要两块，但因为那天很热，我俩也懒得等，正好坐空调车凉快凉快</p>
+<hr>
+<p><small>189楼</small></p>
+<p>那时候应该是到了总府路站，倒行一会儿，过个天桥就到春熙路了。雪趴在天桥的栏杆上，看着春熙路看了很久，不时拍几张照片</p>
+<hr>
+<p><small>190楼</small></p>
+<p>拗不过她的邀请，我也和她在天桥上拜托路人合影了好几张照片</p>
+<hr>
+<p><small>191楼</small></p>
+<p>下桥过后雪就到处逛，我最头疼的就是这个，陪我妈逛街也是，但还是看在她是寿星的份上我也没扫兴，逛了可能一两个小时吧得有</p>
+<hr>
+<p><small>192楼</small></p>
+<p>好不容易到了太平洋电影城，我赶紧拉住她，说去看电影，因为实在不想走路了，那时候还在热映《人在囧途》，雪也露出了感兴趣的样子，我们俩就一起看了这部电影</p>
+<hr>
+<p><small>193楼</small></p>
+<p>那次还是雪买的票，其实我知道雪家里条件不算好，但她态度挺强硬的我就只好接受了</p>
+<hr>
+<p><small>194楼</small></p>
+<p>出来就中午了，我们吃了顿路边摊，下午又陪她去武侯祠，那时我本来想抢在她面前买门票，但因为没带学生证，最后还是等她来了才买的一张半的门票，六十块一张，我又只能看着雪付钱</p>
+<hr>
+<p><small>196楼</small></p>
+<p>因为已经逛过两三次了，我对武侯祠已经没啥兴趣了，就陪着她到处逛。五点过天都有点灰了，雪才出来，我还问她下一步想去哪，雪本来那么多计划，结果也没去几个，她就说还有啥计划，再不回去车都赶不上了</p>
+<hr>
+<p><small>197楼</small></p>
+<p>我想了想，觉得雪付了一天的钱，加上今天是她生日，整的我一直挺不好意思的，我就说让她等等。我走了好一段路才找到一个蛋糕店，当时还不知道买啥给她，想起她之前给我买的草莓蛋糕，我就买了一个差不多的给她端了回去</p>
+<hr>
+<p><small>198楼</small></p>
+<p>还拜托店主把蜡烛点好了，整的我一路小心翼翼的。当时回去的时候，雪就坐在一棵大树下面，还在那晃着腿聚精会神地看着川剧吐火表演，都没注意到我</p>
+<hr>
+<p><small>199楼</small></p>
+<p>我从她背后过去，拍了拍她，把蛋糕端给她，说了句祝你生日快乐。雪愣了一下，跳下来就想抱我</p>
+<hr>
+<p><small>200楼</small></p>
+<p>但我当时端着蛋糕，她这一下整的蛋糕好多粘到我身上了<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-028.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-028.png" alt="原表情"></span></label>
+她可能觉得有些失态，就放弃了抱我的打算</p>
+<hr>
+<p><small>201楼</small></p>
+<p>然后就是许愿吹蜡烛环节，不过最后雪把草莓给我吃了，她说她不喜欢吃草莓</p>
+<hr>
+<p><small>202楼</small></p>
+<p>再之后就是填报志愿和录取环节了。我最后还是在川内读了个211，听我这么说估计已经有人能猜到我读的哪了<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-029.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-029.png" alt="原表情"></span></label>
+雪不知道为什么当初说的好好的不回那边，结果还是到了吉林去读书。然后就是雨，雨最后去了东南沿海，读了一所很不错的985</p>
+<hr>
+<p><small>203楼</small></p>
+<p>我学法，雨学医，雪读汉语言，我们都有光明的未来</p>
+<hr>
+<p><small>204楼</small></p>
+<p>雪的学校比我先开学，而且她要提前一点过去，走之前她专门来找我，算是道别吧。我记得那天她提了个礼品袋，里面装了东西，本来我以为她要送给我的，结果聊半天临走了也没给我</p>
+<hr>
+<p><small>205楼</small></p>
+<p>后来我才知道她那天就打算把那几封情书给我，但最终还是懦了没给</p>
+<hr>
+<p><small>206楼</small></p>
+<p>上了大学我们刚开始还有联系，但后来慢慢联系就比较少了。哦对了，大一上的时候洋流还找我，让我和雪去帮他看能不能再撮合撮合他和小七，因为雪和小七关系还不错</p>
+<hr>
+<p><small>207楼</small></p>
+<p>我们当然愿意，但小七明说拒绝了，没有办法，他们俩最后也就这样了</p>
+<hr>
+<p><a href="https://tieba.baidu.com/p/9328582655?pid=151377053266">第 207 楼下 · 楼主补充 · 袭冬</a></p>
+<p>其实准确来说小七当时态度有点模糊，我和雪都觉得还是有机会的，让洋流去努力努力，但最后还是没成，不知道怎么个事
+<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-030.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-030.png" alt="原表情"></span></label></p>
+<hr>
+<p><small>209楼</small></p>
+<p>后来大一上结束过后，因为腊月里是我的生日，雪的家也还在这边，她就又约我出来玩</p>
+<hr>
+<p><small>210楼</small></p>
+<p>其实我们这小县城哪怕到现在也没啥玩的，我们那时候无非也就是约着去看电影。刚见面雪就把生日礼物送给我，但我当时没拆，一直到电影院里坐着等出票，我才有空闲拿出来看看</p>
+<hr>
+<p><small>211楼</small></p>
+<p>雪送给了我一个水晶球，不是占卜那种，而是那种里面有那种雪花，一上下颠倒摇晃就会满天飞雪那种，里面还有一个像姜饼做的房子，底座有个灯开关，一打开姜饼屋里就会发出黄色灯光</p>
+<hr>
+<p><small>212楼</small></p>
+<p>我那时很喜欢这个礼物，我也给雪表明了，雪见我喜欢也就放下心来，她还悄悄说了一句，希望以后看见这个水晶球就能想起她，说完就用围巾把自己嘴巴捂了起来，脸也有点红</p>
+<hr>
+<p><small>213楼</small></p>
+<p>我假装没听到，但我的确听到了，雪也算明确表明心意了。看完电影过后，散场的时候，雪想挽住我的手，但我假意要拿地上的礼品袋，没有给她机会</p>
+<hr>
+<p><small>214楼</small></p>
+<p>我们一路走回去，雪一直用围巾捂着口鼻，没怎么说话，临走时她问我后面几天还有空吗，我说我要回乡下去过年了，她也就没有说话了。像当年一样把她送到了单元楼下面</p>
+<hr>
+<p><a href="https://tieba.baidu.com/p/9328582655?pid=151377099652">第 214 楼下 · 楼主补充 · 袭冬</a></p>
+<p>回复 倘若回到最初zs:雪在这个故事中的确是主角，但在我整个青春里，只能算作一个比较重要的配角</p>
+<hr>
+<p><small>215楼</small></p>
+<p>我总觉得那天她走之前还动嘴皮说了什么，但实在太小声，外面又很吵，没有听清她在说什么</p>
+<hr>
+<p><small>216楼</small></p>
+<p>再往后的话，我想想，大二快放暑假的时候吧，雪邀请我暑假出去玩，我本来还在考虑要不要去的，她说雨也会去，我想着的确很久很久没有见过雨了，虽然那时对雨的感觉已经没有中学时那么深了，但我还是挺想见她一面的</p>
+<hr>
+<p><small>217楼</small></p>
+<p>到了约定的那天，我打扮的挺隆重的，还人生第一次喷了香水。但是临到头，雨突然说她家里有事，去不了了<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-031.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-031.png" alt="原表情"></span></label>
+我有一种被放鸽子和被欺骗的感觉，虽然听起来云淡风轻但那时候真的很生气</p>
+<hr>
+<p><small>218楼</small></p>
+<p>雪还试探着来问我还去不去，因为之前旅游计划也是我在做，而且都弄好了，但被雨这么一遭我实在没兴趣了，就以三个人的计划两个人不好完成之类的，反正很牵强的理由敷衍了说不去了</p>
+<hr>
+<p><small>219楼</small></p>
+<p>雪估计理解我的心情，但其实对她而言相当于同时被两个人放鸽子。总之那次事情之后我和雪很少联络了</p>
+<hr>
+<p><small>220楼</small></p>
+<p>然后就是我和雪最后一次见面，算是比较特殊吧</p>
+<hr>
+<p><small>222楼</small></p>
+<p>12年底的时候，因为那部电影的原因，那时候不是有很多末世论吗，当然我是不信这些东西的，不过就是那天，我记得是星期五，因为我那天没课正准备和室友出门去玩</p>
+<hr>
+<p><small>223楼</small></p>
+<p>我中午宿舍里吃的泡面，下午一点过出门去路过食堂的时候，我突然觉得有点不自在，感觉好像有人在看我，一转头去发现，雪居然靠在一旁的墙上看着我<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-032.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-032.png" alt="原表情"></span></label></p>
+<hr>
+<p><small>224楼</small></p>
+<p>当时给我吓一跳，也得亏我大学都没怎么谈恋爱，不然不管对我还是对她来说都怪尴尬的。雪见我看见她了，向我走过来，我想了想，就让室友他们自己去玩了。雪那次打扮的可好看了，室友们还觉得我桃花运来了，起哄了几声就识趣的走开了<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-033.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-033.png" alt="原表情"></span></label></p>
+<hr>
+<p><small>225楼</small></p>
+<p>虽然当时我有很多问题，但我都没问雪什么，我们俩就在校园里肩并肩的散步。校园里很多梧桐树，那个时候冬天了，路上到处是枯叶，加上天气湿冷湿冷的，我和她都没怎么开口说话</p>
+<hr>
+<p><small>226楼</small></p>
+<p>绕过体育场就是河边了，河边有一个小亭子，我们俩一路走一路也开始随便聊着几句天，也不算太沉默，最后就坐在亭子里</p>
+<hr>
+<p><small>227楼</small></p>
+<p>她在看河，我在看远处打篮球的人，看了一会感觉有点困了，都有点想睡觉了，这个时候雪说她要走了</p>
+<hr>
+<p><small>228楼</small></p>
+<p>我坐外面，就先站起来准备走，结果雪突然拉住了我的手，因为她戴了手套，所以我也没抗拒，就等她这样拉着，然后我们一路走到校门口</p>
+<hr>
+<p><small>229楼</small></p>
+<p>雪应该是要打车离开了，我就在马路边她身旁站着，看她打到车了我就准备转身离开了</p>
+<hr>
+<p><small>230楼</small></p>
+<p>我刚转身，我就听见雪喊了声我的名字，但我没有回头，继续走着，紧接着雪又很大声地喊了我的名字，周围已经有不少人目光移过去了，我更没有回头了</p>
+<hr>
+<p><small>231楼</small></p>
+<p>我还记得那时我口中哼着歌，是王菲的《如风》</p>
+<hr>
+<p><small>232楼</small></p>
+<p>“来又如风，离又如风，或世事通通不过是一场梦”我最喜欢的王菲的一首歌，那时也是它帮助我离开了那里</p>
+<hr>
+<p><small>233楼</small></p>
+<p>总之那就是我和雪的最后一次见面，往后我们也没有怎么联系了，再往后就是小七给我送信来了</p>
+<hr>
+<p><small>234楼</small></p>
+<p>雪的这一封信写的挺潦草的，按照小七的说法，她当时应该还在成都，不知道是在什么情况下写的</p>
+<hr>
+<p><small>236楼</small></p>
+<hr>
+<p><small>237楼</small></p>
+<hr>
+<p><a href="https://tieba.baidu.com/p/9328582655?pid=151377255634">第 237 楼下 · 楼主补充 · 袭冬</a></p>
+<p>第一张图打码那里她说的就是胖子</p>
+<hr>
+<p><small>238楼</small></p>
+<hr>
+<p><small>239楼</small></p>
+<hr>
+<p><small>240楼</small></p>
+<p>雪19年就结婚了，婚后也回到了沈阳，她以前说过当初离开那里的时候满怀恨意，觉得一辈子都不可能再回去，后来却也觉得，再次回到故乡只有亲切，没有小时候的敌意了</p>
+<hr>
+<p><small>241楼</small></p>
+<p>雨学医本硕连读，18年我收到信这个时候她才刚毕业吧，现在就在成都一个医院当医生，我都是一个很偶然的机会才加了她vx</p>
+<hr>
+<p><small>242楼</small></p>
+<p>至于我毕业后也过了司考，就一直扎根律师了，当年选文科给我倒也没有给我带来什么专业限制，不过倒是让我引以为傲的数学直接荒废了</p>
+<hr>
+<p><small>244楼</small></p>
+<p>封面这本书是加西亚马尔克斯的《霍乱时期的爱情》，雪初高中的时候很喜欢读课外书，而且仗着她是语文课代表，基本上专挑语文课读。同桌的时候我就会找她借书看</p>
+<hr>
+<p><small>245楼</small></p>
+<p>那时候雪条件不好，很多书都是那种很小一本的盗版，不过也方便她偷看。这本书是当年我作文写的差，想找她借书学学写作，她给我推荐的。看了之后我也给她说我很喜欢，她把那本小人书赠送给了我，没想到那么多年后她还送了我一本正版的</p>
+<hr>
+<p><small>246楼</small></p>
+<p>书里我也翻看了，雪什么也没有写，也符合她一贯看书的习惯。18年之后除了前年有一次雪找我咨询了一下她父母婚姻方面的法律问题过后，我们也就再没有联系了</p>
+<hr>
+<p><small>247楼</small></p>
+<p>雪真的是很好的人，但无奈我的确对她没有那方面的感觉，她一直被雨压一头，如果没有雨的存在，或者如果她不是初二才转过来，也许我们会有不一样的结局，不过人生没有如果就是了</p>
+<hr>
+<p><small>248楼</small></p>
+<p>虽然难免有些亏欠，但我倒也不觉得很对不起她，毕竟感情这种东西喜欢就是喜欢，不能强求，就像我也早早释怀了关于雨的事情而已</p>
+<hr>
+<p><small>249楼</small></p>
+<p>不过千言万语化作一句话，我衷心祝愿雪能幸福</p>
+<hr>
+<p><small>250楼</small></p>
+<p>其实关于雪总觉得还有很多事情没有说，但苦于实在过去太多年了，很多事情都还是靠着她的信我才能回想起来，今天也是突然发现这点，觉得要是再不记录下来，再过几年只恐怕什么也记不住了</p>
+<hr>
+<p><a href="https://tieba.baidu.com/p/9328582655?pid=151377339146">第 250 楼下 · 楼主补充 · 袭冬</a></p>
+<p>回复 贴吧用户_aKPCS5C:孩子都要一岁了
+<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-034.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-034.png" alt="原表情"></span></label></p>
+<hr>
+<p><a href="https://tieba.baidu.com/p/9328582655?pid=151377339146">第 250 楼下 · 楼主补充 · 袭冬</a></p>
+<p>回复 贴吧用户_aKPCS5C:她早就知道这些了，也都看过，都好多年前的事情了，我对雨和雪也没啥感情了，也不咋的
+<label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="images/71/emoji-035.png" alt="原表情"><span class="img-wrapper"><img src="images/71/emoji-035.png" alt="原表情"></span></label></p>
+<hr>
+<p><small>251楼</small></p>
+<p>毕竟人最珍贵的，可能就是记忆了</p>
+<hr>
+<p><small>331楼</small></p>
+<p>一些吧友感兴趣的问题我统一回复一下。当初雪喊我名字我没有回头的原因是因为那时候我已经明确知道雪对我的喜欢了，但因为我并不喜欢她，也就不想一直和她这样纠缠下去，长痛不如短痛，一次性决绝掉对她对我来说都好。很多吧友说我无情，但我个人觉得这样才是那时最好的处理方法。</p>
+<hr>
+<p><small>332楼</small></p>
+<p>雪的婚礼最后我是没有去的，的确是我食言了。她结婚在沈阳，一是我那时在成都这边参与了一个很复杂的建筑合同的案子，路途太远实在走不开。二是因为我也不想在她婚礼上出现。我只在vx上给她转了999的随礼，但她没有收。</p>
+<hr>
+<p><small>333楼</small></p>
+<p>一些吧友在猜测具体地址和学校之类的，大家猜猜就好。因为对我以及对她们俩而言，这些都只不过是过去很多年的一段往事罢了，现在我们三人生活也都稳定了，我发这个贴子也只是为了记录而已，我不希望会对现实产生影响。希望大家也就当个故事看了就行了。</p>
+<hr>
+<p><small>334楼</small></p>
+<p>有些吧友问我能不能转载到其他平台或者二创，只要不互填乱改都是可以的。听吧友评论那么多，我自觉当年对雪还是多多少少有点亏欠的，她要是看见我还记得这些事情可能也会稍微好过一点。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="70.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="70.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr-ef4e11c1.min.js"></script>
+        <script src="mark-09e88c2c.min.js"></script>
+        <script src="searcher-09f2665d.js"></script>
+
+        <script src="clipboard-1626706a.min.js"></script>
+        <script src="highlight-abc7f01d.js"></script>
+        <script src="book-609e4cb8.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>
